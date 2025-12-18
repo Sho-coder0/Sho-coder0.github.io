@@ -1,5 +1,4 @@
 Series Name,Series Code,Time,Time Code,Canada,France,Germany,Italy,Japan,United Kingdom,United States
-"Inflation, consumer prices (annual %)",FP.CPI.TOTL.ZG,1990,YR1990,4.780476933,3.19428338,2.696468243,6.456609061,3.078516287,8.063460909,5.39795644
 "Inflation, consumer prices (annual %)",FP.CPI.TOTL.ZG,2015,YR2015,1.125241361,0.037514381,0.514426137,0.0387904,0.795279631,0.368046842,0.118627136
 "Inflation, consumer prices (annual %)",FP.CPI.TOTL.ZG,2016,YR2016,1.428759547,0.183334861,0.491747008,-0.094016657,-0.127258844,1.008417368,1.261583206
 "Inflation, consumer prices (annual %)",FP.CPI.TOTL.ZG,2017,YR2017,1.596884129,1.032282751,1.509494851,1.226533166,0.484199796,2.557755776,2.130110004
@@ -14,4 +13,5 @@ Series Name,Series Code,Time,Time Code,Canada,France,Germany,Italy,Japan,United 
 ,,,,,,,,,,
 ,,,,,,,,,,
 Data from database: World Development Indicators,,,,,,,,,,
+
 Last Updated: 12/16/2025,,,,,,,,,,
