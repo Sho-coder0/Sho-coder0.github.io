@@ -1,0 +1,448 @@
+{
+  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
+  "data": {"name": "data-0ef70bf8677305bb11239351ef3c040f"},
+  "mark": {"type": "line", "point": true},
+  "encoding": {
+    "color": {"field": "Country", "title": "Country", "type": "nominal"},
+    "tooltip": [
+      {"field": "Country", "type": "nominal"},
+      {"field": "Year", "type": "ordinal"},
+      {"field": "Value", "format": ".2f", "type": "quantitative"}
+    ],
+    "x": {"field": "Year", "title": "Year", "type": "ordinal"},
+    "y": {
+      "field": "Value",
+      "scale": {"zero": false},
+      "title": "Inflation (%)",
+      "type": "quantitative"
+    }
+  },
+  "height": 400,
+  "title": "Inflation, 2015–2024",
+  "width": 700,
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.20.1.json",
+  "datasets": {
+    "data-0ef70bf8677305bb11239351ef3c040f": [
+      {
+        "Year": 2015,
+        "Country": "CAN",
+        "Value": 1.125241361,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2016,
+        "Country": "CAN",
+        "Value": 1.428759547,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2017,
+        "Country": "CAN",
+        "Value": 1.596884129,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2018,
+        "Country": "CAN",
+        "Value": 2.268225672,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2019,
+        "Country": "CAN",
+        "Value": 1.949269024,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2020,
+        "Country": "CAN",
+        "Value": 0.716999632,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2021,
+        "Country": "CAN",
+        "Value": 3.395193185,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2022,
+        "Country": "CAN",
+        "Value": 6.802801153,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2023,
+        "Country": "CAN",
+        "Value": 3.879001598,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2024,
+        "Country": "CAN",
+        "Value": 2.381583833,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2015,
+        "Country": "DEU",
+        "Value": 0.514426137,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2016,
+        "Country": "DEU",
+        "Value": 0.491747008,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2017,
+        "Country": "DEU",
+        "Value": 1.509494851,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2018,
+        "Country": "DEU",
+        "Value": 1.732168798,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2019,
+        "Country": "DEU",
+        "Value": 1.445659769,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2020,
+        "Country": "DEU",
+        "Value": 0.144877926,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2021,
+        "Country": "DEU",
+        "Value": 3.066666667,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2022,
+        "Country": "DEU",
+        "Value": 6.872574386,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2023,
+        "Country": "DEU",
+        "Value": 5.946436677,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2024,
+        "Country": "DEU",
+        "Value": 2.256498143,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2015,
+        "Country": "FRA",
+        "Value": 0.037514381,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2016,
+        "Country": "FRA",
+        "Value": 0.183334861,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2017,
+        "Country": "FRA",
+        "Value": 1.032282751,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2018,
+        "Country": "FRA",
+        "Value": 1.850815083,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2019,
+        "Country": "FRA",
+        "Value": 1.108254923,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2020,
+        "Country": "FRA",
+        "Value": 0.476498853,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2021,
+        "Country": "FRA",
+        "Value": 1.64233141,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2022,
+        "Country": "FRA",
+        "Value": 5.222367484,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2023,
+        "Country": "FRA",
+        "Value": 4.878357265,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2024,
+        "Country": "FRA",
+        "Value": 1.999049423,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2015,
+        "Country": "GBR",
+        "Value": 0.368046842,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2016,
+        "Country": "GBR",
+        "Value": 1.008417368,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2017,
+        "Country": "GBR",
+        "Value": 2.557755776,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2018,
+        "Country": "GBR",
+        "Value": 2.292839903,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2019,
+        "Country": "GBR",
+        "Value": 1.738104601,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2020,
+        "Country": "GBR",
+        "Value": 0.989486704,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2021,
+        "Country": "GBR",
+        "Value": 2.518371096,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2022,
+        "Country": "GBR",
+        "Value": 7.922048831,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2023,
+        "Country": "GBR",
+        "Value": 6.793967068,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2024,
+        "Country": "GBR",
+        "Value": 3.271572946,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2015,
+        "Country": "ITA",
+        "Value": 0.0387904,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2016,
+        "Country": "ITA",
+        "Value": -0.094016657,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2017,
+        "Country": "ITA",
+        "Value": 1.226533166,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2018,
+        "Country": "ITA",
+        "Value": 1.137487636,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2019,
+        "Country": "ITA",
+        "Value": 0.611246944,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2020,
+        "Country": "ITA",
+        "Value": -0.137707574,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2021,
+        "Country": "ITA",
+        "Value": 1.873783258,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2022,
+        "Country": "ITA",
+        "Value": 8.201289912,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2023,
+        "Country": "ITA",
+        "Value": 5.622194422,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2024,
+        "Country": "ITA",
+        "Value": 0.982373023,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2015,
+        "Country": "JPN",
+        "Value": 0.795279631,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2016,
+        "Country": "JPN",
+        "Value": -0.127258844,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2017,
+        "Country": "JPN",
+        "Value": 0.484199796,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2018,
+        "Country": "JPN",
+        "Value": 0.989094598,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2019,
+        "Country": "JPN",
+        "Value": 0.468776159,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2020,
+        "Country": "JPN",
+        "Value": -0.024995834,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2021,
+        "Country": "JPN",
+        "Value": -0.233352779,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2022,
+        "Country": "JPN",
+        "Value": 2.497702782,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2023,
+        "Country": "JPN",
+        "Value": 3.268133659,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2024,
+        "Country": "JPN",
+        "Value": 2.738536816,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2015,
+        "Country": "USA",
+        "Value": 0.118627136,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2016,
+        "Country": "USA",
+        "Value": 1.261583206,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2017,
+        "Country": "USA",
+        "Value": 2.130110004,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2018,
+        "Country": "USA",
+        "Value": 2.442583297,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2019,
+        "Country": "USA",
+        "Value": 1.812210075,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2020,
+        "Country": "USA",
+        "Value": 1.233584396,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2021,
+        "Country": "USA",
+        "Value": 4.697858864,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2022,
+        "Country": "USA",
+        "Value": 8.002799821,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2023,
+        "Country": "USA",
+        "Value": 4.116338384,
+        "Metric": "Inflation (CPI, %)"
+      },
+      {
+        "Year": 2024,
+        "Country": "USA",
+        "Value": 2.949525205,
+        "Metric": "Inflation (CPI, %)"
+      }
+    ]
+  }
+}

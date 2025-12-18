@@ -1,0 +1,448 @@
+{
+  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
+  "data": {"name": "data-7d44a390f1762aac48b90d64c4b662ef"},
+  "mark": {"type": "line", "point": true},
+  "encoding": {
+    "color": {"field": "Country", "title": "Country", "type": "nominal"},
+    "tooltip": [
+      {"field": "Country", "type": "nominal"},
+      {"field": "Year", "type": "ordinal"},
+      {"field": "Value", "format": ".2f", "type": "quantitative"}
+    ],
+    "x": {"field": "Year", "title": "Year", "type": "ordinal"},
+    "y": {
+      "field": "Value",
+      "scale": {"zero": false},
+      "title": "Long-term interest (%)",
+      "type": "quantitative"
+    }
+  },
+  "height": 400,
+  "title": "Long-term Interest Rates, 2015–2024",
+  "width": 700,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-7d44a390f1762aac48b90d64c4b662ef": [
+      {
+        "Year": 2015,
+        "Country": "CAN",
+        "Value": 1.521695,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2016,
+        "Country": "CAN",
+        "Value": 1.251758,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2017,
+        "Country": "CAN",
+        "Value": 1.783652,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2018,
+        "Country": "CAN",
+        "Value": 2.277912,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2019,
+        "Country": "CAN",
+        "Value": 1.588883,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2020,
+        "Country": "CAN",
+        "Value": 0.7531087,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2021,
+        "Country": "CAN",
+        "Value": 1.358811,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2022,
+        "Country": "CAN",
+        "Value": 2.770586,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2023,
+        "Country": "CAN",
+        "Value": 3.361192,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2024,
+        "Country": "CAN",
+        "Value": 3.339469,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2015,
+        "Country": "DEU",
+        "Value": 0.4951937,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2016,
+        "Country": "DEU",
+        "Value": 0.09149919,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2017,
+        "Country": "DEU",
+        "Value": 0.3163361,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2018,
+        "Country": "DEU",
+        "Value": 0.396364,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2019,
+        "Country": "DEU",
+        "Value": -0.2536345,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2020,
+        "Country": "DEU",
+        "Value": -0.511024,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2021,
+        "Country": "DEU",
+        "Value": -0.3738212,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2022,
+        "Country": "DEU",
+        "Value": 1.142583,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2023,
+        "Country": "DEU",
+        "Value": 2.434599,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2024,
+        "Country": "DEU",
+        "Value": 2.321084,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2015,
+        "Country": "FRA",
+        "Value": 0.8425,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2016,
+        "Country": "FRA",
+        "Value": 0.4666667,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2017,
+        "Country": "FRA",
+        "Value": 0.8091667,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2018,
+        "Country": "FRA",
+        "Value": 0.7833334,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2019,
+        "Country": "FRA",
+        "Value": 0.1308333,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2020,
+        "Country": "FRA",
+        "Value": -0.145,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2021,
+        "Country": "FRA",
+        "Value": 0.006666667,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2022,
+        "Country": "FRA",
+        "Value": 1.700833,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2023,
+        "Country": "FRA",
+        "Value": 2.994167,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2024,
+        "Country": "FRA",
+        "Value": 2.969167,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2015,
+        "Country": "GBR",
+        "Value": 1.901033,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2016,
+        "Country": "GBR",
+        "Value": 1.305208,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2017,
+        "Country": "GBR",
+        "Value": 1.235808,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2018,
+        "Country": "GBR",
+        "Value": 1.460658,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2019,
+        "Country": "GBR",
+        "Value": 0.935825,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2020,
+        "Country": "GBR",
+        "Value": 0.3744417,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2021,
+        "Country": "GBR",
+        "Value": 0.7876083,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2022,
+        "Country": "GBR",
+        "Value": 2.447292,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2023,
+        "Country": "GBR",
+        "Value": 4.0583,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2024,
+        "Country": "GBR",
+        "Value": 4.144242,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2015,
+        "Country": "ITA",
+        "Value": 1.713917,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2016,
+        "Country": "ITA",
+        "Value": 1.486333,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2017,
+        "Country": "ITA",
+        "Value": 2.113,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2018,
+        "Country": "ITA",
+        "Value": 2.610333,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2019,
+        "Country": "ITA",
+        "Value": 1.9515,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2020,
+        "Country": "ITA",
+        "Value": 1.168167,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2021,
+        "Country": "ITA",
+        "Value": 0.8109167,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2022,
+        "Country": "ITA",
+        "Value": 3.15675,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2023,
+        "Country": "ITA",
+        "Value": 4.28325,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2024,
+        "Country": "ITA",
+        "Value": 3.707417,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2015,
+        "Country": "JPN",
+        "Value": 0.35,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2016,
+        "Country": "JPN",
+        "Value": -0.06625,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2017,
+        "Country": "JPN",
+        "Value": 0.05166667,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2018,
+        "Country": "JPN",
+        "Value": 0.065,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2019,
+        "Country": "JPN",
+        "Value": -0.1104167,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2020,
+        "Country": "JPN",
+        "Value": -0.005416667,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2021,
+        "Country": "JPN",
+        "Value": 0.07166667,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2022,
+        "Country": "JPN",
+        "Value": 0.2316667,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2023,
+        "Country": "JPN",
+        "Value": 0.5625,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2024,
+        "Country": "JPN",
+        "Value": 0.9183334,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2015,
+        "Country": "USA",
+        "Value": 2.135833,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2016,
+        "Country": "USA",
+        "Value": 1.841667,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2017,
+        "Country": "USA",
+        "Value": 2.33,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2018,
+        "Country": "USA",
+        "Value": 2.91,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2019,
+        "Country": "USA",
+        "Value": 2.144167,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2020,
+        "Country": "USA",
+        "Value": 0.8941666,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2021,
+        "Country": "USA",
+        "Value": 1.4425,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2022,
+        "Country": "USA",
+        "Value": 2.951667,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2023,
+        "Country": "USA",
+        "Value": 3.9575,
+        "Metric": "Long-term interest (%)"
+      },
+      {
+        "Year": 2024,
+        "Country": "USA",
+        "Value": 4.208333,
+        "Metric": "Long-term interest (%)"
+      }
+    ]
+  }
+}
