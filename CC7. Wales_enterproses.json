@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": "Wales enterprises (2024)",
+  "width": 350,
+  "height": 450,
+  "data": {
+    "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/refs/heads/main/MappingWorkshop/geo_data/LAD_WLS_2025_05.topojson",
+    "format": {"type": "topojson", "feature": "object_name"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.LAD25CD",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC7.%20Wales_births-of-new-enterprises-map-data_Percentage%20of%20businesses%20newly%20registered.csv"
+        },
+        "key": "geo_id",
+        "fields": ["name", "Value (%)"]
+      }
+    }
+  ],
+  "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.5},
+  "encoding": {
+    "color": {
+      "field": "Value (%)",
+      "type": "quantitative",
+      "scale": {"scheme": "reds"},
+      "title": "newly registered (%)"
+    },
+    "tooltip": [
+      {
+        "field": "properties.LAD25NM",
+        "type": "nominal",
+        "title": "Local Authority District"
+      },
+      {
+        "field": "Value (%)",
+        "type": "quantitative",
+        "title": "newly registered (%)",
+        "format": ",.0f"
+      },
+      {"field": "date", "type": "quantitative", "title": "Year"}
+    ]
+  },
+  "projection": {"type": "mercator"},
+  "config": {}
+}
