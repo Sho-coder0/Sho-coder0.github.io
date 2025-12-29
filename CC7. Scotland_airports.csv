@@ -1,0 +1,128 @@
+type,name,lat,lon
+large_airport,Edinburgh Airport,55.950145,-3.372288
+large_airport,Glasgow Airport,55.871899,-4.43306
+medium_airport,Glasgow Prestwick Airport,55.502003,-4.587019
+medium_airport,Aberdeen International Airport,57.2019,-2.19778
+medium_airport,Inverness Airport,57.5425,-4.0475
+medium_airport,Sumburgh Airport,59.878899,-1.29556
+medium_airport,Kirkwall Airport,58.95780182,-2.904999971
+medium_airport,Wick John O'Groats Airport,58.4589,-3.09306
+medium_airport,Dundee Airport,56.452499,-3.02583
+medium_airport,Stornoway Airport,58.215599,-6.33111
+small_airport,Oban Airport,56.463501,-5.39967
+medium_airport,Barra Airport,57.0228,-7.44306
+medium_airport,Benbecula Airport,57.481098,-7.36278
+medium_airport,Islay Airport,55.682708,-6.257525
+medium_airport,RAF Lossiemouth,57.7052002,-3.339169979
+small_airport,Papa Westray Airport,59.35169983,-2.900279999
+small_airport,Cumbernauld Airport,55.974701,-3.97556
+small_airport,Fife Airport,56.1833,-3.22028
+small_airport,Perth/Scone Airport,56.439201,-3.37222
+medium_airport,Campbeltown Airport,55.437199,-5.68639
+small_airport,Westray Airport,59.35029984,-2.950000048
+medium_airport,Leuchars Station Airfield,56.37398,-2.868862
+small_airport,Broadford Airstrip,57.253399,-5.8279
+small_airport,Plockton Airstrip,57.335499,-5.67308
+medium_airport,Eday Airport,59.19060135,-2.772219896
+small_airport,Lerwick / Tingwall Airport,60.1922,-1.24361
+small_airport,Lamb Holm Airfield,58.8876,-2.89184
+small_airport,Unst Airfield,60.7472,-0.85385
+small_airport,East Fortune Airfield,56.000849,-2.735324
+small_airport,Strathaven Airfield,55.679968,-4.113381
+medium_airport,Tiree Airport,56.49919891,-6.869170189
+small_airport,Fair Isle Airport,59.534721,-1.628509
+small_airport,Out Skerries Airfield,60.4252,-0.75
+small_airport,Papa Stour Airstrip,60.321701,-1.69306
+small_airport,Sanday Airport,59.250301,-2.57667
+small_airport,Castle Kennedy Airfield,54.897551,-4.936961
+small_airport,Bute Airfield,55.756777,-5.047962
+small_airport,Aboyne Airfield,57.075003,-2.839832
+small_airport,Glenforsa Airfield,56.517202,-5.91401
+small_airport,RAF Kirknewton,55.876667,-3.399444
+small_airport,Portmoak Glider Field,56.191031,-3.328505
+small_airport,Foula Airfield,60.121725,-2.053202
+small_airport,North Ronaldsay Airport,59.36750031,-2.434439898
+small_airport,Stronsay Airport,59.1553,-2.64139
+small_airport,Coll Airport,56.601898,-6.61778
+small_airport,Colonsay Airstrip,56.057499,-6.24306
+small_airport,Charterhall Airfield,55.707598,-2.378504
+small_airport,Culbokie Airstrip,57.586843,-4.31636
+small_airport,Achnasheen Airstrip,57.5708442,-5.1888389
+small_airport,Bennetsfield Private Airstrip,57.55888,-4.19959
+small_airport,Whiterashes Farm Airstrip,57.319016,-2.248819
+small_airport,Skydive Strathallan,56.324852,-3.746366
+small_airport,Knockbain Farm Airstrip,57.589189,-4.466958
+small_airport,Dornoch Airfield,57.868999,-4.023
+small_airport,Fetlar Airstrip,60.603333,-0.872778
+small_airport,Flotta Isle Airstrip,58.825802,-3.14278
+small_airport,Balado Airfield,56.217477,-3.459611
+small_airport,Falgunzeon Glider Airfield,54.9445493,-3.7393838
+small_airport,Longside Airfield,57.516836,-1.864586
+small_airport,Easter Airfield,57.753343,-3.94279
+small_airport,Whalsay Airstrip,60.376835,-0.927229
+small_airport,Feshiebridge Glider Field,57.103667,-3.891667
+small_airport,East Lochlane Farm Airstrip,56.3678531,-3.8722739
+small_airport,Archerfield Airstrip,56.043574,-2.801755
+small_airport,Viewfield Airstrip,57.6641249,-3.188644
+small_airport,Latch Farm Airstrip,55.8742,-3.45464
+small_airport,Nether Huntlywood Airstrip,55.676638,-2.60787
+small_airport,Pilmuir Farm Airstrip,56.2240212,-2.9776945
+small_airport,Glensanda Airstrip,56.5610514,-5.5474649
+small_airport,Kirriemuir Farm Strip,56.650081,-3.027775
+small_airport,Mayfield Farm Airstrip,55.645872,-4.764698
+small_airport,Thankerton private airstrip,55.624192,-3.618665
+small_airport,Shempston Farm Airstrip,57.6958,-3.3661
+small_airport,Easter Nether Cabra Farm Airstrip,57.560563,-2.0301
+small_airport,Mosside Farm Airstrip,55.741982,-3.810046
+small_airport,Balgone Airstrip,56.02625,-2.69635
+small_airport,Pittodrie-House,57.309118,-2.488232
+small_airport,Nairns Mains Airstrip,55.937592,-2.849793
+small_airport,Conaglen House Airstrip,56.77091,-5.2371
+small_airport,Kilfinichen Airstrip,56.38648,-6.05542
+small_airport,Lempitlaw Farm Airstrip,55.585485,-2.328248
+small_airport,Corston Airstrip,59.052331,-3.19069
+small_airport,Sheardale airstrip,56.144981,-3.693255
+small_airport,Buchlyvie Airstrip,56.121851,-4.325039
+small_airport,Dollar airstrip,56.170594,-3.654502
+small_airport,Kier Garden Airstrip,56.114916,-4.267439
+small_airport,Teuchats Farm Airstrip,56.254848,-2.969981
+small_airport,South Barnbeth Farm Airstrip,55.84734,-4.615176
+small_airport,Baldardo Field,56.666793,-2.800847
+small_airport,Glen Quoich Estate,57.112565,-5.272062
+small_airport,Laurencekirk,56.870087,-2.462225
+small_airport,Polmont,55.980548,-3.694702
+small_airport,Castleton Farm,55.813033,-3.064963
+small_airport,Carlung Farm,55.704234,-4.877671
+small_airport,Netherley Private Airstrip,57.05228,-2.2652
+small_airport,Boyndie Airstrip,57.667182,-2.62882
+small_airport,Blair Atholl Airfield,56.763509,-3.825599
+small_airport,Blair Drummond Private Airstrip,56.150833,-4.044535
+small_airport,Balgrummo Steading Airstrip,56.2178,-3.0207
+small_airport,Glenswinton Farm Airstrip,55.047763,-4.031649
+small_airport,Nethershields Farm Airstrip,55.712329,-4.075713
+small_airport,Eccles Newton Farm Airstrip,55.65592,-2.35326
+small_airport,Stonehill Farm Airstrip,55.467085,-3.843988
+small_airport,Benston Farm Airstrip,55.41649,-4.23027
+small_airport,Hilton of Carslogie Airstrip,56.315643,-3.065972
+small_airport,Tullochgribban-High Airstrip,57.307125,-3.749256
+small_airport,Easterton Glider Field,57.5874,-3.30685
+small_airport,Kylarrick House Airstrip,57.817058,-4.174075
+small_airport,Fingland,55.324701,-3.204789
+small_airport,Forfar Airstrip,56.653363,-2.832775
+small_airport,Fort Augustus Airstrip,57.127577,-4.670706
+small_airport,Hatton Airstrip,57.4067508,-1.9115685
+small_airport,Insch Airstrip,57.310997,-2.648415
+small_airport,Gigha Airfield,55.655171,-5.755033
+small_airport,Knockrome Airstrip,55.874329,-5.908993
+small_airport,Kildalloig Airstrip,55.412805,-5.557641
+small_airport,Kilkerran UL,55.299005,-4.674436
+small_airport,Lennox Plunton Airstrip,54.841753,-4.15884
+small_airport,New Grimmet Farm Airstrip,55.361009,-4.643065
+small_airport,Midlem Airstrip,55.540033,-2.74271
+small_airport,Montrose Airstrip,56.727913,-2.500514
+small_airport,Wigtown Airfield,54.8527,-4.442
+small_airport,Kingsmuir Airfield,56.268957,-2.750857
+small_airport,Ballone Castle Airstrip,57.83218,-3.808523
+small_airport,Tain Ultralight Airstrip,57.81513,-3.969569
+small_airport,Thornhill Airfield,56.14888,-4.18588
+small_airport,Broomhill Farm Airstrip,55.843928,-3.534551
