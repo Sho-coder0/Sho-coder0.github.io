@@ -1,0 +1,29 @@
+type,name,lat,lon
+large_airport,Edinburgh Airport,55.950145,-3.372288
+large_airport,Glasgow Airport,55.871899,-4.43306
+medium_airport,Glasgow Prestwick Airport,55.502003,-4.587019
+medium_airport,Aberdeen International Airport,57.2019,-2.19778
+medium_airport,Inverness Airport,57.5425,-4.0475
+medium_airport,Sumburgh Airport,59.878899,-1.29556
+medium_airport,Kirkwall Airport,58.95780182,-2.904999971
+medium_airport,Wick John O'Groats Airport,58.4589,-3.09306
+medium_airport,Dundee Airport,56.452499,-3.02583
+medium_airport,Stornoway Airport,58.215599,-6.33111
+small_airport,Oban Airport,56.463501,-5.39967
+medium_airport,Barra Airport,57.0228,-7.44306
+medium_airport,Benbecula Airport,57.481098,-7.36278
+medium_airport,Islay Airport,55.682708,-6.257525
+small_airport,Papa Westray Airport,59.35169983,-2.900279999
+small_airport,Cumbernauld Airport,55.974701,-3.97556
+small_airport,Fife Airport,56.1833,-3.22028
+small_airport,Perth/Scone Airport,56.439201,-3.37222
+medium_airport,Campbeltown Airport,55.437199,-5.68639
+small_airport,Westray Airport,59.35029984,-2.950000048
+medium_airport,Eday Airport,59.19060135,-2.772219896
+small_airport,Lerwick / Tingwall Airport,60.1922,-1.24361
+medium_airport,Tiree Airport,56.49919891,-6.869170189
+small_airport,Fair Isle Airport,59.534721,-1.628509
+small_airport,Sanday Airport,59.250301,-2.57667
+small_airport,North Ronaldsay Airport,59.36750031,-2.434439898
+small_airport,Stronsay Airport,59.1553,-2.64139
+small_airport,Coll Airport,56.601898,-6.61778
