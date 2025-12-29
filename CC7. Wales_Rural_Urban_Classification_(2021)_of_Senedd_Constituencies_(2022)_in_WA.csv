@@ -1,0 +1,41 @@
+﻿SENC22CD,SENC22NM,RUC21CD,RUC21NM,Rural_Urban_flag,RUC21_settlement_class,Proportion_of_population_in_rural_OAs____,RUC21_relative_access,Proportion_of_population_in_OAs_further_from_a_major_town_or_city____,ObjectId
+W09000001,Ynys Môn,RMF,Majority rural: Majority further from a major town or city,Rural,Majority rural,82.5,Majority further from a major town or city,100,1
+W09000002,Arfon,RMF,Majority rural: Majority further from a major town or city,Rural,Majority rural,54.2,Majority further from a major town or city,100,2
+W09000003,Aberconwy,RIF,Intermediate rural: Majority further from a major town or city,Rural,Intermediate rural,37.3,Majority further from a major town or city,100,3
+W09000004,Clwyd West,UIF,Intermediate urban: Majority further from a major town or city,Urban,Intermediate urban,34.8,Majority further from a major town or city,100,4
+W09000005,Vale of Clwyd,RIF,Intermediate rural: Majority further from a major town or city,Rural,Intermediate rural,37.4,Majority further from a major town or city,100,5
+W09000006,Delyn,RIN,Intermediate rural: Majority nearer to a major town or city,Rural,Intermediate rural,39.9,Majority nearer to a major town or city,19,6
+W09000007,Alyn and Deeside,UIN,Intermediate urban: Majority nearer to a major town or city,Urban,Intermediate urban,26.3,Majority nearer to a major town or city,0.4,7
+W09000008,Wrexham,UIN,Intermediate urban: Majority nearer to a major town or city,Urban,Intermediate urban,23.9,Majority nearer to a major town or city,0,8
+W09000009,Clwyd South,RIN,Intermediate rural: Majority nearer to a major town or city,Rural,Intermediate rural,47.5,Majority nearer to a major town or city,34.4,9
+W09000010,Dwyfor Meirionnydd,RMF,Majority rural: Majority further from a major town or city,Rural,Majority rural,100,Majority further from a major town or city,100,10
+W09000011,Montgomeryshire,RMF,Majority rural: Majority further from a major town or city,Rural,Majority rural,82.2,Majority further from a major town or city,93.7,11
+W09000012,Ceredigion,RMF,Majority rural: Majority further from a major town or city,Rural,Majority rural,77,Majority further from a major town or city,100,12
+W09000014,Preseli Pembrokeshire,RMF,Majority rural: Majority further from a major town or city,Rural,Majority rural,62.4,Majority further from a major town or city,100,13
+W09000015,Carmarthen East and Dinefwr,RMF,Majority rural: Majority further from a major town or city,Rural,Majority rural,65.5,Majority further from a major town or city,69.8,14
+W09000016,Carmarthen West and South Pembrokeshire,RMF,Majority rural: Majority further from a major town or city,Rural,Majority rural,81.5,Majority further from a major town or city,100,15
+W09000017,Llanelli,UIN,Intermediate urban: Majority nearer to a major town or city,Urban,Intermediate urban,31,Majority nearer to a major town or city,22.8,16
+W09000018,Gower,RIN,Intermediate rural: Majority nearer to a major town or city,Rural,Intermediate rural,39.2,Majority nearer to a major town or city,2.9,17
+W09000019,Swansea West,UUN,Urban: Majority nearer to a major town or city,Urban,Urban,0,Majority nearer to a major town or city,0,18
+W09000020,Swansea East,UUN,Urban: Majority nearer to a major town or city,Urban,Urban,1.5,Majority nearer to a major town or city,0,19
+W09000021,Neath,UIN,Intermediate urban: Majority nearer to a major town or city,Urban,Intermediate urban,28,Majority nearer to a major town or city,7.4,20
+W09000022,Aberavon,UIN,Intermediate urban: Majority nearer to a major town or city,Urban,Intermediate urban,20.2,Majority nearer to a major town or city,6.8,21
+W09000023,Bridgend,UUF,Urban: Majority further from a major town or city,Urban,Urban,1.1,Majority further from a major town or city,82.8,22
+W09000025,Rhondda,UUF,Urban: Majority further from a major town or city,Urban,Urban,1.5,Majority further from a major town or city,80.8,23
+W09000026,Cynon Valley,UUF,Urban: Majority further from a major town or city,Urban,Urban,2.6,Majority further from a major town or city,82.7,24
+W09000029,Cardiff West,UUN,Urban: Majority nearer to a major town or city,Urban,Urban,6.6,Majority nearer to a major town or city,0,25
+W09000031,Cardiff Central,UUN,Urban: Majority nearer to a major town or city,Urban,Urban,0,Majority nearer to a major town or city,0,26
+W09000034,Monmouth,RIN,Intermediate rural: Majority nearer to a major town or city,Rural,Intermediate rural,43.3,Majority nearer to a major town or city,46.7,27
+W09000035,Caerphilly,UUN,Urban: Majority nearer to a major town or city,Urban,Urban,11.3,Majority nearer to a major town or city,15.4,28
+W09000036,Islwyn,UUN,Urban: Majority nearer to a major town or city,Urban,Urban,9.8,Majority nearer to a major town or city,31,29
+W09000037,Torfaen,UUN,Urban: Majority nearer to a major town or city,Urban,Urban,8.1,Majority nearer to a major town or city,0.5,30
+W09000038,Blaenau Gwent,UUF,Urban: Majority further from a major town or city,Urban,Urban,9.4,Majority further from a major town or city,93,31
+W09000039,Newport West,UUN,Urban: Majority nearer to a major town or city,Urban,Urban,13,Majority nearer to a major town or city,0,32
+W09000040,Newport East,UUN,Urban: Majority nearer to a major town or city,Urban,Urban,15,Majority nearer to a major town or city,0,33
+W09000041,Brecon and Radnorshire,RMF,Majority rural: Majority further from a major town or city,Rural,Majority rural,89.1,Majority further from a major town or city,89.1,34
+W09000042,Cardiff North,UUN,Urban: Majority nearer to a major town or city,Urban,Urban,2,Majority nearer to a major town or city,0,35
+W09000043,Cardiff South and Penarth,UUN,Urban: Majority nearer to a major town or city,Urban,Urban,0.9,Majority nearer to a major town or city,2.8,36
+W09000044,Merthyr Tydfil and Rhymney,UIF,Intermediate urban: Majority further from a major town or city,Urban,Intermediate urban,30.2,Majority further from a major town or city,91.6,37
+W09000045,Ogmore,RMF,Majority rural: Majority further from a major town or city,Rural,Majority rural,53.2,Majority further from a major town or city,69.7,38
+W09000046,Pontypridd,UUN,Urban: Majority nearer to a major town or city,Urban,Urban,3.9,Majority nearer to a major town or city,15.7,39
+W09000047,Vale of Glamorgan,UIF,Intermediate urban: Majority further from a major town or city,Urban,Intermediate urban,25.3,Majority further from a major town or city,84.9,40
