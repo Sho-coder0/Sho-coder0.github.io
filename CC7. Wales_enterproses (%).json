@@ -12,7 +12,7 @@
       "lookup": "properties.LAD25CD",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC7.%20Wales_births-of-new-enterprises-map-data_Percentage%20of%20businesses%20newly%20registered.csv"
+          "url": "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC7.%20Wales_enterproses%20(%25).csv"
         },
         "key": "geo_id",
         "fields": ["name", "Value (%)"]
