@@ -1,4 +1,4 @@
-region_n,region_s,region,country,obs,p_min,p_max,p_mean,p_med,p_sd
+region,region_s,region_n,country,obs,p_min,p_max,p_mean,p_med,p_sd
 1,Catalogue collections,Catalogue,,306968,.12,1999,41.329037,22,80.908554
 2,London,London,England,4475848,.0099999998,20000,56.248341,4.5999999,246.0103
 3,South East,South East,England,5785278,.0099999998,9499,54.609386,4.9000001,220.2513
@@ -12,3 +12,4 @@ region_n,region_s,region,country,obs,p_min,p_max,p_mean,p_med,p_sd
 11,Wales,Wales,Wales,2216742,.0099999998,7347,38.699127,3.99,147.97058
 12,Scotland,Scotland,Scotland,3385786,.0099999998,7999,42.445091,4.3800001,168.26251
 13,Northern Ireland,Northern Ireland,Northern Ireland,1518537,.0099999998,6995,44.438995,5,163.04796
+
