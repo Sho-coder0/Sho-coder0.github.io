@@ -14,7 +14,7 @@
     "scale": 125,
     "translate": [285, 180]
   },
-  "width": 600,
+  "width": "container",
   "height": 330,
   "layer": [
     {
