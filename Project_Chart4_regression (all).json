@@ -59,7 +59,7 @@
   "data": {"name": "data-caa0eb1f5db35b8a3d2d7c5cd8759d8e"},
   "height": 300,
   "title": {
-    "text": "GDP Growth vs. Fiscal Balance YoY Regression Fit",
+    "text": "GDP Growth vs. Fiscal Balance YoY",
     "subtitle": "FB=-0.91+0.60Growth, R-squared: 0.319"
   },
   "width": 300,
