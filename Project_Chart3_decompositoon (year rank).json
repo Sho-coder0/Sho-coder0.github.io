@@ -102,7 +102,7 @@
     "text": "GDP growth decomposition by countries (year ranking)",
     "subtitle": "Source: OECD"
   },
-  "width": 400,
+  "width": "container",
   "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
   "datasets": {
     "data-21f512172a5b3d6e071ce305a7441f02": [
