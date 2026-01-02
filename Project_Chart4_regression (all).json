@@ -1,0 +1,3255 @@
+{
+  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
+  "layer": [
+    {
+      "mark": {"type": "point", "color": "#1f77b4", "opacity": 0.7, "size": 60},
+      "encoding": {
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "Year", "type": "ordinal"},
+          {
+            "field": "GDP growth rate (sum of contributions)",
+            "format": ".2f",
+            "title": "GDP growth rate",
+            "type": "quantitative"
+          },
+          {
+            "field": "Fiscal Balance (% of GDP) YoY",
+            "format": ".2f",
+            "title": "Fiscal Balance YoY",
+            "type": "quantitative"
+          },
+          {
+            "field": "predicted_FBLE",
+            "format": ".2f",
+            "title": "Predicted Fiscal Balance YoY",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "GDP growth rate (sum of contributions)",
+          "title": "GDP growth rate (percentage points)",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Fiscal Balance (% of GDP) YoY",
+          "scale": {"zero": false},
+          "title": "Fiscal Balance (% of GDP) YoY (percentage point)",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "red",
+        "size": 2,
+        "strokeDash": [10, 5]
+      },
+      "encoding": {
+        "x": {
+          "field": "GDP growth rate (sum of contributions)",
+          "title": "GDP growth rate (percentage points)",
+          "type": "quantitative"
+        },
+        "y": {"field": "predicted_FBLE", "type": "quantitative"}
+      }
+    }
+  ],
+  "data": {"name": "data-caa0eb1f5db35b8a3d2d7c5cd8759d8e"},
+  "title": {
+    "text": "GDP Growth vs. Fiscal Balance YoY Regression Fit",
+    "subtitle": "FB=-0.91+0.60Growth, R-squared: 0.319"
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
+  "datasets": {
+    "data-caa0eb1f5db35b8a3d2d7c5cd8759d8e": [
+      {
+        "Country": "Korea",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": 2.374124,
+        "Fiscal Balance (% of GDP)": 0.937,
+        "Fiscal Balance (% of GDP) YoY": 0.03200000000000003,
+        "predicted_FBLE": 0.502170465667141,
+        "residual": -0.47017046566714094
+      },
+      {
+        "Country": "Korea",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 3.115664,
+        "Fiscal Balance (% of GDP)": 1.182,
+        "Fiscal Balance (% of GDP) YoY": 0.24499999999999988,
+        "predicted_FBLE": 0.9435794019373781,
+        "residual": -0.6985794019373782
+      },
+      {
+        "Country": "Korea",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 3.1522439999999996,
+        "Fiscal Balance (% of GDP)": 1.119,
+        "Fiscal Balance (% of GDP) YoY": -0.06299999999999994,
+        "predicted_FBLE": 0.9653540046408936,
+        "residual": -1.0283540046408937
+      },
+      {
+        "Country": "Korea",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 2.770371,
+        "Fiscal Balance (% of GDP)": 1.092,
+        "Fiscal Balance (% of GDP) YoY": -0.026999999999999913,
+        "predicted_FBLE": 0.738040367183273,
+        "residual": -0.765040367183273
+      },
+      {
+        "Country": "Korea",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 2.9042950000000003,
+        "Fiscal Balance (% of GDP)": 2.069,
+        "Fiscal Balance (% of GDP) YoY": 0.9769999999999999,
+        "predicted_FBLE": 0.8177599377810228,
+        "residual": 0.15924006221897702
+      },
+      {
+        "Country": "Korea",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 3.110746,
+        "Fiscal Balance (% of GDP)": 2.487,
+        "Fiscal Balance (% of GDP) YoY": 0.41800000000000015,
+        "predicted_FBLE": 0.9406519143459099,
+        "residual": -0.5226519143459097
+      },
+      {
+        "Country": "Korea",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 2.8659410000000003,
+        "Fiscal Balance (% of GDP)": 2.852,
+        "Fiscal Balance (% of GDP) YoY": 0.36499999999999977,
+        "predicted_FBLE": 0.7949293442301574,
+        "residual": -0.4299293442301576
+      },
+      {
+        "Country": "Korea",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 2.21917,
+        "Fiscal Balance (% of GDP)": 0.906,
+        "Fiscal Balance (% of GDP) YoY": -1.9459999999999997,
+        "predicted_FBLE": 0.409932581924095,
+        "residual": -2.355932581924095
+      },
+      {
+        "Country": "Korea",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -0.7119449999999998,
+        "Fiscal Balance (% of GDP)": -2.575,
+        "Fiscal Balance (% of GDP) YoY": -3.4810000000000003,
+        "predicted_FBLE": -1.3348422842135856,
+        "residual": -2.1461577157864147
+      },
+      {
+        "Country": "Korea",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 4.214657,
+        "Fiscal Balance (% of GDP)": -0.315,
+        "Fiscal Balance (% of GDP) YoY": 2.2600000000000002,
+        "predicted_FBLE": 1.5977657318702696,
+        "residual": 0.6622342681297306
+      },
+      {
+        "Country": "Korea",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 2.5791250000000003,
+        "Fiscal Balance (% of GDP)": -0.008,
+        "Fiscal Balance (% of GDP) YoY": 0.307,
+        "predicted_FBLE": 0.6241993155529663,
+        "residual": -0.31719931555296627
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": -0.3006260000000003,
+        "Fiscal Balance (% of GDP)": 3.374,
+        "Fiscal Balance (% of GDP) YoY": -0.9890000000000003,
+        "predicted_FBLE": -1.0900006273134353,
+        "residual": 0.10100062731343495
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -3.292569,
+        "Fiscal Balance (% of GDP)": -0.21,
+        "Fiscal Balance (% of GDP) YoY": -3.584,
+        "predicted_FBLE": -2.870983955267668,
+        "residual": -0.7130160447323322
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 3.691436,
+        "Fiscal Balance (% of GDP)": -0.317,
+        "Fiscal Balance (% of GDP) YoY": -0.10700000000000001,
+        "predicted_FBLE": 1.2863133152181003,
+        "residual": -1.3933133152181003
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 1.0388839999999995,
+        "Fiscal Balance (% of GDP)": 0.658,
+        "Fiscal Balance (% of GDP) YoY": 0.9750000000000001,
+        "predicted_FBLE": -0.29264420119570056,
+        "residual": 1.2676442011957008
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": 1.636433,
+        "Fiscal Balance (% of GDP)": 0.506,
+        "Fiscal Balance (% of GDP) YoY": -0.15200000000000002,
+        "predicted_FBLE": 0.06305268428498023,
+        "residual": -0.21505268428498026
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 3.1225330000000002,
+        "Fiscal Balance (% of GDP)": 0.844,
+        "Fiscal Balance (% of GDP) YoY": 0.33799999999999997,
+        "predicted_FBLE": 0.9476682413570187,
+        "residual": -0.6096682413570187
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 2.5892720000000002,
+        "Fiscal Balance (% of GDP)": 1.339,
+        "Fiscal Balance (% of GDP) YoY": 0.495,
+        "predicted_FBLE": 0.6302394165270663,
+        "residual": -0.13523941652706628
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 2.244405,
+        "Fiscal Balance (% of GDP)": 1.334,
+        "Fiscal Balance (% of GDP) YoY": -0.004999999999999893,
+        "predicted_FBLE": 0.4249539624386719,
+        "residual": -0.4299539624386718
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 4.858248,
+        "Fiscal Balance (% of GDP)": 1.893,
+        "Fiscal Balance (% of GDP) YoY": 0.5589999999999999,
+        "predicted_FBLE": 1.9808695680801813,
+        "residual": -1.4218695680801814
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 1.3085839999999997,
+        "Fiscal Balance (% of GDP)": 1.367,
+        "Fiscal Balance (% of GDP) YoY": -0.526,
+        "predicted_FBLE": -0.1321026388901162,
+        "residual": -0.3938973611098838
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 1.211954,
+        "Fiscal Balance (% of GDP)": 3.175,
+        "Fiscal Balance (% of GDP) YoY": 1.8079999999999998,
+        "predicted_FBLE": -0.1896225913023838,
+        "residual": 1.9976225913023837
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 2.874145,
+        "Fiscal Balance (% of GDP)": 2.679,
+        "Fiscal Balance (% of GDP) YoY": -0.496,
+        "predicted_FBLE": 0.7998128554543137,
+        "residual": -1.2958128554543138
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -0.9139950000000003,
+        "Fiscal Balance (% of GDP)": -3.093,
+        "Fiscal Balance (% of GDP) YoY": -5.772,
+        "predicted_FBLE": -1.4551145224925748,
+        "residual": -4.316885477507426
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 6.923121,
+        "Fiscal Balance (% of GDP)": 1.002,
+        "Fiscal Balance (% of GDP) YoY": 4.095,
+        "predicted_FBLE": 3.2100054130287123,
+        "residual": 0.8849945869712874
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 1.370747,
+        "Fiscal Balance (% of GDP)": 0.184,
+        "Fiscal Balance (% of GDP) YoY": -0.8180000000000001,
+        "predicted_FBLE": -0.09509950526904809,
+        "residual": -0.722900494730952
+      },
+      {
+        "Country": "Israel",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": 3.233409,
+        "Fiscal Balance (% of GDP)": -3.49,
+        "Fiscal Balance (% of GDP) YoY": -3.0610000000000004,
+        "predicted_FBLE": 1.0136682645761286,
+        "residual": -4.074668264576129
+      },
+      {
+        "Country": "Israel",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": 1.102024,
+        "Fiscal Balance (% of GDP)": -6.516,
+        "Fiscal Balance (% of GDP) YoY": -3.026,
+        "predicted_FBLE": -0.25505949877087797,
+        "residual": -2.7709405012291217
+      },
+      {
+        "Country": "Israel",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 5.480027,
+        "Fiscal Balance (% of GDP)": -3.712,
+        "Fiscal Balance (% of GDP) YoY": 2.804,
+        "predicted_FBLE": 2.350989597997882,
+        "residual": 0.45301040200211773
+      },
+      {
+        "Country": "Israel",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 5.413372000000001,
+        "Fiscal Balance (% of GDP)": -3.425,
+        "Fiscal Balance (% of GDP) YoY": 0.28700000000000037,
+        "predicted_FBLE": 2.311312557451058,
+        "residual": -2.0243125574510574
+      },
+      {
+        "Country": "Israel",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": 2.5093690000000004,
+        "Fiscal Balance (% of GDP)": -4.451,
+        "Fiscal Balance (% of GDP) YoY": -1.0259999999999998,
+        "predicted_FBLE": 0.5826763744325053,
+        "residual": -1.608676374432505
+      },
+      {
+        "Country": "Israel",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 4.143658,
+        "Fiscal Balance (% of GDP)": -4.055,
+        "Fiscal Balance (% of GDP) YoY": 0.3959999999999999,
+        "predicted_FBLE": 1.5555028828449302,
+        "residual": -1.1595028828449303
+      },
+      {
+        "Country": "Israel",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 3.811931,
+        "Fiscal Balance (% of GDP)": -2.284,
+        "Fiscal Balance (% of GDP) YoY": 1.771,
+        "predicted_FBLE": 1.3580391422481761,
+        "residual": 0.4129608577518238
+      },
+      {
+        "Country": "Israel",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 2.287331,
+        "Fiscal Balance (% of GDP)": -1.207,
+        "Fiscal Balance (% of GDP) YoY": 1.0769999999999997,
+        "predicted_FBLE": 0.4505060836975875,
+        "residual": 0.6264939163024122
+      },
+      {
+        "Country": "Israel",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 4.274526,
+        "Fiscal Balance (% of GDP)": -1.784,
+        "Fiscal Balance (% of GDP) YoY": -0.577,
+        "predicted_FBLE": 1.6334033395590835,
+        "residual": -2.2104033395590834
+      },
+      {
+        "Country": "Israel",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 4.184549,
+        "Fiscal Balance (% of GDP)": -1.128,
+        "Fiscal Balance (% of GDP) YoY": 0.6560000000000001,
+        "predicted_FBLE": 1.5798436504542646,
+        "residual": -0.9238436504542644
+      },
+      {
+        "Country": "Israel",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 3.99374,
+        "Fiscal Balance (% of GDP)": -3.548,
+        "Fiscal Balance (% of GDP) YoY": -2.42,
+        "predicted_FBLE": 1.466262727347234,
+        "residual": -3.886262727347234
+      },
+      {
+        "Country": "Israel",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 3.7152160000000003,
+        "Fiscal Balance (% of GDP)": -3.776,
+        "Fiscal Balance (% of GDP) YoY": -0.22799999999999976,
+        "predicted_FBLE": 1.3004685927547222,
+        "residual": -1.528468592754722
+      },
+      {
+        "Country": "Israel",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -1.475303,
+        "Fiscal Balance (% of GDP)": -10.703,
+        "Fiscal Balance (% of GDP) YoY": -6.927,
+        "predicted_FBLE": -1.789238598334706,
+        "residual": -5.137761401665293
+      },
+      {
+        "Country": "Israel",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 8.933201,
+        "Fiscal Balance (% of GDP)": -3.37,
+        "Fiscal Balance (% of GDP) YoY": 7.332999999999999,
+        "predicted_FBLE": 4.406525188924926,
+        "residual": 2.9264748110750736
+      },
+      {
+        "Country": "Israel",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 6.269642,
+        "Fiscal Balance (% of GDP)": 0.319,
+        "Fiscal Balance (% of GDP) YoY": 3.689,
+        "predicted_FBLE": 2.821015648127374,
+        "residual": 0.867984351872626
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": 2.7692799999999997,
+        "Fiscal Balance (% of GDP)": 1.934,
+        "Fiscal Balance (% of GDP) YoY": 0.3579999999999999,
+        "predicted_FBLE": 0.7373909387647509,
+        "residual": -0.37939093876475105
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -2.324179,
+        "Fiscal Balance (% of GDP)": 0.498,
+        "Fiscal Balance (% of GDP) YoY": -1.436,
+        "predicted_FBLE": -2.2945403382075837,
+        "residual": 0.8585403382075838
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 3.191912,
+        "Fiscal Balance (% of GDP)": 0.354,
+        "Fiscal Balance (% of GDP) YoY": -0.14400000000000002,
+        "predicted_FBLE": 0.9889667695409231,
+        "residual": -1.1329667695409231
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 1.796866,
+        "Fiscal Balance (% of GDP)": 0.683,
+        "Fiscal Balance (% of GDP) YoY": 0.32900000000000007,
+        "predicted_FBLE": 0.15855199635532446,
+        "residual": 0.1704480036446756
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": 1.172356,
+        "Fiscal Balance (% of GDP)": 0.235,
+        "Fiscal Balance (% of GDP) YoY": -0.44800000000000006,
+        "predicted_FBLE": -0.21319368801790672,
+        "residual": -0.23480631198209334
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 1.776279,
+        "Fiscal Balance (% of GDP)": -0.433,
+        "Fiscal Balance (% of GDP) YoY": -0.6679999999999999,
+        "predicted_FBLE": 0.14629738329197595,
+        "residual": -0.8142973832919759
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 2.322698,
+        "Fiscal Balance (% of GDP)": -0.247,
+        "Fiscal Balance (% of GDP) YoY": 0.186,
+        "predicted_FBLE": 0.4715586362895844,
+        "residual": -0.2855586362895844
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 1.631247,
+        "Fiscal Balance (% of GDP)": 0.546,
+        "Fiscal Balance (% of GDP) YoY": 0.793,
+        "predicted_FBLE": 0.059965667072830575,
+        "residual": 0.7330343329271695
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 2.047581,
+        "Fiscal Balance (% of GDP)": 0.238,
+        "Fiscal Balance (% of GDP) YoY": -0.30800000000000005,
+        "predicted_FBLE": 0.30779255176297926,
+        "residual": -0.6157925517629793
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 1.3535929999999998,
+        "Fiscal Balance (% of GDP)": 1.13,
+        "Fiscal Balance (% of GDP) YoY": 0.8919999999999999,
+        "predicted_FBLE": -0.10531059151224431,
+        "residual": 0.9973105915122442
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 2.820302,
+        "Fiscal Balance (% of GDP)": 1.29,
+        "Fiscal Balance (% of GDP) YoY": 0.16000000000000014,
+        "predicted_FBLE": 0.7677622831917271,
+        "residual": -0.607762283191727
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 1.135511,
+        "Fiscal Balance (% of GDP)": 1.341,
+        "Fiscal Balance (% of GDP) YoY": 0.050999999999999934,
+        "predicted_FBLE": -0.2351260345627686,
+        "residual": 0.2861260345627685
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -2.165,
+        "Fiscal Balance (% of GDP)": -3.059,
+        "Fiscal Balance (% of GDP) YoY": -4.4,
+        "predicted_FBLE": -2.199787481899684,
+        "residual": -2.2002125181003165
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 5.251548,
+        "Fiscal Balance (% of GDP)": -0.312,
+        "Fiscal Balance (% of GDP) YoY": 2.7470000000000003,
+        "predicted_FBLE": 2.214985239028592,
+        "residual": 0.5320147609714083
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 2.535901,
+        "Fiscal Balance (% of GDP)": 1.267,
+        "Fiscal Balance (% of GDP) YoY": 1.579,
+        "predicted_FBLE": 0.5984698068800088,
+        "residual": 0.9805301931199911
+      },
+      {
+        "Country": "Norway",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": 0.4807629999999996,
+        "Fiscal Balance (% of GDP)": 18.531,
+        "Fiscal Balance (% of GDP) YoY": 1.4929999999999986,
+        "predicted_FBLE": -0.6248711841232311,
+        "residual": 2.1178711841232296
+      },
+      {
+        "Country": "Norway",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -1.959441,
+        "Fiscal Balance (% of GDP)": 10.195,
+        "Fiscal Balance (% of GDP) YoY": -8.335999999999999,
+        "predicted_FBLE": -2.0774264770573643,
+        "residual": -6.258573522942634
+      },
+      {
+        "Country": "Norway",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 0.783975,
+        "Fiscal Balance (% of GDP)": 10.871,
+        "Fiscal Balance (% of GDP) YoY": 0.6760000000000002,
+        "predicted_FBLE": -0.44438127611507056,
+        "residual": 1.1203812761150707
+      },
+      {
+        "Country": "Norway",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 1.099592,
+        "Fiscal Balance (% of GDP)": 13.273,
+        "Fiscal Balance (% of GDP) YoY": 2.4019999999999992,
+        "predicted_FBLE": -0.256507170552588,
+        "residual": 2.6585071705525873
+      },
+      {
+        "Country": "Norway",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": 2.681675,
+        "Fiscal Balance (% of GDP)": 13.68,
+        "Fiscal Balance (% of GDP) YoY": 0.40700000000000003,
+        "predicted_FBLE": 0.6852432058549226,
+        "residual": -0.27824320585492257
+      },
+      {
+        "Country": "Norway",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 1.011057,
+        "Fiscal Balance (% of GDP)": 10.608,
+        "Fiscal Balance (% of GDP) YoY": -3.071999999999999,
+        "predicted_FBLE": -0.30920849505657344,
+        "residual": -2.7627915049434257
+      },
+      {
+        "Country": "Norway",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 2.027445,
+        "Fiscal Balance (% of GDP)": 8.572,
+        "Fiscal Balance (% of GDP) YoY": -2.0360000000000014,
+        "predicted_FBLE": 0.29580640085980836,
+        "residual": -2.3318064008598096
+      },
+      {
+        "Country": "Norway",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 1.840306,
+        "Fiscal Balance (% of GDP)": 5.987,
+        "Fiscal Balance (% of GDP) YoY": -2.584999999999999,
+        "predicted_FBLE": 0.18441008114047286,
+        "residual": -2.769410081140472
+      },
+      {
+        "Country": "Norway",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 1.157991,
+        "Fiscal Balance (% of GDP)": 4.036,
+        "Fiscal Balance (% of GDP) YoY": -1.9510000000000005,
+        "predicted_FBLE": -0.2217445947384099,
+        "residual": -1.7292554052615907
+      },
+      {
+        "Country": "Norway",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 2.433887,
+        "Fiscal Balance (% of GDP)": 4.957,
+        "Fiscal Balance (% of GDP) YoY": 0.9210000000000003,
+        "predicted_FBLE": 0.537744975819416,
+        "residual": 0.3832550241805842
+      },
+      {
+        "Country": "Norway",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 0.825476,
+        "Fiscal Balance (% of GDP)": 7.814,
+        "Fiscal Balance (% of GDP) YoY": 2.857,
+        "predicted_FBLE": -0.41967740004075077,
+        "residual": 3.276677400040751
+      },
+      {
+        "Country": "Norway",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 1.1175169999999999,
+        "Fiscal Balance (% of GDP)": 6.522,
+        "Fiscal Balance (% of GDP) YoY": -1.2919999999999998,
+        "predicted_FBLE": -0.24583713902004223,
+        "residual": -1.0461628609799576
+      },
+      {
+        "Country": "Norway",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -1.2864149999999999,
+        "Fiscal Balance (% of GDP)": -2.559,
+        "Fiscal Balance (% of GDP) YoY": -9.081,
+        "predicted_FBLE": -1.676801169262488,
+        "residual": -7.404198830737512
+      },
+      {
+        "Country": "Norway",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 3.834238,
+        "Fiscal Balance (% of GDP)": 10.286,
+        "Fiscal Balance (% of GDP) YoY": 12.844999999999999,
+        "predicted_FBLE": 1.371317602130826,
+        "residual": 11.473682397869172
+      },
+      {
+        "Country": "Norway",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 2.96135,
+        "Fiscal Balance (% of GDP)": 25.538,
+        "Fiscal Balance (% of GDP) YoY": 15.252,
+        "predicted_FBLE": 0.8517224844526766,
+        "residual": 14.400277515547325
+      },
+      {
+        "Country": "Greece",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": -0.3357309999999999,
+        "Fiscal Balance (% of GDP)": -10.315,
+        "Fiscal Balance (% of GDP) YoY": -3.507999999999999,
+        "predicted_FBLE": -1.1108972218434223,
+        "residual": -2.397102778156577
+      },
+      {
+        "Country": "Greece",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -4.395956999999999,
+        "Fiscal Balance (% of GDP)": -15.424,
+        "Fiscal Balance (% of GDP) YoY": -5.109,
+        "predicted_FBLE": -3.5277864519277857,
+        "residual": -1.5812135480722143
+      },
+      {
+        "Country": "Greece",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": -5.63443,
+        "Fiscal Balance (% of GDP)": -11.424,
+        "Fiscal Balance (% of GDP) YoY": 4,
+        "predicted_FBLE": -4.264999615788683,
+        "residual": 8.264999615788682
+      },
+      {
+        "Country": "Greece",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": -10.702088999999999,
+        "Fiscal Balance (% of GDP)": -10.5,
+        "Fiscal Balance (% of GDP) YoY": 0.9239999999999995,
+        "predicted_FBLE": -7.281573190471495,
+        "residual": 8.205573190471494
+      },
+      {
+        "Country": "Greece",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": -7.350338,
+        "Fiscal Balance (% of GDP)": -9.312,
+        "Fiscal Balance (% of GDP) YoY": 1.1880000000000006,
+        "predicted_FBLE": -5.286410632075855,
+        "residual": 6.474410632075855
+      },
+      {
+        "Country": "Greece",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": -2.548196,
+        "Fiscal Balance (% of GDP)": -13.597,
+        "Fiscal Balance (% of GDP) YoY": -4.285,
+        "predicted_FBLE": -2.4278886480444766,
+        "residual": -1.8571113519555236
+      },
+      {
+        "Country": "Greece",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 0.4745710000000001,
+        "Fiscal Balance (% of GDP)": -3.772,
+        "Fiscal Balance (% of GDP) YoY": 9.825,
+        "predicted_FBLE": -0.6285570326727159,
+        "residual": 10.453557032672716
+      },
+      {
+        "Country": "Greece",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": -0.19628299999999987,
+        "Fiscal Balance (% of GDP)": -5.905,
+        "Fiscal Balance (% of GDP) YoY": -2.1330000000000005,
+        "predicted_FBLE": -1.0278894362283348,
+        "residual": -1.1051105637716656
+      },
+      {
+        "Country": "Greece",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": -0.488378,
+        "Fiscal Balance (% of GDP)": 0.211,
+        "Fiscal Balance (% of GDP) YoY": 6.1160000000000005,
+        "predicted_FBLE": -1.2017618412770914,
+        "residual": 7.3177618412770915
+      },
+      {
+        "Country": "Greece",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 1.086225,
+        "Fiscal Balance (% of GDP)": 0.723,
+        "Fiscal Balance (% of GDP) YoY": 0.512,
+        "predicted_FBLE": -0.26446400801398484,
+        "residual": 0.7764640080139849
+      },
+      {
+        "Country": "Greece",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 1.6546530000000002,
+        "Fiscal Balance (% of GDP)": 0.901,
+        "Fiscal Balance (% of GDP) YoY": 0.17800000000000005,
+        "predicted_FBLE": 0.07389831745223185,
+        "residual": 0.10410168254776819
+      },
+      {
+        "Country": "Greece",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 1.8620470000000002,
+        "Fiscal Balance (% of GDP)": 0.824,
+        "Fiscal Balance (% of GDP) YoY": -0.07700000000000007,
+        "predicted_FBLE": 0.19735162398839934,
+        "residual": -0.2743516239883994
+      },
+      {
+        "Country": "Greece",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -9.779412,
+        "Fiscal Balance (% of GDP)": -9.561,
+        "Fiscal Balance (% of GDP) YoY": -10.385,
+        "predicted_FBLE": -6.7323406836734625,
+        "residual": -3.6526593163265373
+      },
+      {
+        "Country": "Greece",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 8.047285,
+        "Fiscal Balance (% of GDP)": -7.067,
+        "Fiscal Balance (% of GDP) YoY": 2.4939999999999998,
+        "predicted_FBLE": 3.879175026850347,
+        "residual": -1.385175026850347
+      },
+      {
+        "Country": "Greece",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 5.408359,
+        "Fiscal Balance (% of GDP)": -2.456,
+        "Fiscal Balance (% of GDP) YoY": 4.611000000000001,
+        "predicted_FBLE": 2.3083285201806163,
+        "residual": 2.3026714798193844
+      },
+      {
+        "Country": "Austria",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": 1.449862,
+        "Fiscal Balance (% of GDP)": -1.572,
+        "Fiscal Balance (% of GDP) YoY": -0.20199999999999996,
+        "predicted_FBLE": -0.04800552788007406,
+        "residual": -0.1539944721199259
+      },
+      {
+        "Country": "Austria",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -3.837269,
+        "Fiscal Balance (% of GDP)": -5.381,
+        "Fiscal Balance (% of GDP) YoY": -3.809,
+        "predicted_FBLE": -3.1952219567057534,
+        "residual": -0.6137780432942468
+      },
+      {
+        "Country": "Austria",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 1.820425,
+        "Fiscal Balance (% of GDP)": -4.464,
+        "Fiscal Balance (% of GDP) YoY": 0.9169999999999998,
+        "predicted_FBLE": 0.1725757214808611,
+        "residual": 0.7444242785191387
+      },
+      {
+        "Country": "Austria",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 2.8809,
+        "Fiscal Balance (% of GDP)": -2.482,
+        "Fiscal Balance (% of GDP) YoY": 1.9820000000000002,
+        "predicted_FBLE": 0.8038338352591866,
+        "residual": 1.1781661647408135
+      },
+      {
+        "Country": "Austria",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": 0.678134,
+        "Fiscal Balance (% of GDP)": -2.177,
+        "Fiscal Balance (% of GDP) YoY": 0.30500000000000016,
+        "predicted_FBLE": -0.5073841663486091,
+        "residual": 0.8123841663486092
+      },
+      {
+        "Country": "Austria",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 0.02550600000000003,
+        "Fiscal Balance (% of GDP)": -1.993,
+        "Fiscal Balance (% of GDP) YoY": 0.18399999999999994,
+        "predicted_FBLE": -0.8958673651783043,
+        "residual": 1.0798673651783042
+      },
+      {
+        "Country": "Austria",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 0.659092,
+        "Fiscal Balance (% of GDP)": -1.924,
+        "Fiscal Balance (% of GDP) YoY": 0.06900000000000017,
+        "predicted_FBLE": -0.5187191030539222,
+        "residual": 0.5877191030539224
+      },
+      {
+        "Country": "Austria",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 1.009396,
+        "Fiscal Balance (% of GDP)": -0.477,
+        "Fiscal Balance (% of GDP) YoY": 1.447,
+        "predicted_FBLE": -0.3101972215489338,
+        "residual": 1.757197221548934
+      },
+      {
+        "Country": "Austria",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 1.9699,
+        "Fiscal Balance (% of GDP)": -1.451,
+        "Fiscal Balance (% of GDP) YoY": -0.9740000000000001,
+        "predicted_FBLE": 0.2615521768966088,
+        "residual": -1.235552176896609
+      },
+      {
+        "Country": "Austria",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 2.233447,
+        "Fiscal Balance (% of GDP)": -0.776,
+        "Fiscal Balance (% of GDP) YoY": 0.675,
+        "predicted_FBLE": 0.41843110578407583,
+        "residual": 0.2565688942159242
+      },
+      {
+        "Country": "Austria",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 2.396439,
+        "Fiscal Balance (% of GDP)": 0.195,
+        "Fiscal Balance (% of GDP) YoY": 0.9710000000000001,
+        "predicted_FBLE": 0.5154536876280201,
+        "residual": 0.45554631237197996
+      },
+      {
+        "Country": "Austria",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 1.4401100000000002,
+        "Fiscal Balance (% of GDP)": 0.536,
+        "Fiscal Balance (% of GDP) YoY": 0.341,
+        "predicted_FBLE": -0.053810501241601805,
+        "residual": 0.39481050124160183
+      },
+      {
+        "Country": "Austria",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -6.863212,
+        "Fiscal Balance (% of GDP)": -8.204,
+        "Fiscal Balance (% of GDP) YoY": -8.74,
+        "predicted_FBLE": -4.9964441171345495,
+        "residual": -3.7435558828654507
+      },
+      {
+        "Country": "Austria",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 4.1505220000000005,
+        "Fiscal Balance (% of GDP)": -5.693,
+        "Fiscal Balance (% of GDP) YoY": 2.511000000000001,
+        "predicted_FBLE": 1.5595887459656774,
+        "residual": 0.9514112540343236
+      },
+      {
+        "Country": "Austria",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 4.694496,
+        "Fiscal Balance (% of GDP)": -3.421,
+        "Fiscal Balance (% of GDP) YoY": 2.272,
+        "predicted_FBLE": 1.8833945888044532,
+        "residual": 0.3886054111955466
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": -1.7196910000000003,
+        "Fiscal Balance (% of GDP)": 0.299,
+        "Fiscal Balance (% of GDP) YoY": -3.8430000000000004,
+        "predicted_FBLE": -1.9347129451227563,
+        "residual": -1.9082870548772441
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": 2.018625,
+        "Fiscal Balance (% of GDP)": -2.97,
+        "Fiscal Balance (% of GDP) YoY": -3.269,
+        "predicted_FBLE": 0.290556209611995,
+        "residual": -3.559556209611995
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 0.913953,
+        "Fiscal Balance (% of GDP)": -7.057,
+        "Fiscal Balance (% of GDP) YoY": -4.087,
+        "predicted_FBLE": -0.36701060060392776,
+        "residual": -3.7199893993960718
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 2.575552,
+        "Fiscal Balance (% of GDP)": -4.261,
+        "Fiscal Balance (% of GDP) YoY": 2.7960000000000003,
+        "predicted_FBLE": 0.6220724523638009,
+        "residual": 2.1739275476361994
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": 2.5549799999999996,
+        "Fiscal Balance (% of GDP)": -2.365,
+        "Fiscal Balance (% of GDP) YoY": 1.896,
+        "predicted_FBLE": 0.6098267681971322,
+        "residual": 1.2861732318028678
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 1.996757,
+        "Fiscal Balance (% of GDP)": -0.865,
+        "Fiscal Balance (% of GDP) YoY": 1.5000000000000002,
+        "predicted_FBLE": 0.27753906877217827,
+        "residual": 1.2224609312278218
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 3.572584,
+        "Fiscal Balance (% of GDP)": 0.264,
+        "Fiscal Balance (% of GDP) YoY": 1.129,
+        "predicted_FBLE": 1.2155655000043692,
+        "residual": -0.08656550000436924
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 4.159975,
+        "Fiscal Balance (% of GDP)": 0.027,
+        "Fiscal Balance (% of GDP) YoY": -0.23700000000000002,
+        "predicted_FBLE": 1.5652157366533848,
+        "residual": -1.8022157366533849
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 3.7633739999999998,
+        "Fiscal Balance (% of GDP)": 1.075,
+        "Fiscal Balance (% of GDP) YoY": 1.048,
+        "predicted_FBLE": 1.3291351131756053,
+        "residual": -0.28113511317560524
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 4.226393,
+        "Fiscal Balance (% of GDP)": 1.515,
+        "Fiscal Balance (% of GDP) YoY": 0.43999999999999995,
+        "predicted_FBLE": 1.6047517006326664,
+        "residual": -1.1647517006326664
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 3.79474,
+        "Fiscal Balance (% of GDP)": 0.703,
+        "Fiscal Balance (% of GDP) YoY": -0.8119999999999999,
+        "predicted_FBLE": 1.3478060313931692,
+        "residual": -2.159806031393169
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 2.446403,
+        "Fiscal Balance (% of GDP)": -0.523,
+        "Fiscal Balance (% of GDP) YoY": -1.226,
+        "predicted_FBLE": 0.5451952472091702,
+        "residual": -1.77119524720917
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": 0.0674570000000001,
+        "Fiscal Balance (% of GDP)": -7.907,
+        "Fiscal Balance (% of GDP) YoY": -7.384,
+        "predicted_FBLE": -0.8708956222035859,
+        "residual": -6.513104377796415
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 4.552373,
+        "Fiscal Balance (% of GDP)": -4.19,
+        "Fiscal Balance (% of GDP) YoY": 3.7169999999999996,
+        "predicted_FBLE": 1.7987944832814402,
+        "residual": 1.9182055167185594
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": -4.5877170000000005,
+        "Fiscal Balance (% of GDP)": -7.031,
+        "Fiscal Balance (% of GDP) YoY": -7.2989999999999995,
+        "predicted_FBLE": -3.6419334670843266,
+        "residual": -3.657066532915673
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -5.230206000000001,
+        "Fiscal Balance (% of GDP)": -13.873,
+        "Fiscal Balance (% of GDP) YoY": -6.842,
+        "predicted_FBLE": -4.024381327018151,
+        "residual": -2.8176186729818484
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 1.6689689999999997,
+        "Fiscal Balance (% of GDP)": -32.108,
+        "Fiscal Balance (% of GDP) YoY": -18.235,
+        "predicted_FBLE": 0.0824200564435803,
+        "residual": -18.31742005644358
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 1.272618,
+        "Fiscal Balance (% of GDP)": -13.45,
+        "Fiscal Balance (% of GDP) YoY": 18.657999999999998,
+        "predicted_FBLE": -0.1535117520895326,
+        "residual": 18.81151175208953
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": -0.12977799999999995,
+        "Fiscal Balance (% of GDP)": -8.403,
+        "Fiscal Balance (% of GDP) YoY": 5.046999999999999,
+        "predicted_FBLE": -0.9883016846483093,
+        "residual": 6.035301684648308
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 1.167774,
+        "Fiscal Balance (% of GDP)": -6.267,
+        "Fiscal Balance (% of GDP) YoY": 2.136,
+        "predicted_FBLE": -0.21592116832374342,
+        "residual": 2.3519211683237433
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 8.460766,
+        "Fiscal Balance (% of GDP)": -3.513,
+        "Fiscal Balance (% of GDP) YoY": 2.7540000000000004,
+        "predicted_FBLE": 4.125303635391967,
+        "residual": -1.3713036353919668
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 1.750159,
+        "Fiscal Balance (% of GDP)": -0.761,
+        "Fiscal Balance (% of GDP) YoY": 1.21,
+        "predicted_FBLE": 0.13074919787328165,
+        "residual": 1.0792508021267184
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 8.902916,
+        "Fiscal Balance (% of GDP)": -0.297,
+        "Fiscal Balance (% of GDP) YoY": 0.464,
+        "predicted_FBLE": 4.388497746528096,
+        "residual": -3.9244977465280964
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 8.13062,
+        "Fiscal Balance (% of GDP)": 0.094,
+        "Fiscal Balance (% of GDP) YoY": 0.391,
+        "predicted_FBLE": 3.928781000505281,
+        "residual": -3.537781000505281
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 5.162163000000001,
+        "Fiscal Balance (% of GDP)": 0.41,
+        "Fiscal Balance (% of GDP) YoY": 0.31599999999999995,
+        "predicted_FBLE": 2.1617779437127433,
+        "residual": -1.8457779437127435
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": 6.40746,
+        "Fiscal Balance (% of GDP)": -4.861,
+        "Fiscal Balance (% of GDP) YoY": -5.271,
+        "predicted_FBLE": 2.90305316030324,
+        "residual": -8.17405316030324
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 14.085027,
+        "Fiscal Balance (% of GDP)": -1.364,
+        "Fiscal Balance (% of GDP) YoY": 3.497,
+        "predicted_FBLE": 7.47319999339852,
+        "residual": -3.97619999339852
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 9.014247999999998,
+        "Fiscal Balance (% of GDP)": 1.669,
+        "Fiscal Balance (% of GDP) YoY": 3.0330000000000004,
+        "predicted_FBLE": 4.454769208206277,
+        "residual": -1.4217692082062765
+      },
+      {
+        "Country": "United States",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": 0.11352300000000004,
+        "Fiscal Balance (% of GDP)": -7.361,
+        "Fiscal Balance (% of GDP) YoY": -3.3659999999999997,
+        "predicted_FBLE": -0.8434743852396666,
+        "residual": -2.522525614760333
+      },
+      {
+        "Country": "United States",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -2.6102760000000003,
+        "Fiscal Balance (% of GDP)": -13.117,
+        "Fiscal Balance (% of GDP) YoY": -5.756000000000001,
+        "predicted_FBLE": -2.464842375103916,
+        "residual": -3.291157624896085
+      },
+      {
+        "Country": "United States",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 2.6595139999999997,
+        "Fiscal Balance (% of GDP)": -12.4,
+        "Fiscal Balance (% of GDP) YoY": 0.7170000000000005,
+        "predicted_FBLE": 0.6720516538999576,
+        "residual": 0.044948346100042946
+      },
+      {
+        "Country": "United States",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 1.5522960000000001,
+        "Fiscal Balance (% of GDP)": -10.979,
+        "Fiscal Balance (% of GDP) YoY": 1.4210000000000012,
+        "predicted_FBLE": 0.012969312287557488,
+        "residual": 1.4080306877124436
+      },
+      {
+        "Country": "United States",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": 2.263309,
+        "Fiscal Balance (% of GDP)": -9.21,
+        "Fiscal Balance (% of GDP) YoY": 1.7689999999999984,
+        "predicted_FBLE": 0.4362067532945294,
+        "residual": 1.332793246705469
+      },
+      {
+        "Country": "United States",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 2.095712,
+        "Fiscal Balance (% of GDP)": -5.826,
+        "Fiscal Balance (% of GDP) YoY": 3.3840000000000012,
+        "predicted_FBLE": 0.33644300016983897,
+        "residual": 3.0475569998301624
+      },
+      {
+        "Country": "United States",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 2.492504,
+        "Fiscal Balance (% of GDP)": -5.175,
+        "Fiscal Balance (% of GDP) YoY": 0.6509999999999998,
+        "predicted_FBLE": 0.5726373182653427,
+        "residual": 0.0783626817346571
+      },
+      {
+        "Country": "United States",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 2.903003,
+        "Fiscal Balance (% of GDP)": -4.604,
+        "Fiscal Balance (% of GDP) YoY": 0.5709999999999997,
+        "predicted_FBLE": 0.8169908621469891,
+        "residual": -0.2459908621469894
+      },
+      {
+        "Country": "United States",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 1.803093,
+        "Fiscal Balance (% of GDP)": -5.392,
+        "Fiscal Balance (% of GDP) YoY": -0.7880000000000003,
+        "predicted_FBLE": 0.16225867899706292,
+        "residual": -0.9502586789970632
+      },
+      {
+        "Country": "United States",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 2.427913,
+        "Fiscal Balance (% of GDP)": -4.43,
+        "Fiscal Balance (% of GDP) YoY": 0.9620000000000006,
+        "predicted_FBLE": 0.5341888939016796,
+        "residual": 0.42781110609832107
+      },
+      {
+        "Country": "United States",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 2.923355,
+        "Fiscal Balance (% of GDP)": -6.116,
+        "Fiscal Balance (% of GDP) YoY": -1.686,
+        "predicted_FBLE": 0.8291055891623517,
+        "residual": -2.5151055891623515
+      },
+      {
+        "Country": "United States",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 2.437093,
+        "Fiscal Balance (% of GDP)": -6.693,
+        "Fiscal Balance (% of GDP) YoY": -0.577,
+        "predicted_FBLE": 0.5396533786698118,
+        "residual": -1.1166533786698118
+      },
+      {
+        "Country": "United States",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -2.238337,
+        "Fiscal Balance (% of GDP)": -14.978,
+        "Fiscal Balance (% of GDP) YoY": -8.285,
+        "predicted_FBLE": -2.2434420482875392,
+        "residual": -6.041557951712461
+      },
+      {
+        "Country": "United States",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 5.638234,
+        "Fiscal Balance (% of GDP)": -11.84,
+        "Fiscal Balance (% of GDP) YoY": 3.138,
+        "predicted_FBLE": 2.445163861800921,
+        "residual": 0.6928361381990791
+      },
+      {
+        "Country": "United States",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 1.916997,
+        "Fiscal Balance (% of GDP)": -3.669,
+        "Fiscal Balance (% of GDP) YoY": 8.171,
+        "predicted_FBLE": 0.2300611488259664,
+        "residual": 7.940938851174033
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": -0.22598899999999997,
+        "Fiscal Balance (% of GDP)": -5.087,
+        "Fiscal Balance (% of GDP) YoY": -2.433,
+        "predicted_FBLE": -1.0455722232133169,
+        "residual": -1.387427776786683
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -4.72484,
+        "Fiscal Balance (% of GDP)": -10.057,
+        "Fiscal Balance (% of GDP) YoY": -4.970000000000001,
+        "predicted_FBLE": -3.7235572737140212,
+        "residual": -1.2464427262859794
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 2.214,
+        "Fiscal Balance (% of GDP)": -9.219,
+        "Fiscal Balance (% of GDP) YoY": 0.838000000000001,
+        "predicted_FBLE": 0.4068550888684038,
+        "residual": 0.43114491113159714
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 1.1385939999999999,
+        "Fiscal Balance (% of GDP)": -7.378,
+        "Fiscal Balance (% of GDP) YoY": 1.8409999999999993,
+        "predicted_FBLE": -0.2332908486651486,
+        "residual": 2.074290848665148
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": 1.5016120000000002,
+        "Fiscal Balance (% of GDP)": -7.969,
+        "Fiscal Balance (% of GDP) YoY": -0.5910000000000002,
+        "predicted_FBLE": -0.017200834334230475,
+        "residual": -0.5737991656657697
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 1.776449,
+        "Fiscal Balance (% of GDP)": -5.344,
+        "Fiscal Balance (% of GDP) YoY": 2.625,
+        "predicted_FBLE": 0.1463985774543487,
+        "residual": 2.478601422545651
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 3.145779,
+        "Fiscal Balance (% of GDP)": -5.529,
+        "Fiscal Balance (% of GDP) YoY": -0.1849999999999996,
+        "predicted_FBLE": 0.9615056501718336,
+        "residual": -1.1465056501718331
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 2.195969,
+        "Fiscal Balance (% of GDP)": -4.594,
+        "Fiscal Balance (% of GDP) YoY": 0.9349999999999996,
+        "predicted_FBLE": 0.39612195979931963,
+        "residual": 0.53887804020068
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 1.902841,
+        "Fiscal Balance (% of GDP)": -3.312,
+        "Fiscal Balance (% of GDP) YoY": 1.2820000000000005,
+        "predicted_FBLE": 0.22163465139920369,
+        "residual": 1.0603653486007967
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 2.6204359999999998,
+        "Fiscal Balance (% of GDP)": -2.491,
+        "Fiscal Balance (% of GDP) YoY": 0.8209999999999997,
+        "predicted_FBLE": 0.6487900922693398,
+        "residual": 0.17220990773065992
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 1.394032,
+        "Fiscal Balance (% of GDP)": -2.27,
+        "Fiscal Balance (% of GDP) YoY": 0.22100000000000009,
+        "predicted_FBLE": -0.08123888132286528,
+        "residual": 0.30223888132286536
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 1.628276,
+        "Fiscal Balance (% of GDP)": -2.472,
+        "Fiscal Balance (% of GDP) YoY": -0.20199999999999996,
+        "predicted_FBLE": 0.05819715027042094,
+        "residual": -0.2601971502704209
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -10.936736999999999,
+        "Fiscal Balance (% of GDP)": -13.173,
+        "Fiscal Balance (% of GDP) YoY": -10.701,
+        "predicted_FBLE": -7.421249707015361,
+        "residual": -3.279750292984639
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 8.31907,
+        "Fiscal Balance (% of GDP)": -7.725,
+        "Fiscal Balance (% of GDP) YoY": 5.448,
+        "predicted_FBLE": 4.040957705794444,
+        "residual": 1.4070422942055565
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 4.253472,
+        "Fiscal Balance (% of GDP)": -4.723,
+        "Fiscal Balance (% of GDP) YoY": 3.002,
+        "predicted_FBLE": 1.6208707401790994,
+        "residual": 1.3811292598209004
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": -0.4515749999999997,
+        "Fiscal Balance (% of GDP)": 1.873,
+        "Fiscal Balance (% of GDP) YoY": -1.4949999999999999,
+        "predicted_FBLE": -1.179854495642933,
+        "residual": -0.3151455043570668
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -4.436775,
+        "Fiscal Balance (% of GDP)": -0.889,
+        "Fiscal Balance (% of GDP) YoY": -2.762,
+        "predicted_FBLE": -3.5520837655732787,
+        "residual": 0.7900837655732786
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 5.7816980000000004,
+        "Fiscal Balance (% of GDP)": -0.144,
+        "Fiscal Balance (% of GDP) YoY": 0.745,
+        "predicted_FBLE": 2.530562210687122,
+        "residual": -1.785562210687122
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 3.145343,
+        "Fiscal Balance (% of GDP)": -0.407,
+        "Fiscal Balance (% of GDP) YoY": -0.263,
+        "predicted_FBLE": 0.9612461169083361,
+        "residual": -1.224246116908336
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": -0.590039,
+        "Fiscal Balance (% of GDP)": -1.191,
+        "Fiscal Balance (% of GDP) YoY": -0.784,
+        "predicted_FBLE": -1.2622765456358158,
+        "residual": 0.4782765456358158
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 1.180778,
+        "Fiscal Balance (% of GDP)": -1.63,
+        "Fiscal Balance (% of GDP) YoY": -0.43899999999999983,
+        "predicted_FBLE": -0.2081804101620014,
+        "residual": -0.23081958983799844
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 2.62309,
+        "Fiscal Balance (% of GDP)": -1.841,
+        "Fiscal Balance (% of GDP) YoY": -0.21100000000000008,
+        "predicted_FBLE": 0.6503699117219132,
+        "residual": -0.8613699117219132
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 4.39143,
+        "Fiscal Balance (% of GDP)": -0.272,
+        "Fiscal Balance (% of GDP) YoY": 1.569,
+        "predicted_FBLE": 1.7029915887239775,
+        "residual": -0.13399158872397754
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 2.049449,
+        "Fiscal Balance (% of GDP)": 0.86,
+        "Fiscal Balance (% of GDP) YoY": 1.1320000000000001,
+        "predicted_FBLE": 0.30890449702952305,
+        "residual": 0.8230955029704771
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 2.535505,
+        "Fiscal Balance (% of GDP)": 1.287,
+        "Fiscal Balance (% of GDP) YoY": 0.42699999999999994,
+        "predicted_FBLE": 0.5982340840076582,
+        "residual": -0.17123408400765827
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 1.9312529999999999,
+        "Fiscal Balance (% of GDP)": 0.671,
+        "Fiscal Balance (% of GDP) YoY": -0.6159999999999999,
+        "predicted_FBLE": 0.23854717223059507,
+        "residual": -0.854547172230595
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 1.9667320000000001,
+        "Fiscal Balance (% of GDP)": 0.439,
+        "Fiscal Balance (% of GDP) YoY": -0.23200000000000004,
+        "predicted_FBLE": 0.25966639391780266,
+        "residual": -0.4916663939178027
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -2.194108,
+        "Fiscal Balance (% of GDP)": -3.175,
+        "Fiscal Balance (% of GDP) YoY": -3.614,
+        "predicted_FBLE": -2.2171143035370253,
+        "residual": -1.3968856964629746
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 5.965496,
+        "Fiscal Balance (% of GDP)": -0.202,
+        "Fiscal Balance (% of GDP) YoY": 2.973,
+        "predicted_FBLE": 2.6399697674859417,
+        "residual": 0.33303023251405817
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 2.6283510000000003,
+        "Fiscal Balance (% of GDP)": 1.008,
+        "Fiscal Balance (% of GDP) YoY": 1.21,
+        "predicted_FBLE": 0.6535015734174628,
+        "residual": 0.5564984265825371
+      },
+      {
+        "Country": "Spain",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": 0.8831610000000001,
+        "Fiscal Balance (% of GDP)": -4.56,
+        "Fiscal Balance (% of GDP) YoY": -6.443,
+        "predicted_FBLE": -0.3853398397085386,
+        "residual": -6.057660160291461
+      },
+      {
+        "Country": "Spain",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -3.8357409999999996,
+        "Fiscal Balance (% of GDP)": -11.237,
+        "Fiscal Balance (% of GDP) YoY": -6.6770000000000005,
+        "predicted_FBLE": -3.1943123997639553,
+        "residual": -3.482687600236045
+      },
+      {
+        "Country": "Spain",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 0.1627869999999999,
+        "Fiscal Balance (% of GDP)": -9.487,
+        "Fiscal Balance (% of GDP) YoY": 1.75,
+        "predicted_FBLE": -0.814149507503581,
+        "residual": 2.564149507503581
+      },
+      {
+        "Country": "Spain",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": -0.817722,
+        "Fiscal Balance (% of GDP)": -9.692,
+        "Fiscal Balance (% of GDP) YoY": -0.20500000000000007,
+        "predicted_FBLE": -1.3978070778212897,
+        "residual": 1.1928070778212896
+      },
+      {
+        "Country": "Spain",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": -3.0035789999999998,
+        "Fiscal Balance (% of GDP)": -11.496,
+        "Fiscal Balance (% of GDP) YoY": -1.8040000000000003,
+        "predicted_FBLE": -2.698959831831662,
+        "residual": 0.8949598318316618
+      },
+      {
+        "Country": "Spain",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": -1.413283,
+        "Fiscal Balance (% of GDP)": -7.488,
+        "Fiscal Balance (% of GDP) YoY": 4.008,
+        "predicted_FBLE": -1.752320586861987,
+        "residual": 5.760320586861987
+      },
+      {
+        "Country": "Spain",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 1.3861240000000001,
+        "Fiscal Balance (% of GDP)": -6.036,
+        "Fiscal Balance (% of GDP) YoY": 1.4520000000000008,
+        "predicted_FBLE": -0.08594619565253714,
+        "residual": 1.537946195652538
+      },
+      {
+        "Country": "Spain",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 3.76668,
+        "Fiscal Balance (% of GDP)": -5.266,
+        "Fiscal Balance (% of GDP) YoY": 0.7699999999999996,
+        "predicted_FBLE": 1.3311030420038676,
+        "residual": -0.5611030420038681
+      },
+      {
+        "Country": "Spain",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 2.992547,
+        "Fiscal Balance (% of GDP)": -4.221,
+        "Fiscal Balance (% of GDP) YoY": 1.045,
+        "predicted_FBLE": 0.8702928037676464,
+        "residual": 0.17470719623235353
+      },
+      {
+        "Country": "Spain",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 2.932346,
+        "Fiscal Balance (% of GDP)": -3.069,
+        "Fiscal Balance (% of GDP) YoY": 1.1520000000000001,
+        "predicted_FBLE": 0.8344575698323163,
+        "residual": 0.3175424301676838
+      },
+      {
+        "Country": "Spain",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 2.258766,
+        "Fiscal Balance (% of GDP)": -2.552,
+        "Fiscal Balance (% of GDP) YoY": 0.5169999999999999,
+        "predicted_FBLE": 0.43350248812006054,
+        "residual": 0.08349751187993937
+      },
+      {
+        "Country": "Spain",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 1.9645400000000002,
+        "Fiscal Balance (% of GDP)": -3.065,
+        "Fiscal Balance (% of GDP) YoY": -0.5129999999999999,
+        "predicted_FBLE": 0.258361584482972,
+        "residual": -0.7713615844829719
+      },
+      {
+        "Country": "Spain",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -11.841537,
+        "Fiscal Balance (% of GDP)": -9.909,
+        "Fiscal Balance (% of GDP) YoY": -6.844000000000001,
+        "predicted_FBLE": -7.959840754750226,
+        "residual": 1.1158407547502245
+      },
+      {
+        "Country": "Spain",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 6.206525,
+        "Fiscal Balance (% of GDP)": -6.651,
+        "Fiscal Balance (% of GDP) YoY": 3.258000000000001,
+        "predicted_FBLE": 2.783444636677461,
+        "residual": 0.4745553633225401
+      },
+      {
+        "Country": "Spain",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 5.610289,
+        "Fiscal Balance (% of GDP)": -4.594,
+        "Fiscal Balance (% of GDP) YoY": 2.0569999999999995,
+        "predicted_FBLE": 2.4285293272861654,
+        "residual": -0.37152932728616594
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": 0.318744,
+        "Fiscal Balance (% of GDP)": -3.811,
+        "Fiscal Balance (% of GDP) YoY": -0.9359999999999999,
+        "predicted_FBLE": -0.7213145782025353,
+        "residual": -0.21468542179746464
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -3.1718539999999997,
+        "Fiscal Balance (% of GDP)": -9.874,
+        "Fiscal Balance (% of GDP) YoY": -6.063000000000001,
+        "predicted_FBLE": -2.7991271710862864,
+        "residual": -3.263872828913714
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 1.7227000000000001,
+        "Fiscal Balance (% of GDP)": -11.418,
+        "Fiscal Balance (% of GDP) YoY": -1.5439999999999987,
+        "predicted_FBLE": 0.11440395961095662,
+        "residual": -1.6584039596109554
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": -1.7107150000000004,
+        "Fiscal Balance (% of GDP)": -7.727,
+        "Fiscal Balance (% of GDP) YoY": 3.690999999999999,
+        "predicted_FBLE": -1.9293698933494716,
+        "residual": 5.620369893349471
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": -4.141902,
+        "Fiscal Balance (% of GDP)": -6.202,
+        "Fiscal Balance (% of GDP) YoY": 1.5250000000000004,
+        "predicted_FBLE": -3.3765577288593946,
+        "residual": 4.901557728859395
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": -0.9269219999999999,
+        "Fiscal Balance (% of GDP)": -5.214,
+        "Fiscal Balance (% of GDP) YoY": 0.9879999999999995,
+        "predicted_FBLE": -1.4628094456513594,
+        "residual": 2.450809445651359
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 0.7890630000000001,
+        "Fiscal Balance (% of GDP)": -7.363,
+        "Fiscal Balance (% of GDP) YoY": -2.149,
+        "predicted_FBLE": -0.4413525943612299,
+        "residual": -1.70764740563877
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 1.7761799999999999,
+        "Fiscal Balance (% of GDP)": -4.474,
+        "Fiscal Balance (% of GDP) YoY": 2.8890000000000002,
+        "predicted_FBLE": 0.14623845257388812,
+        "residual": 2.7427615474261122
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 1.9993660000000002,
+        "Fiscal Balance (% of GDP)": -1.943,
+        "Fiscal Balance (% of GDP) YoY": 2.531,
+        "predicted_FBLE": 0.279092101534712,
+        "residual": 2.251907898465288
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 3.4462729999999997,
+        "Fiscal Balance (% of GDP)": -3.002,
+        "Fiscal Balance (% of GDP) YoY": -1.0589999999999997,
+        "predicted_FBLE": 1.1403776421015857,
+        "residual": -2.1993776421015854
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 2.809485,
+        "Fiscal Balance (% of GDP)": -0.426,
+        "Fiscal Balance (% of GDP) YoY": 2.5759999999999996,
+        "predicted_FBLE": 0.7613233581659228,
+        "residual": 1.814676641834077
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 2.6474070000000003,
+        "Fiscal Balance (% of GDP)": 0.116,
+        "Fiscal Balance (% of GDP) YoY": 0.542,
+        "predicted_FBLE": 0.6648448437596771,
+        "residual": -0.12284484375967708
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -8.665341,
+        "Fiscal Balance (% of GDP)": -5.752,
+        "Fiscal Balance (% of GDP) YoY": -5.867999999999999,
+        "predicted_FBLE": -6.0691790267978805,
+        "residual": 0.20117902679788102
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 5.578878,
+        "Fiscal Balance (% of GDP)": -2.825,
+        "Fiscal Balance (% of GDP) YoY": 2.9269999999999996,
+        "predicted_FBLE": 2.4098316223785616,
+        "residual": 0.517168377621438
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 6.604535,
+        "Fiscal Balance (% of GDP)": -0.31,
+        "Fiscal Balance (% of GDP) YoY": 2.515,
+        "predicted_FBLE": 3.020363981183377,
+        "residual": -0.5053639811833768
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": 2.1471080000000002,
+        "Fiscal Balance (% of GDP)": -0.004,
+        "Fiscal Balance (% of GDP) YoY": 0.256,
+        "predicted_FBLE": 0.3670369717540357,
+        "residual": -0.11103697175403571
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -3.7358070000000003,
+        "Fiscal Balance (% of GDP)": -5.101,
+        "Fiscal Balance (% of GDP) YoY": -5.097,
+        "predicted_FBLE": -3.134825709042983,
+        "residual": -1.9621742909570172
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 1.3338050000000001,
+        "Fiscal Balance (% of GDP)": -5.277,
+        "Fiscal Balance (% of GDP) YoY": -0.17600000000000016,
+        "predicted_FBLE": -0.11708959201244029,
+        "residual": -0.058910407987559865
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 1.5392839999999999,
+        "Fiscal Balance (% of GDP)": -4.42,
+        "Fiscal Balance (% of GDP) YoY": 0.8570000000000002,
+        "predicted_FBLE": 0.005223792047586051,
+        "residual": 0.8517762079524142
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": -1.0357,
+        "Fiscal Balance (% of GDP)": -3.837,
+        "Fiscal Balance (% of GDP) YoY": 0.5829999999999997,
+        "predicted_FBLE": -1.527560613854833,
+        "residual": 2.1105606138548327
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": -0.130258,
+        "Fiscal Balance (% of GDP)": -2.861,
+        "Fiscal Balance (% of GDP) YoY": 0.976,
+        "predicted_FBLE": -0.9885874093420679,
+        "residual": 1.9645874093420679
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 1.413355,
+        "Fiscal Balance (% of GDP)": -2.242,
+        "Fiscal Balance (% of GDP) YoY": 0.6190000000000002,
+        "predicted_FBLE": -0.0697366766197477,
+        "residual": 0.6887366766197479
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 1.9402279999999998,
+        "Fiscal Balance (% of GDP)": -1.778,
+        "Fiscal Balance (% of GDP) YoY": 0.46399999999999997,
+        "predicted_FBLE": 0.24388962874410136,
+        "residual": 0.2201103712558986
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 2.1680409999999997,
+        "Fiscal Balance (% of GDP)": 0.227,
+        "Fiscal Balance (% of GDP) YoY": 2.005,
+        "predicted_FBLE": 0.37949754470080144,
+        "residual": 1.6255024552991983
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 2.869345,
+        "Fiscal Balance (% of GDP)": 1.316,
+        "Fiscal Balance (% of GDP) YoY": 1.089,
+        "predicted_FBLE": 0.7969556085167283,
+        "residual": 0.29204439148327166
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 2.333472,
+        "Fiscal Balance (% of GDP)": 1.474,
+        "Fiscal Balance (% of GDP) YoY": 0.15799999999999992,
+        "predicted_FBLE": 0.4779719651449065,
+        "residual": -0.31997196514490656
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 1.936714,
+        "Fiscal Balance (% of GDP)": 1.782,
+        "Fiscal Balance (% of GDP) YoY": 0.30800000000000005,
+        "predicted_FBLE": 0.24179788588187734,
+        "residual": 0.06620211411812271
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -3.963609,
+        "Fiscal Balance (% of GDP)": -3.608,
+        "Fiscal Balance (% of GDP) YoY": -5.390000000000001,
+        "predicted_FBLE": -3.2704270771421178,
+        "residual": -2.119572922857883
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 6.007728,
+        "Fiscal Balance (% of GDP)": -2.198,
+        "Fiscal Balance (% of GDP) YoY": 1.4100000000000001,
+        "predicted_FBLE": 2.665108778458465,
+        "residual": -1.2551087784584647
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 4.237838,
+        "Fiscal Balance (% of GDP)": 0.012,
+        "Fiscal Balance (% of GDP) YoY": 2.21,
+        "predicted_FBLE": 1.6115644487994718,
+        "residual": 0.5984355512005282
+      },
+      {
+        "Country": "Japan",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": -1.231851,
+        "Fiscal Balance (% of GDP)": -4.11,
+        "Fiscal Balance (% of GDP) YoY": -1.2090000000000005,
+        "predicted_FBLE": -1.6443214146994851,
+        "residual": 0.4353214146994846
+      },
+      {
+        "Country": "Japan",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -5.861722,
+        "Fiscal Balance (% of GDP)": -9.693,
+        "Fiscal Balance (% of GDP) YoY": -5.582999999999999,
+        "predicted_FBLE": -4.4002974014006995,
+        "residual": -1.1827025985992998
+      },
+      {
+        "Country": "Japan",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 4.01617,
+        "Fiscal Balance (% of GDP)": -9.076,
+        "Fiscal Balance (% of GDP) YoY": 0.6169999999999991,
+        "predicted_FBLE": 1.4796144041826595,
+        "residual": -0.8626144041826604
+      },
+      {
+        "Country": "Japan",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 0.023814999999999982,
+        "Fiscal Balance (% of GDP)": -8.986,
+        "Fiscal Balance (% of GDP) YoY": 0.08999999999999986,
+        "predicted_FBLE": -0.8968739494640245,
+        "residual": 0.9868739494640244
+      },
+      {
+        "Country": "Japan",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": 1.3653870000000001,
+        "Fiscal Balance (% of GDP)": -8.196,
+        "Fiscal Balance (% of GDP) YoY": 0.7900000000000009,
+        "predicted_FBLE": -0.09829009768268515,
+        "residual": 0.8882900976826861
+      },
+      {
+        "Country": "Japan",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 1.9852610000000002,
+        "Fiscal Balance (% of GDP)": -7.611,
+        "Fiscal Balance (% of GDP) YoY": 0.585,
+        "predicted_FBLE": 0.27069596235666127,
+        "residual": 0.3143040376433387
+      },
+      {
+        "Country": "Japan",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 0.295769,
+        "Fiscal Balance (% of GDP)": -5.616,
+        "Fiscal Balance (% of GDP) YoY": 1.995,
+        "predicted_FBLE": -0.7349906716173324,
+        "residual": 2.7299906716173323
+      },
+      {
+        "Country": "Japan",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 1.548569,
+        "Fiscal Balance (% of GDP)": -3.678,
+        "Fiscal Balance (% of GDP) YoY": 1.9379999999999997,
+        "predicted_FBLE": 0.010750779092478124,
+        "residual": 1.9272492209075216
+      },
+      {
+        "Country": "Japan",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 0.751003,
+        "Fiscal Balance (% of GDP)": -3.6,
+        "Fiscal Balance (% of GDP) YoY": 0.07799999999999985,
+        "predicted_FBLE": -0.46400818153716816,
+        "residual": 0.542008181537168
+      },
+      {
+        "Country": "Japan",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 1.661452,
+        "Fiscal Balance (% of GDP)": -3.099,
+        "Fiscal Balance (% of GDP) YoY": 0.5009999999999999,
+        "predicted_FBLE": 0.07794548868736584,
+        "residual": 0.42305451131263405
+      },
+      {
+        "Country": "Japan",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 0.641335,
+        "Fiscal Balance (% of GDP)": -2.471,
+        "Fiscal Balance (% of GDP) YoY": 0.6280000000000001,
+        "predicted_FBLE": -0.5292891309436525,
+        "residual": 1.1572891309436526
+      },
+      {
+        "Country": "Japan",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": -0.40298200000000006,
+        "Fiscal Balance (% of GDP)": -3.045,
+        "Fiscal Balance (% of GDP) YoY": -0.5739999999999998,
+        "predicted_FBLE": -1.150929037218331,
+        "residual": 0.5769290372183311
+      },
+      {
+        "Country": "Japan",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -4.235566,
+        "Fiscal Balance (% of GDP)": -9.075,
+        "Fiscal Balance (% of GDP) YoY": -6.029999999999999,
+        "predicted_FBLE": -3.4323121407681465,
+        "residual": -2.597687859231853
+      },
+      {
+        "Country": "Japan",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 2.527116,
+        "Fiscal Balance (% of GDP)": -6.128,
+        "Fiscal Balance (% of GDP) YoY": 2.946999999999999,
+        "predicted_FBLE": 0.5932404497244487,
+        "residual": 2.3537595502755506
+      },
+      {
+        "Country": "Japan",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 0.950206,
+        "Fiscal Balance (% of GDP)": -4.208,
+        "Fiscal Balance (% of GDP) YoY": 1.92,
+        "predicted_FBLE": -0.3454306478480347,
+        "residual": 2.2654306478480346
+      },
+      {
+        "Country": "Italy",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": -0.966666,
+        "Fiscal Balance (% of GDP)": -2.584,
+        "Fiscal Balance (% of GDP) YoY": -1.258,
+        "predicted_FBLE": -1.4864674502945672,
+        "residual": 0.22846745029456716
+      },
+      {
+        "Country": "Italy",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -5.425496000000001,
+        "Fiscal Balance (% of GDP)": -5.057,
+        "Fiscal Balance (% of GDP) YoY": -2.4730000000000003,
+        "predicted_FBLE": -4.1406296091933745,
+        "residual": 1.6676296091933742
+      },
+      {
+        "Country": "Italy",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 1.698791,
+        "Fiscal Balance (% of GDP)": -4.161,
+        "Fiscal Balance (% of GDP) YoY": 0.8960000000000008,
+        "predicted_FBLE": 0.10017189356288758,
+        "residual": 0.7958281064371132
+      },
+      {
+        "Country": "Italy",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 0.704836,
+        "Fiscal Balance (% of GDP)": -3.524,
+        "Fiscal Balance (% of GDP) YoY": 0.6369999999999996,
+        "predicted_FBLE": -0.4914895397387325,
+        "residual": 1.128489539738732
+      },
+      {
+        "Country": "Italy",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": -3.026235,
+        "Fiscal Balance (% of GDP)": -2.985,
+        "Fiscal Balance (% of GDP) YoY": 0.5390000000000001,
+        "predicted_FBLE": -2.7124460373770654,
+        "residual": 3.2514460373770655
+      },
+      {
+        "Country": "Italy",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": -1.8582260000000002,
+        "Fiscal Balance (% of GDP)": -2.875,
+        "Fiscal Balance (% of GDP) YoY": 0.10999999999999988,
+        "predicted_FBLE": -2.017177258559924,
+        "residual": 2.127177258559924
+      },
+      {
+        "Country": "Italy",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": -0.004542999999999997,
+        "Fiscal Balance (% of GDP)": -2.818,
+        "Fiscal Balance (% of GDP) YoY": 0.05699999999999994,
+        "predicted_FBLE": -0.9137543262673682,
+        "residual": 0.9707543262673681
+      },
+      {
+        "Country": "Italy",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 0.7752910000000001,
+        "Fiscal Balance (% of GDP)": -2.459,
+        "Fiscal Balance (% of GDP) YoY": 0.359,
+        "predicted_FBLE": -0.44955051203298557,
+        "residual": 0.8085505120329856
+      },
+      {
+        "Country": "Italy",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 1.2851690000000002,
+        "Fiscal Balance (% of GDP)": -2.405,
+        "Fiscal Balance (% of GDP) YoY": 0.05400000000000027,
+        "predicted_FBLE": -0.14604064660752514,
+        "residual": 0.2000406466075254
+      },
+      {
+        "Country": "Italy",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 1.6540979999999998,
+        "Fiscal Balance (% of GDP)": -2.509,
+        "Fiscal Balance (% of GDP) YoY": -0.10400000000000009,
+        "predicted_FBLE": 0.0735679482750734,
+        "residual": -0.1775679482750735
+      },
+      {
+        "Country": "Italy",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 0.92156,
+        "Fiscal Balance (% of GDP)": -2.192,
+        "Fiscal Balance (% of GDP) YoY": 0.3169999999999997,
+        "predicted_FBLE": -0.36248245946763336,
+        "residual": 0.6794824594676331
+      },
+      {
+        "Country": "Italy",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 0.482031,
+        "Fiscal Balance (% of GDP)": -1.45,
+        "Fiscal Balance (% of GDP) YoY": 0.7420000000000002,
+        "predicted_FBLE": -0.6241163947238852,
+        "residual": 1.3661163947238855
+      },
+      {
+        "Country": "Italy",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -9.402709,
+        "Fiscal Balance (% of GDP)": -9.379,
+        "Fiscal Balance (% of GDP) YoY": -7.928999999999999,
+        "predicted_FBLE": -6.508104539271533,
+        "residual": -1.4208954607284667
+      },
+      {
+        "Country": "Italy",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 7.982944000000001,
+        "Fiscal Balance (% of GDP)": -8.879,
+        "Fiscal Balance (% of GDP) YoY": 0.5,
+        "predicted_FBLE": 3.8408754174313495,
+        "residual": -3.3408754174313495
+      },
+      {
+        "Country": "Italy",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 3.9085170000000002,
+        "Fiscal Balance (% of GDP)": -8.109,
+        "Fiscal Balance (% of GDP) YoY": 0.7699999999999996,
+        "predicted_FBLE": 1.4155329032301824,
+        "residual": -0.6455329032301829
+      },
+      {
+        "Country": "Germany",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": 0.9553,
+        "Fiscal Balance (% of GDP)": -0.263,
+        "Fiscal Balance (% of GDP) YoY": -0.41800000000000004,
+        "predicted_FBLE": -0.3423983945355221,
+        "residual": -0.07560160546447792
+      },
+      {
+        "Country": "Germany",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -5.862362,
+        "Fiscal Balance (% of GDP)": -3.175,
+        "Fiscal Balance (% of GDP) YoY": -2.912,
+        "predicted_FBLE": -4.400678367659045,
+        "residual": 1.4886783676590447
+      },
+      {
+        "Country": "Germany",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 4.094882,
+        "Fiscal Balance (% of GDP)": -4.42,
+        "Fiscal Balance (% of GDP) YoY": -1.245,
+        "predicted_FBLE": 1.526468491880832,
+        "residual": -2.771468491880832
+      },
+      {
+        "Country": "Germany",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 3.8501190000000003,
+        "Fiscal Balance (% of GDP)": -0.84,
+        "Fiscal Balance (% of GDP) YoY": 3.58,
+        "predicted_FBLE": 1.3807709226757834,
+        "residual": 2.1992290773242167
+      },
+      {
+        "Country": "Germany",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": 0.417622,
+        "Fiscal Balance (% of GDP)": -0.054,
+        "Fiscal Balance (% of GDP) YoY": 0.7859999999999999,
+        "predicted_FBLE": -0.6624564818078318,
+        "residual": 1.4484564818078316
+      },
+      {
+        "Country": "Germany",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 0.436639,
+        "Fiscal Balance (% of GDP)": 0.122,
+        "Fiscal Balance (% of GDP) YoY": 0.176,
+        "predicted_FBLE": -0.6511364265969852,
+        "residual": 0.8271364265969852
+      },
+      {
+        "Country": "Germany",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 2.185489,
+        "Fiscal Balance (% of GDP)": 0.731,
+        "Fiscal Balance (% of GDP) YoY": 0.609,
+        "predicted_FBLE": 0.38988363731892484,
+        "residual": 0.21911636268107515
+      },
+      {
+        "Country": "Germany",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 1.480911,
+        "Fiscal Balance (% of GDP)": 0.915,
+        "Fiscal Balance (% of GDP) YoY": 0.18400000000000005,
+        "predicted_FBLE": -0.029523307012346622,
+        "residual": 0.21352330701234667
+      },
+      {
+        "Country": "Germany",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 2.205498,
+        "Fiscal Balance (% of GDP)": 1.134,
+        "Fiscal Balance (% of GDP) YoY": 0.21899999999999986,
+        "predicted_FBLE": 0.4017941902302057,
+        "residual": -0.18279419023020582
+      },
+      {
+        "Country": "Germany",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 2.644939,
+        "Fiscal Balance (% of GDP)": 1.338,
+        "Fiscal Balance (% of GDP) YoY": 0.20400000000000018,
+        "predicted_FBLE": 0.6633757426259351,
+        "residual": -0.45937574262593495
+      },
+      {
+        "Country": "Germany",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 0.976449,
+        "Fiscal Balance (% of GDP)": 1.885,
+        "Fiscal Balance (% of GDP) YoY": 0.5469999999999999,
+        "predicted_FBLE": -0.32980924547656476,
+        "residual": 0.8768092454765647
+      },
+      {
+        "Country": "Germany",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 1.0697290000000002,
+        "Fiscal Balance (% of GDP)": 1.328,
+        "Fiscal Balance (% of GDP) YoY": -0.5569999999999999,
+        "predicted_FBLE": -0.27428341332282014,
+        "residual": -0.2827165866771798
+      },
+      {
+        "Country": "Germany",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -3.90191,
+        "Fiscal Balance (% of GDP)": -4.381,
+        "Fiscal Balance (% of GDP) YoY": -5.7090000000000005,
+        "predicted_FBLE": -3.23370014405835,
+        "residual": -2.4752998559416506
+      },
+      {
+        "Country": "Germany",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 3.114801,
+        "Fiscal Balance (% of GDP)": -3.167,
+        "Fiscal Balance (% of GDP) YoY": 1.2140000000000004,
+        "predicted_FBLE": 0.9430656927483912,
+        "residual": 0.27093430725160916
+      },
+      {
+        "Country": "Germany",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 1.790094,
+        "Fiscal Balance (% of GDP)": -2.147,
+        "Fiscal Balance (% of GDP) YoY": 1.02,
+        "predicted_FBLE": 0.15452089713421413,
+        "residual": 0.8654791028657859
+      },
+      {
+        "Country": "France",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": 0.254626,
+        "Fiscal Balance (% of GDP)": -3.502,
+        "Fiscal Balance (% of GDP) YoY": -0.5119999999999996,
+        "predicted_FBLE": -0.7594814446908907,
+        "residual": 0.24748144469089117
+      },
+      {
+        "Country": "France",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -2.915407,
+        "Fiscal Balance (% of GDP)": -7.378,
+        "Fiscal Balance (% of GDP) YoY": -3.8760000000000003,
+        "predicted_FBLE": -2.6464745866273316,
+        "residual": -1.2295254133726687
+      },
+      {
+        "Country": "France",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 1.930685,
+        "Fiscal Balance (% of GDP)": -7.152,
+        "Fiscal Balance (% of GDP) YoY": 0.22599999999999998,
+        "predicted_FBLE": 0.2382090646763143,
+        "residual": -0.01220906467631433
+      },
+      {
+        "Country": "France",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 2.1690050000000003,
+        "Fiscal Balance (% of GDP)": -5.304,
+        "Fiscal Balance (% of GDP) YoY": 1.8479999999999999,
+        "predicted_FBLE": 0.3800713751274335,
+        "residual": 1.4679286248725663
+      },
+      {
+        "Country": "France",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": 0.31264800000000004,
+        "Fiscal Balance (% of GDP)": -5.171,
+        "Fiscal Balance (% of GDP) YoY": 0.133,
+        "predicted_FBLE": -0.7249432818132688,
+        "residual": 0.8579432818132688
+      },
+      {
+        "Country": "France",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 0.574672,
+        "Fiscal Balance (% of GDP)": -4.938,
+        "Fiscal Balance (% of GDP) YoY": 0.23300000000000054,
+        "predicted_FBLE": -0.5689709335687068,
+        "residual": 0.8019709335687073
+      },
+      {
+        "Country": "France",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 0.951643,
+        "Fiscal Balance (% of GDP)": -4.574,
+        "Fiscal Balance (% of GDP) YoY": 0.3639999999999999,
+        "predicted_FBLE": -0.344575259546095,
+        "residual": 0.7085752595460949
+      },
+      {
+        "Country": "France",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 1.106766,
+        "Fiscal Balance (% of GDP)": -3.892,
+        "Fiscal Balance (% of GDP) YoY": 0.6819999999999999,
+        "predicted_FBLE": -0.252236776900455,
+        "residual": 0.9342367769004549
+      },
+      {
+        "Country": "France",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 1.089502,
+        "Fiscal Balance (% of GDP)": -3.765,
+        "Fiscal Balance (% of GDP) YoY": 0.12699999999999978,
+        "predicted_FBLE": -0.26251334171930407,
+        "residual": 0.38951334171930385
+      },
+      {
+        "Country": "France",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 2.2655600000000002,
+        "Fiscal Balance (% of GDP)": -3.362,
+        "Fiscal Balance (% of GDP) YoY": 0.403,
+        "predicted_FBLE": 0.4375466830563014,
+        "residual": -0.034546683056301375
+      },
+      {
+        "Country": "France",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 1.84789,
+        "Fiscal Balance (% of GDP)": -2.319,
+        "Fiscal Balance (% of GDP) YoY": 1.0430000000000001,
+        "predicted_FBLE": 0.18892453130185805,
+        "residual": 0.8540754686981421
+      },
+      {
+        "Country": "France",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 1.826192,
+        "Fiscal Balance (% of GDP)": -2.394,
+        "Fiscal Balance (% of GDP) YoY": -0.07500000000000018,
+        "predicted_FBLE": 0.17600858462441427,
+        "residual": -0.25100858462441444
+      },
+      {
+        "Country": "France",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -7.8399,
+        "Fiscal Balance (% of GDP)": -8.933,
+        "Fiscal Balance (% of GDP) YoY": -6.539,
+        "predicted_FBLE": -5.577827199837985,
+        "residual": -0.9611728001620143
+      },
+      {
+        "Country": "France",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 6.236626,
+        "Fiscal Balance (% of GDP)": -6.585,
+        "Fiscal Balance (% of GDP) YoY": 2.348,
+        "predicted_FBLE": 2.801362551275015,
+        "residual": -0.45336255127501524
+      },
+      {
+        "Country": "France",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 2.4251110000000002,
+        "Fiscal Balance (% of GDP)": -4.741,
+        "Fiscal Balance (% of GDP) YoY": 1.8440000000000003,
+        "predicted_FBLE": 0.5325209760018642,
+        "residual": 1.3114790239981362
+      },
+      {
+        "Country": "Finland",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": 0.7809389999999998,
+        "Fiscal Balance (% of GDP)": 4.18,
+        "Fiscal Balance (% of GDP) YoY": -0.9320000000000004,
+        "predicted_FBLE": -0.4461884848030935,
+        "residual": -0.4858115151969069
+      },
+      {
+        "Country": "Finland",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -8.419115,
+        "Fiscal Balance (% of GDP)": -2.482,
+        "Fiscal Balance (% of GDP) YoY": -6.662,
+        "predicted_FBLE": -5.922610592536646,
+        "residual": -0.7393894074633538
+      },
+      {
+        "Country": "Finland",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 3.136258,
+        "Fiscal Balance (% of GDP)": -2.575,
+        "Fiscal Balance (% of GDP) YoY": -0.09299999999999997,
+        "predicted_FBLE": 0.9558381818191771,
+        "residual": -1.048838181819177
+      },
+      {
+        "Country": "Finland",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 2.515753,
+        "Fiscal Balance (% of GDP)": -1.013,
+        "Fiscal Balance (% of GDP) YoY": 1.5620000000000003,
+        "predicted_FBLE": 0.5864765128594939,
+        "residual": 0.9755234871405064
+      },
+      {
+        "Country": "Finland",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": -1.407405,
+        "Fiscal Balance (% of GDP)": -2.151,
+        "Fiscal Balance (% of GDP) YoY": -1.138,
+        "predicted_FBLE": -1.748821649883002,
+        "residual": 0.6108216498830021
+      },
+      {
+        "Country": "Finland",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": -0.9057860000000001,
+        "Fiscal Balance (% of GDP)": -2.522,
+        "Fiscal Balance (% of GDP) YoY": -0.371,
+        "predicted_FBLE": -1.4502280349695247,
+        "residual": 1.0792280349695247
+      },
+      {
+        "Country": "Finland",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": -0.365574,
+        "Fiscal Balance (% of GDP)": -2.995,
+        "Fiscal Balance (% of GDP) YoY": -0.4730000000000003,
+        "predicted_FBLE": -1.1286615594180813,
+        "residual": 0.655661559418081
+      },
+      {
+        "Country": "Finland",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 0.542192,
+        "Fiscal Balance (% of GDP)": -2.427,
+        "Fiscal Balance (% of GDP) YoY": 0.5680000000000001,
+        "predicted_FBLE": -0.5883049711797019,
+        "residual": 1.156304971179702
+      },
+      {
+        "Country": "Finland",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 2.772659,
+        "Fiscal Balance (% of GDP)": -1.701,
+        "Fiscal Balance (% of GDP) YoY": 0.726,
+        "predicted_FBLE": 0.7394023215568554,
+        "residual": -0.01340232155685539
+      },
+      {
+        "Country": "Finland",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 3.142512,
+        "Fiscal Balance (% of GDP)": -0.629,
+        "Fiscal Balance (% of GDP) YoY": 1.072,
+        "predicted_FBLE": 0.9595609364749395,
+        "residual": 0.11243906352506061
+      },
+      {
+        "Country": "Finland",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 1.1332749999999998,
+        "Fiscal Balance (% of GDP)": -0.872,
+        "Fiscal Balance (% of GDP) YoY": -0.243,
+        "predicted_FBLE": -0.23645703542786056,
+        "residual": -0.006542964572139431
+      },
+      {
+        "Country": "Finland",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 1.217306,
+        "Fiscal Balance (% of GDP)": -0.934,
+        "Fiscal Balance (% of GDP) YoY": -0.062000000000000055,
+        "predicted_FBLE": -0.18643676096697592,
+        "residual": 0.12443676096697587
+      },
+      {
+        "Country": "Finland",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -2.383136,
+        "Fiscal Balance (% of GDP)": -5.534,
+        "Fiscal Balance (% of GDP) YoY": -4.6,
+        "predicted_FBLE": -2.329635068978256,
+        "residual": -2.2703649310217435
+      },
+      {
+        "Country": "Finland",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 2.798648,
+        "Fiscal Balance (% of GDP)": -2.652,
+        "Fiscal Balance (% of GDP) YoY": 2.8819999999999997,
+        "predicted_FBLE": 0.7548725279445448,
+        "residual": 2.127127472055455
+      },
+      {
+        "Country": "Finland",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 1.3266329999999997,
+        "Fiscal Balance (% of GDP)": -0.179,
+        "Fiscal Balance (% of GDP) YoY": 2.4730000000000003,
+        "predicted_FBLE": -0.12135879514501613,
+        "residual": 2.594358795145016
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": -0.5133259999999997,
+        "Fiscal Balance (% of GDP)": 3.462,
+        "Fiscal Balance (% of GDP) YoY": -1.8459999999999996,
+        "predicted_FBLE": -1.2166123822351917,
+        "residual": -0.6293876177648079
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -5.031008,
+        "Fiscal Balance (% of GDP)": -2.746,
+        "Fiscal Balance (% of GDP) YoY": -6.208,
+        "predicted_FBLE": -3.905806769627911,
+        "residual": -2.3021932303720893
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 1.8536979999999998,
+        "Fiscal Balance (% of GDP)": -2.521,
+        "Fiscal Balance (% of GDP) YoY": 0.2250000000000001,
+        "predicted_FBLE": 0.19238180009633632,
+        "residual": 0.03261819990366377
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 1.32793,
+        "Fiscal Balance (% of GDP)": -1.766,
+        "Fiscal Balance (% of GDP) YoY": 0.7549999999999999,
+        "predicted_FBLE": -0.12058674321208918,
+        "residual": 0.8755867432120891
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": 0.22623800000000016,
+        "Fiscal Balance (% of GDP)": -3.202,
+        "Fiscal Balance (% of GDP) YoY": -1.436,
+        "predicted_FBLE": -0.7763796792875941,
+        "residual": -0.6596203207124058
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 0.929009,
+        "Fiscal Balance (% of GDP)": -0.944,
+        "Fiscal Balance (% of GDP) YoY": 2.258,
+        "predicted_FBLE": -0.35804836937636797,
+        "residual": 2.616048369376368
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 1.6064280000000002,
+        "Fiscal Balance (% of GDP)": 1.428,
+        "Fiscal Balance (% of GDP) YoY": 2.372,
+        "predicted_FBLE": 0.045191914626177776,
+        "residual": 2.326808085373822
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 2.3155740000000002,
+        "Fiscal Balance (% of GDP)": -0.895,
+        "Fiscal Balance (% of GDP) YoY": -2.323,
+        "predicted_FBLE": 0.4673180056263849,
+        "residual": -2.7903180056263848
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 3.194381,
+        "Fiscal Balance (% of GDP)": 0.302,
+        "Fiscal Balance (% of GDP) YoY": 1.197,
+        "predicted_FBLE": 0.9904364659344437,
+        "residual": 0.2065635340655564
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 2.782665,
+        "Fiscal Balance (% of GDP)": 1.689,
+        "Fiscal Balance (% of GDP) YoY": 1.387,
+        "predicted_FBLE": 0.7453584909021639,
+        "residual": 0.6416415090978361
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 1.9700010000000001,
+        "Fiscal Balance (% of GDP)": 0.81,
+        "Fiscal Balance (% of GDP) YoY": -0.879,
+        "predicted_FBLE": 0.261612298134254,
+        "residual": -1.1406122981342541
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 1.4824420000000003,
+        "Fiscal Balance (% of GDP)": 4.283,
+        "Fiscal Balance (% of GDP) YoY": 3.4730000000000003,
+        "predicted_FBLE": -0.02861196429121249,
+        "residual": 3.5016119642912127
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -2.454384,
+        "Fiscal Balance (% of GDP)": 0.363,
+        "Fiscal Balance (% of GDP) YoY": -3.9200000000000004,
+        "predicted_FBLE": -2.3720461376884834,
+        "residual": -1.547953862311517
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 6.620452,
+        "Fiscal Balance (% of GDP)": 4.098,
+        "Fiscal Balance (% of GDP) YoY": 3.735,
+        "predicted_FBLE": 3.0298387310803663,
+        "residual": 0.7051612689196336
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 2.694544,
+        "Fiscal Balance (% of GDP)": 3.444,
+        "Fiscal Balance (% of GDP) YoY": -0.6539999999999999,
+        "predicted_FBLE": 0.6929036039465452,
+        "residual": -1.346903603946545
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": 0.4459329999999999,
+        "Fiscal Balance (% of GDP)": -1.095,
+        "Fiscal Balance (% of GDP) YoY": -1.161,
+        "predicted_FBLE": -0.6456040822140854,
+        "residual": -0.5153959177859146
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -2.041436,
+        "Fiscal Balance (% of GDP)": -5.448,
+        "Fiscal Balance (% of GDP) YoY": -4.353000000000001,
+        "predicted_FBLE": -2.1262348026088898,
+        "residual": -2.226765197391111
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 2.824039,
+        "Fiscal Balance (% of GDP)": -4.133,
+        "Fiscal Balance (% of GDP) YoY": 1.3150000000000004,
+        "predicted_FBLE": 0.7699867689845933,
+        "residual": 0.5450132310154071
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 1.680314,
+        "Fiscal Balance (% of GDP)": -4.442,
+        "Fiscal Balance (% of GDP) YoY": -0.30900000000000016,
+        "predicted_FBLE": 0.08917327863251956,
+        "residual": -0.3981732786325197
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": 0.7364970000000001,
+        "Fiscal Balance (% of GDP)": -4.349,
+        "Fiscal Balance (% of GDP) YoY": 0.09299999999999997,
+        "predicted_FBLE": -0.4726430198864629,
+        "residual": 0.5656430198864628
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 0.4581959999999999,
+        "Fiscal Balance (% of GDP)": -3.164,
+        "Fiscal Balance (% of GDP) YoY": 1.185,
+        "predicted_FBLE": -0.6383044115483332,
+        "residual": 1.8233044115483332
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 1.5661999999999998,
+        "Fiscal Balance (% of GDP)": -3.175,
+        "Fiscal Balance (% of GDP) YoY": -0.010999999999999677,
+        "predicted_FBLE": 0.02124580425009659,
+        "residual": -0.032245804250096266
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 2.020902,
+        "Fiscal Balance (% of GDP)": -2.475,
+        "Fiscal Balance (% of GDP) YoY": 0.6999999999999997,
+        "predicted_FBLE": 0.2919116161280121,
+        "residual": 0.40808838387198765
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 1.258728,
+        "Fiscal Balance (% of GDP)": -2.431,
+        "Fiscal Balance (% of GDP) YoY": 0.04400000000000004,
+        "predicted_FBLE": -0.1617799104151706,
+        "residual": 0.20577991041517063
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 1.606601,
+        "Fiscal Balance (% of GDP)": -0.763,
+        "Fiscal Balance (% of GDP) YoY": 1.6680000000000001,
+        "predicted_FBLE": 0.04529489456788649,
+        "residual": 1.6227051054321135
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 1.777069,
+        "Fiscal Balance (% of GDP)": -1.048,
+        "Fiscal Balance (% of GDP) YoY": -0.28500000000000003,
+        "predicted_FBLE": 0.14676763851712027,
+        "residual": -0.4317676385171203
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 2.216093,
+        "Fiscal Balance (% of GDP)": -2.048,
+        "Fiscal Balance (% of GDP) YoY": -1,
+        "predicted_FBLE": 0.4081009675851469,
+        "residual": -1.4081009675851468
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -5.450343,
+        "Fiscal Balance (% of GDP)": -9.035,
+        "Fiscal Balance (% of GDP) YoY": -6.987,
+        "predicted_FBLE": -4.155420028913829,
+        "residual": -2.831579971086171
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 6.698535,
+        "Fiscal Balance (% of GDP)": -5.402,
+        "Fiscal Balance (% of GDP) YoY": 3.633,
+        "predicted_FBLE": 3.076318400377759,
+        "residual": 0.556681599622241
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 2.970177,
+        "Fiscal Balance (% of GDP)": -3.62,
+        "Fiscal Balance (% of GDP) YoY": 1.782,
+        "predicted_FBLE": 0.8569768425189407,
+        "residual": 0.9250231574810593
+      },
+      {
+        "Country": "Canada",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": 0.990481,
+        "Fiscal Balance (% of GDP)": 0.184,
+        "Fiscal Balance (% of GDP) YoY": -1.6360000000000001,
+        "predicted_FBLE": -0.3214565602623566,
+        "residual": -1.3145434397376436
+      },
+      {
+        "Country": "Canada",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": -2.958415,
+        "Fiscal Balance (% of GDP)": -3.881,
+        "Fiscal Balance (% of GDP) YoY": -4.0649999999999995,
+        "predicted_FBLE": -2.6720755191880974,
+        "residual": -1.3929244808119021
+      },
+      {
+        "Country": "Canada",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 3.043996,
+        "Fiscal Balance (% of GDP)": -4.738,
+        "Fiscal Balance (% of GDP) YoY": -0.8570000000000007,
+        "predicted_FBLE": 0.9009183241201121,
+        "residual": -1.7579183241201126
+      },
+      {
+        "Country": "Canada",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 3.088995,
+        "Fiscal Balance (% of GDP)": -3.309,
+        "Fiscal Balance (% of GDP) YoY": 1.4290000000000003,
+        "predicted_FBLE": 0.9277044189001974,
+        "residual": 0.5012955810998029
+      },
+      {
+        "Country": "Canada",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": 1.740424,
+        "Fiscal Balance (% of GDP)": -2.525,
+        "Fiscal Balance (% of GDP) YoY": 0.7840000000000003,
+        "predicted_FBLE": 0.1249543439279911,
+        "residual": 0.6590456560720092
+      },
+      {
+        "Country": "Canada",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 2.299184,
+        "Fiscal Balance (% of GDP)": -1.495,
+        "Fiscal Balance (% of GDP) YoY": 1.0299999999999998,
+        "predicted_FBLE": 0.4575616978540876,
+        "residual": 0.5724383021459122
+      },
+      {
+        "Country": "Canada",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 2.832955,
+        "Fiscal Balance (% of GDP)": 0.175,
+        "Fiscal Balance (% of GDP) YoY": 1.6700000000000002,
+        "predicted_FBLE": 0.7752941051711585,
+        "residual": 0.8947058948288417
+      },
+      {
+        "Country": "Canada",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 0.647868,
+        "Fiscal Balance (% of GDP)": -0.062,
+        "Fiscal Balance (% of GDP) YoY": -0.237,
+        "predicted_FBLE": -0.5254002988096429,
+        "residual": 0.2884002988096429
+      },
+      {
+        "Country": "Canada",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 1.03319,
+        "Fiscal Balance (% of GDP)": -0.453,
+        "Fiscal Balance (% of GDP) YoY": -0.391,
+        "predicted_FBLE": -0.296033610375411,
+        "residual": -0.09496638962458903
+      },
+      {
+        "Country": "Canada",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 2.988731,
+        "Fiscal Balance (% of GDP)": -0.112,
+        "Fiscal Balance (% of GDP) YoY": 0.341,
+        "predicted_FBLE": 0.8680212924522658,
+        "residual": -0.5270212924522657
+      },
+      {
+        "Country": "Canada",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 2.7060130000000004,
+        "Fiscal Balance (% of GDP)": 0.351,
+        "Fiscal Balance (% of GDP) YoY": 0.46299999999999997,
+        "predicted_FBLE": 0.6997306383480385,
+        "residual": -0.23673063834803854
+      },
+      {
+        "Country": "Canada",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": 1.8904509999999999,
+        "Fiscal Balance (% of GDP)": -0.017,
+        "Fiscal Balance (% of GDP) YoY": -0.368,
+        "predicted_FBLE": 0.2142593827415612,
+        "residual": -0.5822593827415612
+      },
+      {
+        "Country": "Canada",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": -5.16958,
+        "Fiscal Balance (% of GDP)": -10.949,
+        "Fiscal Balance (% of GDP) YoY": -10.932,
+        "predicted_FBLE": -3.988293107676889,
+        "residual": -6.943706892323112
+      },
+      {
+        "Country": "Canada",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 5.151932,
+        "Fiscal Balance (% of GDP)": -3.057,
+        "Fiscal Balance (% of GDP) YoY": 7.8919999999999995,
+        "predicted_FBLE": 2.155687840917235,
+        "residual": 5.736312159082765
+      },
+      {
+        "Country": "Canada",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 3.7487150000000002,
+        "Fiscal Balance (% of GDP)": 0.556,
+        "Fiscal Balance (% of GDP) YoY": 3.613,
+        "predicted_FBLE": 1.3204092000801753,
+        "residual": 2.2925907999198247
+      },
+      {
+        "Country": "Australia",
+        "Year": 2008,
+        "GDP growth rate (sum of contributions)": 1.874887,
+        "Fiscal Balance (% of GDP)": -3.855,
+        "Fiscal Balance (% of GDP) YoY": -4.473,
+        "predicted_FBLE": 0.2049947595464402,
+        "residual": -4.67799475954644
+      },
+      {
+        "Country": "Australia",
+        "Year": 2009,
+        "GDP growth rate (sum of contributions)": 2.2021100000000002,
+        "Fiscal Balance (% of GDP)": -5.652,
+        "Fiscal Balance (% of GDP) YoY": -1.7970000000000002,
+        "predicted_FBLE": 0.39977745010009336,
+        "residual": -2.1967774501000936
+      },
+      {
+        "Country": "Australia",
+        "Year": 2010,
+        "GDP growth rate (sum of contributions)": 2.380413,
+        "Fiscal Balance (% of GDP)": -4.568,
+        "Fiscal Balance (% of GDP) YoY": 1.0840000000000005,
+        "predicted_FBLE": 0.5059140544151565,
+        "residual": 0.578085945584844
+      },
+      {
+        "Country": "Australia",
+        "Year": 2011,
+        "GDP growth rate (sum of contributions)": 3.84359,
+        "Fiscal Balance (% of GDP)": -4.62,
+        "Fiscal Balance (% of GDP) YoY": -0.05200000000000049,
+        "predicted_FBLE": 1.3768844715808881,
+        "residual": -1.4288844715808886
+      },
+      {
+        "Country": "Australia",
+        "Year": 2012,
+        "GDP growth rate (sum of contributions)": 2.572817,
+        "Fiscal Balance (% of GDP)": -2.832,
+        "Fiscal Balance (% of GDP) YoY": 1.7880000000000003,
+        "predicted_FBLE": 0.620444416869156,
+        "residual": 1.1675555831308442
+      },
+      {
+        "Country": "Australia",
+        "Year": 2013,
+        "GDP growth rate (sum of contributions)": 2.5739929999999998,
+        "Fiscal Balance (% of GDP)": -2.77,
+        "Fiscal Balance (% of GDP) YoY": 0.06199999999999983,
+        "predicted_FBLE": 0.6211444423688642,
+        "residual": -0.5591444423688644
+      },
+      {
+        "Country": "Australia",
+        "Year": 2014,
+        "GDP growth rate (sum of contributions)": 2.177915,
+        "Fiscal Balance (% of GDP)": -2.225,
+        "Fiscal Balance (% of GDP) YoY": 0.5449999999999999,
+        "predicted_FBLE": 0.38537513975532633,
+        "residual": 0.1596248602446736
+      },
+      {
+        "Country": "Australia",
+        "Year": 2015,
+        "GDP growth rate (sum of contributions)": 2.741224,
+        "Fiscal Balance (% of GDP)": -2.213,
+        "Fiscal Balance (% of GDP) YoY": 0.01200000000000001,
+        "predicted_FBLE": 0.7206903304145639,
+        "residual": -0.7086903304145639
+      },
+      {
+        "Country": "Australia",
+        "Year": 2016,
+        "GDP growth rate (sum of contributions)": 2.292237,
+        "Fiscal Balance (% of GDP)": -1.578,
+        "Fiscal Balance (% of GDP) YoY": 0.635,
+        "predicted_FBLE": 0.4534264281717114,
+        "residual": 0.1815735718282886
+      },
+      {
+        "Country": "Australia",
+        "Year": 2017,
+        "GDP growth rate (sum of contributions)": 2.864934,
+        "Fiscal Balance (% of GDP)": -1.197,
+        "Fiscal Balance (% of GDP) YoY": 0.381,
+        "predicted_FBLE": 0.7943299176330428,
+        "residual": -0.41332991763304283
+      },
+      {
+        "Country": "Australia",
+        "Year": 2018,
+        "GDP growth rate (sum of contributions)": 2.157656,
+        "Fiscal Balance (% of GDP)": -1.35,
+        "Fiscal Balance (% of GDP) YoY": -0.15300000000000002,
+        "predicted_FBLE": 0.3733157718993795,
+        "residual": -0.5263157718993795
+      },
+      {
+        "Country": "Australia",
+        "Year": 2019,
+        "GDP growth rate (sum of contributions)": -0.3352379999999999,
+        "Fiscal Balance (% of GDP)": -6.795,
+        "Fiscal Balance (% of GDP) YoY": -5.445,
+        "predicted_FBLE": -1.110603758772541,
+        "residual": -4.334396241227459
+      },
+      {
+        "Country": "Australia",
+        "Year": 2020,
+        "GDP growth rate (sum of contributions)": 2.0898360000000005,
+        "Fiscal Balance (% of GDP)": -8.166,
+        "Fiscal Balance (% of GDP) YoY": -1.3710000000000004,
+        "predicted_FBLE": 0.3329452537104117,
+        "residual": -1.7039452537104123
+      },
+      {
+        "Country": "Australia",
+        "Year": 2021,
+        "GDP growth rate (sum of contributions)": 4.180335,
+        "Fiscal Balance (% of GDP)": -4.369,
+        "Fiscal Balance (% of GDP) YoY": 3.7970000000000006,
+        "predicted_FBLE": 1.5773352257469764,
+        "residual": 2.219664774253024
+      },
+      {
+        "Country": "Australia",
+        "Year": 2022,
+        "GDP growth rate (sum of contributions)": 2.972379,
+        "Fiscal Balance (% of GDP)": -1.136,
+        "Fiscal Balance (% of GDP) YoY": 3.2329999999999997,
+        "predicted_FBLE": 0.8582876045515581,
+        "residual": 2.3747123954484417
+      }
+    ]
+  }
+}

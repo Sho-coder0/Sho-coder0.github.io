@@ -1,0 +1,60 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": {
+    "text": "GDP scale in OECD countries (US $)",
+    "subtitle": ["Source: OECD 2023"],
+    "anchor": "middle"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/map_world.geojson",
+    "format": {"property": "features"}
+  },
+  "projection": {
+    "type": "naturalEarth1",
+    "scale": 125,
+    "translate": [285, 180]
+  },
+  "width": 600,
+  "height": 330,
+  "layer": [
+    {
+      "mark": {
+        "type": "geoshape",
+        "fill": "white",
+        "stroke": "#cfcfcf",
+        "strokeWidth": 0.4
+      }
+    },
+    {
+      "transform": [
+        {
+          "lookup": "properties.ISO3",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/main/Project_OECD_GDP.csv",
+              "format": {"type": "csv"}
+            },
+            "key": "ISO3",
+            "fields": ["Country", "value"]
+          }
+        },
+        {"calculate": "toNumber(datum.value)", "as": "value_num"},
+        {"filter": "isValid(datum.value_num) && datum.value_num > 0"}
+      ],
+      "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.3},
+      "encoding": {
+        "color": {
+          "field": "value_num",
+          "type": "quantitative",
+          "scale": {"type": "log", "scheme": "viridis"},
+          "legend": {"title": "", "format": "$,d"}
+        },
+        "tooltip": [
+          {"field": "Country", "title": "Country"},
+          {"field": "value_num", "title": "GDP", "format": "$,d"}
+        ]
+      }
+    }
+  ],
+  "config": {}
+}
