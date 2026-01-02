@@ -5,24 +5,17 @@
     "subtitle": ["Source: OECD 2023"],
     "anchor": "middle"
   },
-
   "data": {
     "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/map_world.geojson",
     "format": {"property": "features"}
   },
-
-  "width": "container",
-  "height": 500,
-
-  "padding": {"left": 10, "right": 10, "top": 10, "bottom": 30},
-
-  "autosize": {"type": "fit"},
-
   "projection": {
     "type": "naturalEarth1",
-    "center": [0, 15]
+    "scale": 125,
+    "translate": [285, 180]
   },
-
+  "width": 600,
+  "height": 330,
   "layer": [
     {
       "mark": {
@@ -54,13 +47,7 @@
           "field": "value_num",
           "type": "quantitative",
           "scale": {"type": "log", "scheme": "viridis"},
-          "legend": {
-            "title": "",
-            "format": "$,d",
-            "orient": "bottom",
-            "direction": "horizontal",
-            "gradientLength": 260
-          }
+          "legend": {"title": "", "format": "$,d"}
         },
         "tooltip": [
           {"field": "Country", "title": "Country"},
@@ -68,5 +55,6 @@
         ]
       }
     }
-  ]
+  ],
+  "config": {}
 }
