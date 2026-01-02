@@ -1,4 +1,9 @@
 {
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
+  "width": 400,
+  "height": 300,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "data": {"name": "data-21f512172a5b3d6e071ce305a7441f02"},
   "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
   "layer": [
     {
@@ -83,8 +88,6 @@
       "encoding": {"x": {"value": 0}}
     }
   ],
-  "data": {"name": "data-21f512172a5b3d6e071ce305a7441f02"},
-  "height": 300,
   "params": [
     {
       "name": "Year",
@@ -102,8 +105,6 @@
     "text": "GDP growth decomposition (year ranking)",
     "subtitle": "Source: OECD"
   },
-  "width": 400,
-  "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
   "datasets": {
     "data-21f512172a5b3d6e071ce305a7441f02": [
       {
