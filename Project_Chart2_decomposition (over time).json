@@ -1,5 +1,5 @@
 {
-  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
   "layer": [
     {
       "mark": {"type": "bar"},
@@ -95,7 +95,7 @@
     "text": "GDP growth decomposition (by countries)",
     "subtitle": "Source: OECD"
   },
-  "width": 300,
+  "width": 400,
   "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
   "datasets": {
     "data-21f512172a5b3d6e071ce305a7441f02": [
