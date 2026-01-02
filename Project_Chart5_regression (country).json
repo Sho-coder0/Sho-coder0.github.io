@@ -98,6 +98,7 @@
       "views": ["view_2"]
     }
   ],
+  "width": "container",
   "title": "GDP Growth vs. Fiscal Balance YoY Regression Fit",
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
