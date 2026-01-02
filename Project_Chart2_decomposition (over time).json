@@ -95,7 +95,7 @@
     "text": "GDP growth decomposition (over time by countries)",
     "subtitle": "Source: OECD"
   },
-  "width": "container",
+  "width": "400",
   "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
   "datasets": {
     "data-21f512172a5b3d6e071ce305a7441f02": [
