@@ -18,7 +18,6 @@
         "field": "value",
         "format": ",.0f",
         "title": "Actual Population",
-        "subtitle": "Source: World Bank",
         "type": "quantitative"
       },
       {
@@ -100,7 +99,10 @@
       "value": "OECD members"
     }
   ],
-  "title": "Population Trend (Relative to 2015)",
+  "title": {
+    "text": "Population Trend (Relative to 2015)",
+    "subtitle": "Source: World Bank"
+    },
   "transform": [{"filter": {"param": "param_1"}}],
   "datasets": {
     "data-0035fe928b2020fdd2c153cb1490c656": [
