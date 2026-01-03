@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
   "data": {"name": "data-0035fe928b2020fdd2c153cb1490c656"},
   "width": 600,
-  "height": 400,
+  "height": 330,
   "mark": {"type": "line", "point": true},
   "encoding": {
     "tooltip": [
