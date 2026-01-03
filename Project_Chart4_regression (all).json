@@ -61,7 +61,7 @@
     "text": "GDP Growth vs. Fiscal Balance YoY",
     "subtitle": "FB=-0.91+0.60Growth, R-squared: 0.319"
   },
-  "width": 420,
+  "width": 400,
   "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
   "datasets": {
     "data-caa0eb1f5db35b8a3d2d7c5cd8759d8e": [
