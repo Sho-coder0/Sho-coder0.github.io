@@ -1,5 +1,4 @@
 {
-  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
   "layer": [
     {
       "mark": {"type": "point", "color": "#1f77b4", "opacity": 0.7, "size": 60},
@@ -98,8 +97,8 @@
       "views": ["view_2"]
     }
   ],
-  "height": 300,
-  "width": 300,
+  "height": 280,
+  "width": 420,
   "title": "GDP Growth vs. Fiscal Balance YoY",
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
