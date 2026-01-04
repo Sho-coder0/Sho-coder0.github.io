@@ -4,7 +4,7 @@
     "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/library/ukProdOutPerWork.csv"
   },
   "title": {"text": "UK Productivity 1960-2023"},
-  "width": 440,
+  "width": 400,
   "height": 400,
   "mark": {"type": "line", "color": "red"},
   "encoding": {
