@@ -1,5 +1,4 @@
 {
-  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
   "data": {"name": "data-7ec6de49c8d1fc727abdc3059fd4ca3b"},
   "mark": {"type": "line"},
   "encoding": {
@@ -7,7 +6,9 @@
     "x": {"field": "Year", "type": "quantitative"},
     "y": {"field": "Fertility rate", "type": "quantitative"}
   },
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
+  "width": 440,
+  "height": 400,
   "datasets": {
     "data-7ec6de49c8d1fc727abdc3059fd4ca3b": [
       {"Year": 2000, "country": "United Kingdom", "Fertility rate": "1.64"},
