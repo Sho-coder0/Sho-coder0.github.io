@@ -1,5 +1,4 @@
 {
-  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
   "data": {"name": "data-dd6bd200b8cb1e5dbe4aecbbc0cf3db3"},
   "mark": {"type": "line"},
   "encoding": {
@@ -15,7 +14,9 @@
     ],
     "fontSize": 16
   },
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.20.1.json",
+  "width": 440,
+  "height": 400,
   "datasets": {
     "data-dd6bd200b8cb1e5dbe4aecbbc0cf3db3": [
       {
