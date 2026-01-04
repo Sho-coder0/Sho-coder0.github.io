@@ -43,7 +43,7 @@
     "y": {
       "field": "relative_to_2015",
       "scale": {"zero": false},
-      "title": "Population (Relative to 2015, %)",
+      "title": "Population predictions (2015=100)",
       "type": "quantitative"
     }
   },
@@ -100,7 +100,7 @@
     }
   ],
   "title": {
-    "text": "Population Trend (2015=100)",
+    "text": "Population predictions (2015=100)",
     "subtitle": "Source: World Bank"
     },
   "transform": [{"filter": {"param": "param_1"}}],
