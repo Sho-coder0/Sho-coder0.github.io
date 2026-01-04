@@ -1,5 +1,4 @@
 {
-  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
   "layer": [
     {
       "mark": {"type": "bar"},
@@ -28,10 +27,10 @@
         },
         "y": {"field": "Country", "title": null, "type": "nominal"}
       },
-      "name": "view_10",
-      "title": "Fiscal Balance by Country (Year Slider)",
+      "name": "view_11",
+      "title": "Fiscal Balance by Country",
       "transform": [
-        {"filter": {"param": "param_7"}},
+        {"filter": {"param": "param_8"}},
         {
           "calculate": "datum['Fiscal Balance (% of GDP)'] >= 0 ? 'Surplus' : 'Deficit'",
           "as": "sign"
@@ -47,7 +46,7 @@
   "height": 400,
   "params": [
     {
-      "name": "param_7",
+      "name": "param_8",
       "select": {"type": "point", "fields": ["Year"]},
       "bind": {
         "input": "range",
@@ -56,12 +55,12 @@
         "name": "Year: ",
         "step": 1
       },
-      "value": 2007,
-      "views": ["view_10"]
+      "value": 2023,
+      "views": ["view_11"]
     }
   ],
   "width": 600,
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
   "datasets": {
     "data-a5c6bc0786acee096da263d93a673206": [
       {
