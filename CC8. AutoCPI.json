@@ -9,12 +9,12 @@
   "title": {
     "text": "Water Prices",
     "subtitle": [
-      "Mean and Median Prices for Mineral Water Still 1.5-2L",
+      "Mean and Median Prices for mineral water still 1.5-2L",
       "Source: ONS microdata via Davies (2021)"
     ],
     "fontSize": 16
   },
-  "$schema": "https://vega.github.io/schema/vega-lite/v6.20.1.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
   "width": 440,
   "height": 400,
   "datasets": {
