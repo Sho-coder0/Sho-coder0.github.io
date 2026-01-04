@@ -99,7 +99,10 @@
   ],
   "height": 280,
   "width": 400,
-  "title": "GDP Growth vs. Fiscal Balance YoY",
+  "title": {
+    "text": "GDP Growth vs. Fiscal Balance YoY",
+    "subtitle": "by country"
+  },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
     "data-caa0eb1f5db35b8a3d2d7c5cd8759d8e": [
