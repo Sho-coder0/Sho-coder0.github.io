@@ -1,5 +1,4 @@
 {
-  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
   "data": {"name": "data-595d9299fedb118dd30400aef768b37d"},
   "mark": {"type": "bar"},
   "encoding": {
@@ -22,8 +21,9 @@
     "text": "Prices of Large Loaf-White-Sliced by regions",
     "subtitle": ["Mean and median prices", ""]
   },
-  "width": 100,
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
+  "width": 440,
+  "height": 400,
   "datasets": {
     "data-595d9299fedb118dd30400aef768b37d": [
       {"region_s": "London", "price_type": "median_price", "price": 0.58999997},
