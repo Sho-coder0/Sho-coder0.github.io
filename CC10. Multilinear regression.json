@@ -1,0 +1,3612 @@
+{
+  "layer": [
+    {
+      "data": {"name": "data-5d4f74f7bfe4d195699613de22394941"},
+      "mark": {"type": "point"},
+      "encoding": {
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "Year", "type": "ordinal"},
+          {
+            "field": "Fiscal Balance (% of GDP) YoY",
+            "format": ".2f",
+            "title": "Actual Fiscal Balance YoY",
+            "type": "quantitative"
+          },
+          {
+            "field": "predicted_FBLE_mlr",
+            "format": ".2f",
+            "title": "Predicted Fiscal Balance YoY",
+            "type": "quantitative"
+          },
+          {"field": "Capital", "format": ".2f", "type": "quantitative"},
+          {"field": "Hours", "format": ".2f", "type": "quantitative"},
+          {"field": "MFP", "format": ".2f", "type": "quantitative"}
+        ],
+        "x": {
+          "field": "Fiscal Balance (% of GDP) YoY",
+          "title": "Actual Fiscal Balance YoY (percentage points)",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "predicted_FBLE_mlr",
+          "title": "Predicted Fiscal Balance YoY (percentage points)",
+          "type": "quantitative"
+        }
+      },
+      "name": "view_6",
+      "title": {
+        "text": "Multiple Linear Regression Fit: Actual vs. Predicted Fiscal Balance YoY",
+        "subtitle": "R-squared=0.423"
+      }
+    },
+    {
+      "data": {"name": "data-8f1e3f2a7b66d79f34d180094d2a7e8e"},
+      "mark": {"type": "line", "color": "red", "strokeDash": [5, 5]},
+      "encoding": {
+        "x": {"field": "value", "type": "quantitative"},
+        "y": {"field": "value", "type": "quantitative"}
+      }
+    }
+  ],
+  "height": 280,
+  "params": [
+    {
+      "name": "param_17",
+      "select": {"type": "interval", "encodings": ["x", "y"]},
+      "bind": "scales",
+      "views": ["view_6"]
+    }
+  ],
+  "width": 420,
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
+  "datasets": {
+    "data-5d4f74f7bfe4d195699613de22394941": [
+      {
+        "Country": "Australia",
+        "Year": 2008,
+        "Capital": 1.530006,
+        "Hours": -1.113453,
+        "MFP": 1.458334,
+        "Fiscal Balance (% of GDP)": -3.855,
+        "Fiscal Balance (% of GDP) YoY": -4.473,
+        "predicted_FBLE_mlr": -1.4457008853079505
+      },
+      {
+        "Country": "Australia",
+        "Year": 2009,
+        "Capital": 1.48972,
+        "Hours": 2.131708,
+        "MFP": -1.419318,
+        "Fiscal Balance (% of GDP)": -5.652,
+        "Fiscal Balance (% of GDP) YoY": -1.7970000000000002,
+        "predicted_FBLE_mlr": 0.7579710076120119
+      },
+      {
+        "Country": "Australia",
+        "Year": 2010,
+        "Capital": 1.49916,
+        "Hours": 0.555034,
+        "MFP": 0.326219,
+        "Fiscal Balance (% of GDP)": -4.568,
+        "Fiscal Balance (% of GDP) YoY": 1.0840000000000005,
+        "predicted_FBLE_mlr": -0.22273529872525677
+      },
+      {
+        "Country": "Australia",
+        "Year": 2011,
+        "Capital": 1.743762,
+        "Hours": 1.86089,
+        "MFP": 0.238938,
+        "Fiscal Balance (% of GDP)": -4.62,
+        "Fiscal Balance (% of GDP) YoY": -0.05200000000000049,
+        "predicted_FBLE_mlr": 0.8409645979910514
+      },
+      {
+        "Country": "Australia",
+        "Year": 2012,
+        "Capital": 1.617434,
+        "Hours": 0.129109,
+        "MFP": 0.826274,
+        "Fiscal Balance (% of GDP)": -2.832,
+        "Fiscal Balance (% of GDP) YoY": 1.7880000000000003,
+        "predicted_FBLE_mlr": -0.5203084053178909
+      },
+      {
+        "Country": "Australia",
+        "Year": 2013,
+        "Capital": 1.268159,
+        "Hours": 0.590695,
+        "MFP": 0.715139,
+        "Fiscal Balance (% of GDP)": -2.77,
+        "Fiscal Balance (% of GDP) YoY": 0.06199999999999983,
+        "predicted_FBLE_mlr": -0.014665130613837396
+      },
+      {
+        "Country": "Australia",
+        "Year": 2014,
+        "Capital": 1.00748,
+        "Hours": 1.203797,
+        "MFP": -0.033362,
+        "Fiscal Balance (% of GDP)": -2.225,
+        "Fiscal Balance (% of GDP) YoY": 0.5449999999999999,
+        "predicted_FBLE_mlr": 0.4375918632296209
+      },
+      {
+        "Country": "Australia",
+        "Year": 2015,
+        "Capital": 0.730719,
+        "Hours": 0.159731,
+        "MFP": 1.850774,
+        "Fiscal Balance (% of GDP)": -2.213,
+        "Fiscal Balance (% of GDP) YoY": 0.01200000000000001,
+        "predicted_FBLE_mlr": 0.06663190122453322
+      },
+      {
+        "Country": "Australia",
+        "Year": 2016,
+        "Capital": 0.651382,
+        "Hours": 1.798959,
+        "MFP": -0.158104,
+        "Fiscal Balance (% of GDP)": -1.578,
+        "Fiscal Balance (% of GDP) YoY": 0.635,
+        "predicted_FBLE_mlr": 1.0618116997601827
+      },
+      {
+        "Country": "Australia",
+        "Year": 2017,
+        "Capital": 0.710372,
+        "Hours": 1.218602,
+        "MFP": 0.93596,
+        "Fiscal Balance (% of GDP)": -1.197,
+        "Fiscal Balance (% of GDP) YoY": 0.381,
+        "predicted_FBLE_mlr": 0.7941554105297177
+      },
+      {
+        "Country": "Australia",
+        "Year": 2018,
+        "Capital": 0.632564,
+        "Hours": 1.573659,
+        "MFP": -0.048567,
+        "Fiscal Balance (% of GDP)": -1.35,
+        "Fiscal Balance (% of GDP) YoY": -0.15300000000000002,
+        "predicted_FBLE_mlr": 0.8937776316419104
+      },
+      {
+        "Country": "Australia",
+        "Year": 2019,
+        "Capital": 0.531189,
+        "Hours": 1.432825,
+        "MFP": -2.299252,
+        "Fiscal Balance (% of GDP)": -6.795,
+        "Fiscal Balance (% of GDP) YoY": -5.445,
+        "predicted_FBLE_mlr": 0.24225038470895527
+      },
+      {
+        "Country": "Australia",
+        "Year": 2020,
+        "Capital": 0.542717,
+        "Hours": -3.298444,
+        "MFP": 4.845563,
+        "Fiscal Balance (% of GDP)": -8.166,
+        "Fiscal Balance (% of GDP) YoY": -1.3710000000000004,
+        "predicted_FBLE_mlr": -2.2202455211071683
+      },
+      {
+        "Country": "Australia",
+        "Year": 2021,
+        "Capital": 0.626191,
+        "Hours": 2.700711,
+        "MFP": 0.853433,
+        "Fiscal Balance (% of GDP)": -4.369,
+        "Fiscal Balance (% of GDP) YoY": 3.7970000000000006,
+        "predicted_FBLE_mlr": 2.1297851488512807
+      },
+      {
+        "Country": "Australia",
+        "Year": 2022,
+        "Capital": 0.635867,
+        "Hours": 3.650338,
+        "MFP": -1.313826,
+        "Fiscal Balance (% of GDP)": -1.136,
+        "Fiscal Balance (% of GDP) YoY": 3.2329999999999997,
+        "predicted_FBLE_mlr": 2.4374204165868902
+      },
+      {
+        "Country": "Austria",
+        "Year": 2008,
+        "Capital": 0.823786,
+        "Hours": 1.07522,
+        "MFP": -0.449144,
+        "Fiscal Balance (% of GDP)": -1.572,
+        "Fiscal Balance (% of GDP) YoY": -0.20199999999999996,
+        "predicted_FBLE_mlr": 0.2820380696308625
+      },
+      {
+        "Country": "Austria",
+        "Year": 2009,
+        "Capital": 0.63902,
+        "Hours": -2.318148,
+        "MFP": -2.158141,
+        "Fiscal Balance (% of GDP)": -5.381,
+        "Fiscal Balance (% of GDP) YoY": -3.809,
+        "predicted_FBLE_mlr": -3.1187390297560293
+      },
+      {
+        "Country": "Austria",
+        "Year": 2010,
+        "Capital": 0.607138,
+        "Hours": 0.23388,
+        "MFP": 0.979407,
+        "Fiscal Balance (% of GDP)": -4.464,
+        "Fiscal Balance (% of GDP) YoY": 0.9169999999999998,
+        "predicted_FBLE_mlr": -0.04141973302530946
+      },
+      {
+        "Country": "Austria",
+        "Year": 2011,
+        "Capital": 0.824033,
+        "Hours": 1.384717,
+        "MFP": 0.67215,
+        "Fiscal Balance (% of GDP)": -2.482,
+        "Fiscal Balance (% of GDP) YoY": 1.9820000000000002,
+        "predicted_FBLE_mlr": 0.8382174977168091
+      },
+      {
+        "Country": "Austria",
+        "Year": 2012,
+        "Capital": 0.70504,
+        "Hours": -0.293341,
+        "MFP": 0.266435,
+        "Fiscal Balance (% of GDP)": -2.177,
+        "Fiscal Balance (% of GDP) YoY": 0.30500000000000016,
+        "predicted_FBLE_mlr": -0.7246456604344473
+      },
+      {
+        "Country": "Austria",
+        "Year": 2013,
+        "Capital": 0.772954,
+        "Hours": -0.44472,
+        "MFP": -0.302728,
+        "Fiscal Balance (% of GDP)": -1.993,
+        "Fiscal Balance (% of GDP) YoY": 0.18399999999999994,
+        "predicted_FBLE_mlr": -1.0252024994736042
+      },
+      {
+        "Country": "Austria",
+        "Year": 2014,
+        "Capital": 0.619921,
+        "Hours": 0.217268,
+        "MFP": -0.178097,
+        "Fiscal Balance (% of GDP)": -1.924,
+        "Fiscal Balance (% of GDP) YoY": 0.06900000000000017,
+        "predicted_FBLE_mlr": -0.3488015913971929
+      },
+      {
+        "Country": "Austria",
+        "Year": 2015,
+        "Capital": 0.684589,
+        "Hours": -0.295196,
+        "MFP": 0.620003,
+        "Fiscal Balance (% of GDP)": -0.477,
+        "Fiscal Balance (% of GDP) YoY": 1.447,
+        "predicted_FBLE_mlr": -0.6312767451377278
+      },
+      {
+        "Country": "Austria",
+        "Year": 2016,
+        "Capital": 0.782351,
+        "Hours": 1.508913,
+        "MFP": -0.321364,
+        "Fiscal Balance (% of GDP)": -1.451,
+        "Fiscal Balance (% of GDP) YoY": -0.9740000000000001,
+        "predicted_FBLE_mlr": 0.71645530277193
+      },
+      {
+        "Country": "Austria",
+        "Year": 2017,
+        "Capital": 0.768421,
+        "Hours": 0.729983,
+        "MFP": 0.735043,
+        "Fiscal Balance (% of GDP)": -0.776,
+        "Fiscal Balance (% of GDP) YoY": 0.675,
+        "predicted_FBLE_mlr": 0.286640622837451
+      },
+      {
+        "Country": "Austria",
+        "Year": 2018,
+        "Capital": 0.853044,
+        "Hours": 1.399408,
+        "MFP": 0.143987,
+        "Fiscal Balance (% of GDP)": 0.195,
+        "Fiscal Balance (% of GDP) YoY": 0.9710000000000001,
+        "predicted_FBLE_mlr": 0.7099452803596948
+      },
+      {
+        "Country": "Austria",
+        "Year": 2019,
+        "Capital": 1.002903,
+        "Hours": 1.151689,
+        "MFP": -0.714482,
+        "Fiscal Balance (% of GDP)": 0.536,
+        "Fiscal Balance (% of GDP) YoY": 0.341,
+        "predicted_FBLE_mlr": 0.22296140740687004
+      },
+      {
+        "Country": "Austria",
+        "Year": 2020,
+        "Capital": 0.687647,
+        "Hours": -6.587851,
+        "MFP": -0.963008,
+        "Fiscal Balance (% of GDP)": -8.204,
+        "Fiscal Balance (% of GDP) YoY": -8.74,
+        "predicted_FBLE_mlr": -6.6615740430793755
+      },
+      {
+        "Country": "Austria",
+        "Year": 2021,
+        "Capital": 0.841227,
+        "Hours": 3.372764,
+        "MFP": -0.063469,
+        "Fiscal Balance (% of GDP)": -5.693,
+        "Fiscal Balance (% of GDP) YoY": 2.511000000000001,
+        "predicted_FBLE_mlr": 2.429551223369835
+      },
+      {
+        "Country": "Austria",
+        "Year": 2022,
+        "Capital": 0.73602,
+        "Hours": 2.075023,
+        "MFP": 1.883453,
+        "Fiscal Balance (% of GDP)": -3.421,
+        "Fiscal Balance (% of GDP) YoY": 2.272,
+        "predicted_FBLE_mlr": 1.788133937960772
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2008,
+        "Capital": 1.110693,
+        "Hours": 0.797342,
+        "MFP": -1.462102,
+        "Fiscal Balance (% of GDP)": -1.095,
+        "Fiscal Balance (% of GDP) YoY": -1.161,
+        "predicted_FBLE_mlr": -0.31747177895748346
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2009,
+        "Capital": 0.875583,
+        "Hours": -1.037959,
+        "MFP": -1.87906,
+        "Fiscal Balance (% of GDP)": -5.448,
+        "Fiscal Balance (% of GDP) YoY": -4.353000000000001,
+        "predicted_FBLE_mlr": -1.9840722701025806
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2010,
+        "Capital": 0.82121,
+        "Hours": 0.970417,
+        "MFP": 1.032412,
+        "Fiscal Balance (% of GDP)": -4.133,
+        "Fiscal Balance (% of GDP) YoY": 1.3150000000000004,
+        "predicted_FBLE_mlr": 0.5578449259385405
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2011,
+        "Capital": 0.865194,
+        "Hours": 1.742166,
+        "MFP": -0.927046,
+        "Fiscal Balance (% of GDP)": -4.442,
+        "Fiscal Balance (% of GDP) YoY": -0.30900000000000016,
+        "predicted_FBLE_mlr": 0.7461285424094479
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2012,
+        "Capital": 0.721747,
+        "Hours": 0.177485,
+        "MFP": -0.162735,
+        "Fiscal Balance (% of GDP)": -4.349,
+        "Fiscal Balance (% of GDP) YoY": 0.09299999999999997,
+        "predicted_FBLE_mlr": -0.4155726402313635
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2013,
+        "Capital": 0.598092,
+        "Hours": -0.295731,
+        "MFP": 0.155835,
+        "Fiscal Balance (% of GDP)": -3.164,
+        "Fiscal Balance (% of GDP) YoY": 1.185,
+        "predicted_FBLE_mlr": -0.7175883505001273
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2014,
+        "Capital": 0.67682,
+        "Hours": 0.105474,
+        "MFP": 0.783906,
+        "Fiscal Balance (% of GDP)": -3.175,
+        "Fiscal Balance (% of GDP) YoY": -0.010999999999999677,
+        "predicted_FBLE_mlr": -0.2290022498632188
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2015,
+        "Capital": 0.75048,
+        "Hours": 0.356106,
+        "MFP": 0.914316,
+        "Fiscal Balance (% of GDP)": -2.475,
+        "Fiscal Balance (% of GDP) YoY": 0.6999999999999997,
+        "predicted_FBLE_mlr": 0.002609306761875929
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2016,
+        "Capital": 0.771259,
+        "Hours": 0.85463,
+        "MFP": -0.367161,
+        "Fiscal Balance (% of GDP)": -2.431,
+        "Fiscal Balance (% of GDP) YoY": 0.04400000000000004,
+        "predicted_FBLE_mlr": 0.12293947881559258
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2017,
+        "Capital": 0.764545,
+        "Hours": 1.330462,
+        "MFP": -0.488406,
+        "Fiscal Balance (% of GDP)": -0.763,
+        "Fiscal Balance (% of GDP) YoY": 1.6680000000000001,
+        "predicted_FBLE_mlr": 0.5211844813323689
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2018,
+        "Capital": 0.74478,
+        "Hours": 1.157285,
+        "MFP": -0.124996,
+        "Fiscal Balance (% of GDP)": -1.048,
+        "Fiscal Balance (% of GDP) YoY": -0.28500000000000003,
+        "predicted_FBLE_mlr": 0.4633447849344943
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2019,
+        "Capital": 0.810125,
+        "Hours": 1.044702,
+        "MFP": 0.361266,
+        "Fiscal Balance (% of GDP)": -2.048,
+        "Fiscal Balance (% of GDP) YoY": -1,
+        "predicted_FBLE_mlr": 0.4611198873666274
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2020,
+        "Capital": 0.647072,
+        "Hours": -6.361337,
+        "MFP": 0.263922,
+        "Fiscal Balance (% of GDP)": -9.035,
+        "Fiscal Balance (% of GDP) YoY": -6.987,
+        "predicted_FBLE_mlr": -6.139395091673766
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2021,
+        "Capital": 0.685043,
+        "Hours": 5.568427,
+        "MFP": 0.445065,
+        "Fiscal Balance (% of GDP)": -5.402,
+        "Fiscal Balance (% of GDP) YoY": 3.633,
+        "predicted_FBLE_mlr": 4.576033384061756
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2022,
+        "Capital": 0.592417,
+        "Hours": 3.207465,
+        "MFP": -0.829705,
+        "Fiscal Balance (% of GDP)": -3.62,
+        "Fiscal Balance (% of GDP) YoY": 1.782,
+        "predicted_FBLE_mlr": 2.176241723670167
+      },
+      {
+        "Country": "Canada",
+        "Year": 2008,
+        "Capital": 1.046692,
+        "Hours": 0.943367,
+        "MFP": -0.999578,
+        "Fiscal Balance (% of GDP)": 0.184,
+        "Fiscal Balance (% of GDP) YoY": -1.6360000000000001,
+        "predicted_FBLE_mlr": -0.04959697136314972
+      },
+      {
+        "Country": "Canada",
+        "Year": 2009,
+        "Capital": 0.595133,
+        "Hours": -2.490451,
+        "MFP": -1.063097,
+        "Fiscal Balance (% of GDP)": -3.881,
+        "Fiscal Balance (% of GDP) YoY": -4.0649999999999995,
+        "predicted_FBLE_mlr": -2.98540043907773
+      },
+      {
+        "Country": "Canada",
+        "Year": 2010,
+        "Capital": 0.754179,
+        "Hours": 1.452913,
+        "MFP": 0.836904,
+        "Fiscal Balance (% of GDP)": -4.738,
+        "Fiscal Balance (% of GDP) YoY": -0.8570000000000007,
+        "predicted_FBLE_mlr": 0.964286363703531
+      },
+      {
+        "Country": "Canada",
+        "Year": 2011,
+        "Capital": 0.792479,
+        "Hours": 1.007049,
+        "MFP": 1.289467,
+        "Fiscal Balance (% of GDP)": -3.309,
+        "Fiscal Balance (% of GDP) YoY": 1.4290000000000003,
+        "predicted_FBLE_mlr": 0.6645001303804876
+      },
+      {
+        "Country": "Canada",
+        "Year": 2012,
+        "Capital": 0.823745,
+        "Hours": 1.294887,
+        "MFP": -0.378208,
+        "Fiscal Balance (% of GDP)": -2.525,
+        "Fiscal Balance (% of GDP) YoY": 0.7840000000000003,
+        "predicted_FBLE_mlr": 0.496425787954573
+      },
+      {
+        "Country": "Canada",
+        "Year": 2013,
+        "Capital": 0.734971,
+        "Hours": 0.63954,
+        "MFP": 0.924673,
+        "Fiscal Balance (% of GDP)": -1.495,
+        "Fiscal Balance (% of GDP) YoY": 1.0299999999999998,
+        "predicted_FBLE_mlr": 0.2643349528854942
+      },
+      {
+        "Country": "Canada",
+        "Year": 2014,
+        "Capital": 0.73101,
+        "Hours": 0.010542,
+        "MFP": 2.091403,
+        "Fiscal Balance (% of GDP)": 0.175,
+        "Fiscal Balance (% of GDP) YoY": 1.6700000000000002,
+        "predicted_FBLE_mlr": -0.007175002470469205
+      },
+      {
+        "Country": "Canada",
+        "Year": 2015,
+        "Capital": 0.521708,
+        "Hours": 0.628846,
+        "MFP": -0.502686,
+        "Fiscal Balance (% of GDP)": -0.062,
+        "Fiscal Balance (% of GDP) YoY": -0.237,
+        "predicted_FBLE_mlr": -0.027290298561818804
+      },
+      {
+        "Country": "Canada",
+        "Year": 2016,
+        "Capital": 0.363035,
+        "Hours": 0.235275,
+        "MFP": 0.43488,
+        "Fiscal Balance (% of GDP)": -0.453,
+        "Fiscal Balance (% of GDP) YoY": -0.391,
+        "predicted_FBLE_mlr": -0.09188150559425204
+      },
+      {
+        "Country": "Canada",
+        "Year": 2017,
+        "Capital": 0.44535,
+        "Hours": 1.034469,
+        "MFP": 1.508912,
+        "Fiscal Balance (% of GDP)": -0.112,
+        "Fiscal Balance (% of GDP) YoY": 0.341,
+        "predicted_FBLE_mlr": 0.8628857793489906
+      },
+      {
+        "Country": "Canada",
+        "Year": 2018,
+        "Capital": 0.575976,
+        "Hours": 1.870888,
+        "MFP": 0.259149,
+        "Fiscal Balance (% of GDP)": 0.351,
+        "Fiscal Balance (% of GDP) YoY": 0.46299999999999997,
+        "predicted_FBLE_mlr": 1.2559799793117896
+      },
+      {
+        "Country": "Canada",
+        "Year": 2019,
+        "Capital": 0.571718,
+        "Hours": 1.042247,
+        "MFP": 0.276486,
+        "Fiscal Balance (% of GDP)": -0.017,
+        "Fiscal Balance (% of GDP) YoY": -0.368,
+        "predicted_FBLE_mlr": 0.5196904117645988
+      },
+      {
+        "Country": "Canada",
+        "Year": 2020,
+        "Capital": 0.390745,
+        "Hours": -9.160051,
+        "MFP": 3.599726,
+        "Fiscal Balance (% of GDP)": -10.949,
+        "Fiscal Balance (% of GDP) YoY": -10.932,
+        "predicted_FBLE_mlr": -7.7273639180757465
+      },
+      {
+        "Country": "Canada",
+        "Year": 2021,
+        "Capital": 0.390484,
+        "Hours": 7.161323,
+        "MFP": -2.399875,
+        "Fiscal Balance (% of GDP)": -3.057,
+        "Fiscal Balance (% of GDP) YoY": 7.8919999999999995,
+        "predicted_FBLE_mlr": 5.395526409819223
+      },
+      {
+        "Country": "Canada",
+        "Year": 2022,
+        "Capital": 0.590443,
+        "Hours": 3.179568,
+        "MFP": -0.021296,
+        "Fiscal Balance (% of GDP)": 0.556,
+        "Fiscal Balance (% of GDP) YoY": 3.613,
+        "predicted_FBLE_mlr": 2.3531591856543614
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2008,
+        "Capital": 1.02077,
+        "Hours": 0.704878,
+        "MFP": -2.238974,
+        "Fiscal Balance (% of GDP)": 3.462,
+        "Fiscal Balance (% of GDP) YoY": -1.8459999999999996,
+        "predicted_FBLE_mlr": -0.56276690037636
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2009,
+        "Capital": 0.705721,
+        "Hours": -2.870386,
+        "MFP": -2.866343,
+        "Fiscal Balance (% of GDP)": -2.746,
+        "Fiscal Balance (% of GDP) YoY": -6.208,
+        "predicted_FBLE_mlr": -3.8124661697288773
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2010,
+        "Capital": 0.604088,
+        "Hours": -1.368904,
+        "MFP": 2.618514,
+        "Fiscal Balance (% of GDP)": -2.521,
+        "Fiscal Balance (% of GDP) YoY": 0.2250000000000001,
+        "predicted_FBLE_mlr": -1.067710546935361
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2011,
+        "Capital": 0.393828,
+        "Hours": 0.672642,
+        "MFP": 0.26146,
+        "Fiscal Balance (% of GDP)": -1.766,
+        "Fiscal Balance (% of GDP) YoY": 0.7549999999999999,
+        "predicted_FBLE_mlr": 0.24604992576068213
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2012,
+        "Capital": 0.405853,
+        "Hours": -1.149749,
+        "MFP": 0.970134,
+        "Fiscal Balance (% of GDP)": -3.202,
+        "Fiscal Balance (% of GDP) YoY": -1.436,
+        "predicted_FBLE_mlr": -1.2136760712466275
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2013,
+        "Capital": 0.439526,
+        "Hours": 0.102759,
+        "MFP": 0.386724,
+        "Fiscal Balance (% of GDP)": -0.944,
+        "Fiscal Balance (% of GDP) YoY": 2.258,
+        "predicted_FBLE_mlr": -0.24880710516754379
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2014,
+        "Capital": 0.470288,
+        "Hours": 0.02319,
+        "MFP": 1.11295,
+        "Fiscal Balance (% of GDP)": 1.428,
+        "Fiscal Balance (% of GDP) YoY": 2.372,
+        "predicted_FBLE_mlr": -0.1498612962859556
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2015,
+        "Capital": 0.510862,
+        "Hours": 0.638889,
+        "MFP": 1.165823,
+        "Fiscal Balance (% of GDP)": -0.895,
+        "Fiscal Balance (% of GDP) YoY": -2.323,
+        "predicted_FBLE_mlr": 0.4007384987414085
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2016,
+        "Capital": 0.668896,
+        "Hours": 1.443017,
+        "MFP": 1.082468,
+        "Fiscal Balance (% of GDP)": 0.302,
+        "Fiscal Balance (% of GDP) YoY": 1.197,
+        "predicted_FBLE_mlr": 1.0458350401454206
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2017,
+        "Capital": 0.648248,
+        "Hours": 0.672016,
+        "MFP": 1.462401,
+        "Fiscal Balance (% of GDP)": 1.689,
+        "Fiscal Balance (% of GDP) YoY": 1.387,
+        "predicted_FBLE_mlr": 0.4570461119300551
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2018,
+        "Capital": 0.705114,
+        "Hours": -0.15014,
+        "MFP": 1.415027,
+        "Fiscal Balance (% of GDP)": 0.81,
+        "Fiscal Balance (% of GDP) YoY": -0.879,
+        "predicted_FBLE_mlr": -0.3105339620215901
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2019,
+        "Capital": 0.525873,
+        "Hours": 0.536514,
+        "MFP": 0.420055,
+        "Fiscal Balance (% of GDP)": 4.283,
+        "Fiscal Balance (% of GDP) YoY": 3.4730000000000003,
+        "predicted_FBLE_mlr": 0.11827443106544355
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2020,
+        "Capital": 0.542438,
+        "Hours": -2.152759,
+        "MFP": -0.844063,
+        "Fiscal Balance (% of GDP)": 0.363,
+        "Fiscal Balance (% of GDP) YoY": -3.9200000000000004,
+        "predicted_FBLE_mlr": -2.6103733744765245
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2021,
+        "Capital": 0.500334,
+        "Hours": 4.169963,
+        "MFP": 1.950155,
+        "Fiscal Balance (% of GDP)": 4.098,
+        "Fiscal Balance (% of GDP) YoY": 3.735,
+        "predicted_FBLE_mlr": 3.7617413361180208
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2022,
+        "Capital": 0.830469,
+        "Hours": 2.860734,
+        "MFP": -0.996659,
+        "Fiscal Balance (% of GDP)": 3.444,
+        "Fiscal Balance (% of GDP) YoY": -0.6539999999999999,
+        "predicted_FBLE_mlr": 1.742429581323682
+      },
+      {
+        "Country": "Finland",
+        "Year": 2008,
+        "Capital": 0.81338,
+        "Hours": 1.45772,
+        "MFP": -1.490161,
+        "Fiscal Balance (% of GDP)": 4.18,
+        "Fiscal Balance (% of GDP) YoY": -0.9320000000000004,
+        "predicted_FBLE_mlr": 0.3690285186740148
+      },
+      {
+        "Country": "Finland",
+        "Year": 2009,
+        "Capital": 0.513267,
+        "Hours": -2.802478,
+        "MFP": -6.129904,
+        "Fiscal Balance (% of GDP)": -2.482,
+        "Fiscal Balance (% of GDP) YoY": -6.662,
+        "predicted_FBLE_mlr": -4.497898629198219
+      },
+      {
+        "Country": "Finland",
+        "Year": 2010,
+        "Capital": 0.398539,
+        "Hours": -0.195035,
+        "MFP": 2.932754,
+        "Fiscal Balance (% of GDP)": -2.575,
+        "Fiscal Balance (% of GDP) YoY": -0.09299999999999997,
+        "predicted_FBLE_mlr": 0.1323220251292871
+      },
+      {
+        "Country": "Finland",
+        "Year": 2011,
+        "Capital": 0.385462,
+        "Hours": 0.798488,
+        "MFP": 1.331803,
+        "Fiscal Balance (% of GDP)": -1.013,
+        "Fiscal Balance (% of GDP) YoY": 1.5620000000000003,
+        "predicted_FBLE_mlr": 0.6280411686865517
+      },
+      {
+        "Country": "Finland",
+        "Year": 2012,
+        "Capital": 0.312893,
+        "Hours": 0.142456,
+        "MFP": -1.862754,
+        "Fiscal Balance (% of GDP)": -2.151,
+        "Fiscal Balance (% of GDP) YoY": -1.138,
+        "predicted_FBLE_mlr": -0.729690340502192
+      },
+      {
+        "Country": "Finland",
+        "Year": 2013,
+        "Capital": 0.166429,
+        "Hours": -0.887055,
+        "MFP": -0.18516,
+        "Fiscal Balance (% of GDP)": -2.522,
+        "Fiscal Balance (% of GDP) YoY": -0.371,
+        "predicted_FBLE_mlr": -1.1837720550239006
+      },
+      {
+        "Country": "Finland",
+        "Year": 2014,
+        "Capital": 0.178686,
+        "Hours": -0.434243,
+        "MFP": -0.110017,
+        "Fiscal Balance (% of GDP)": -2.995,
+        "Fiscal Balance (% of GDP) YoY": -0.4730000000000003,
+        "predicted_FBLE_mlr": -0.7637737017095929
+      },
+      {
+        "Country": "Finland",
+        "Year": 2015,
+        "Capital": 0.131977,
+        "Hours": -0.162926,
+        "MFP": 0.573141,
+        "Fiscal Balance (% of GDP)": -2.427,
+        "Fiscal Balance (% of GDP) YoY": 0.5680000000000001,
+        "predicted_FBLE_mlr": -0.33471702957645844
+      },
+      {
+        "Country": "Finland",
+        "Year": 2016,
+        "Capital": 0.234567,
+        "Hours": 0.291298,
+        "MFP": 2.246794,
+        "Fiscal Balance (% of GDP)": -1.701,
+        "Fiscal Balance (% of GDP) YoY": 0.726,
+        "predicted_FBLE_mlr": 0.4534112954387847
+      },
+      {
+        "Country": "Finland",
+        "Year": 2017,
+        "Capital": 0.30319,
+        "Hours": 0.494684,
+        "MFP": 2.344638,
+        "Fiscal Balance (% of GDP)": -0.629,
+        "Fiscal Balance (% of GDP) YoY": 1.072,
+        "predicted_FBLE_mlr": 0.6363366910151065
+      },
+      {
+        "Country": "Finland",
+        "Year": 2018,
+        "Capital": 0.380873,
+        "Hours": 1.721053,
+        "MFP": -0.968651,
+        "Fiscal Balance (% of GDP)": -0.872,
+        "Fiscal Balance (% of GDP) YoY": -0.243,
+        "predicted_FBLE_mlr": 0.883186840632209
+      },
+      {
+        "Country": "Finland",
+        "Year": 2019,
+        "Capital": 0.335925,
+        "Hours": 0.697376,
+        "MFP": 0.184005,
+        "Fiscal Balance (% of GDP)": -0.934,
+        "Fiscal Balance (% of GDP) YoY": -0.062000000000000055,
+        "predicted_FBLE_mlr": 0.2688049443284904
+      },
+      {
+        "Country": "Finland",
+        "Year": 2020,
+        "Capital": 0.269722,
+        "Hours": -1.87947,
+        "MFP": -0.773388,
+        "Fiscal Balance (% of GDP)": -5.534,
+        "Fiscal Balance (% of GDP) YoY": -4.6,
+        "predicted_FBLE_mlr": -2.2543911364137665
+      },
+      {
+        "Country": "Finland",
+        "Year": 2021,
+        "Capital": 0.330693,
+        "Hours": 1.321938,
+        "MFP": 1.146017,
+        "Fiscal Balance (% of GDP)": -2.652,
+        "Fiscal Balance (% of GDP) YoY": 2.8819999999999997,
+        "predicted_FBLE_mlr": 1.0693668622450365
+      },
+      {
+        "Country": "Finland",
+        "Year": 2022,
+        "Capital": 0.292976,
+        "Hours": 1.162661,
+        "MFP": -0.129004,
+        "Fiscal Balance (% of GDP)": -0.179,
+        "Fiscal Balance (% of GDP) YoY": 2.4730000000000003,
+        "predicted_FBLE_mlr": 0.6223161929096142
+      },
+      {
+        "Country": "France",
+        "Year": 2008,
+        "Capital": 0.873815,
+        "Hours": 0.682626,
+        "MFP": -1.301815,
+        "Fiscal Balance (% of GDP)": -3.502,
+        "Fiscal Balance (% of GDP) YoY": -0.5119999999999996,
+        "predicted_FBLE_mlr": -0.29895875596102245
+      },
+      {
+        "Country": "France",
+        "Year": 2009,
+        "Capital": 0.509558,
+        "Hours": -1.422047,
+        "MFP": -2.002918,
+        "Fiscal Balance (% of GDP)": -7.378,
+        "Fiscal Balance (% of GDP) YoY": -3.8760000000000003,
+        "predicted_FBLE_mlr": -2.233164379209811
+      },
+      {
+        "Country": "France",
+        "Year": 2010,
+        "Capital": 0.549965,
+        "Hours": 0.480468,
+        "MFP": 0.900252,
+        "Fiscal Balance (% of GDP)": -7.152,
+        "Fiscal Balance (% of GDP) YoY": 0.22599999999999998,
+        "predicted_FBLE_mlr": 0.1793368357254806
+      },
+      {
+        "Country": "France",
+        "Year": 2011,
+        "Capital": 0.550918,
+        "Hours": 0.869009,
+        "MFP": 0.749078,
+        "Fiscal Balance (% of GDP)": -5.304,
+        "Fiscal Balance (% of GDP) YoY": 1.8479999999999999,
+        "predicted_FBLE_mlr": 0.489328131537963
+      },
+      {
+        "Country": "France",
+        "Year": 2012,
+        "Capital": 0.590419,
+        "Hours": -0.010193,
+        "MFP": -0.267578,
+        "Fiscal Balance (% of GDP)": -5.171,
+        "Fiscal Balance (% of GDP) YoY": 0.133,
+        "predicted_FBLE_mlr": -0.5646396660699875
+      },
+      {
+        "Country": "France",
+        "Year": 2013,
+        "Capital": 0.541384,
+        "Hours": -0.561472,
+        "MFP": 0.59476,
+        "Fiscal Balance (% of GDP)": -4.938,
+        "Fiscal Balance (% of GDP) YoY": 0.23300000000000054,
+        "predicted_FBLE_mlr": -0.8268380754834572
+      },
+      {
+        "Country": "France",
+        "Year": 2014,
+        "Capital": 0.533275,
+        "Hours": -0.00419,
+        "MFP": 0.422558,
+        "Fiscal Balance (% of GDP)": -4.574,
+        "Fiscal Balance (% of GDP) YoY": 0.3639999999999999,
+        "predicted_FBLE_mlr": -0.367857417662024
+      },
+      {
+        "Country": "France",
+        "Year": 2015,
+        "Capital": 0.571675,
+        "Hours": 0.21647,
+        "MFP": 0.318621,
+        "Fiscal Balance (% of GDP)": -3.892,
+        "Fiscal Balance (% of GDP) YoY": 0.6819999999999999,
+        "predicted_FBLE_mlr": -0.20930935965186748
+      },
+      {
+        "Country": "France",
+        "Year": 2016,
+        "Capital": 0.610785,
+        "Hours": 0.590372,
+        "MFP": -0.111655,
+        "Fiscal Balance (% of GDP)": -3.765,
+        "Fiscal Balance (% of GDP) YoY": 0.12699999999999978,
+        "predicted_FBLE_mlr": 0.004997231655003043
+      },
+      {
+        "Country": "France",
+        "Year": 2017,
+        "Capital": 0.668386,
+        "Hours": 0.130209,
+        "MFP": 1.466965,
+        "Fiscal Balance (% of GDP)": -3.362,
+        "Fiscal Balance (% of GDP) YoY": 0.403,
+        "predicted_FBLE_mlr": -0.03393418251306146
+      },
+      {
+        "Country": "France",
+        "Year": 2018,
+        "Capital": 0.71419,
+        "Hours": 1.058924,
+        "MFP": 0.074776,
+        "Fiscal Balance (% of GDP)": -2.319,
+        "Fiscal Balance (% of GDP) YoY": 1.0430000000000001,
+        "predicted_FBLE_mlr": 0.4354906621884754
+      },
+      {
+        "Country": "France",
+        "Year": 2019,
+        "Capital": 0.733566,
+        "Hours": 1.058702,
+        "MFP": 0.033924,
+        "Fiscal Balance (% of GDP)": -2.394,
+        "Fiscal Balance (% of GDP) YoY": -0.07500000000000018,
+        "predicted_FBLE_mlr": 0.41846939747636697
+      },
+      {
+        "Country": "France",
+        "Year": 2020,
+        "Capital": 0.563992,
+        "Hours": -5.953438,
+        "MFP": -2.450454,
+        "Fiscal Balance (% of GDP)": -8.933,
+        "Fiscal Balance (% of GDP) YoY": -6.539,
+        "predicted_FBLE_mlr": -6.421219795312914
+      },
+      {
+        "Country": "France",
+        "Year": 2021,
+        "Capital": 0.738052,
+        "Hours": 5.830951,
+        "MFP": -0.332377,
+        "Fiscal Balance (% of GDP)": -6.585,
+        "Fiscal Balance (% of GDP) YoY": 2.348,
+        "predicted_FBLE_mlr": 4.5994118503314345
+      },
+      {
+        "Country": "France",
+        "Year": 2022,
+        "Capital": 0.794446,
+        "Hours": 3.199599,
+        "MFP": -1.568934,
+        "Fiscal Balance (% of GDP)": -4.741,
+        "Fiscal Balance (% of GDP) YoY": 1.8440000000000003,
+        "predicted_FBLE_mlr": 1.915816140625966
+      },
+      {
+        "Country": "Germany",
+        "Year": 2008,
+        "Capital": 0.61668,
+        "Hours": 0.680947,
+        "MFP": -0.342327,
+        "Fiscal Balance (% of GDP)": -0.263,
+        "Fiscal Balance (% of GDP) YoY": -0.41800000000000004,
+        "predicted_FBLE_mlr": 0.02666800636252714
+      },
+      {
+        "Country": "Germany",
+        "Year": 2009,
+        "Capital": 0.26089,
+        "Hours": -2.05661,
+        "MFP": -4.066642,
+        "Fiscal Balance (% of GDP)": -3.175,
+        "Fiscal Balance (% of GDP) YoY": -2.912,
+        "predicted_FBLE_mlr": -3.2297185817377336
+      },
+      {
+        "Country": "Germany",
+        "Year": 2010,
+        "Capital": 0.351797,
+        "Hours": 1.327038,
+        "MFP": 2.416047,
+        "Fiscal Balance (% of GDP)": -4.42,
+        "Fiscal Balance (% of GDP) YoY": -1.245,
+        "predicted_FBLE_mlr": 1.3828112420049832
+      },
+      {
+        "Country": "Germany",
+        "Year": 2011,
+        "Capital": 0.456741,
+        "Hours": 0.938833,
+        "MFP": 2.454545,
+        "Fiscal Balance (% of GDP)": -0.84,
+        "Fiscal Balance (% of GDP) YoY": 3.58,
+        "predicted_FBLE_mlr": 1.0087082816765367
+      },
+      {
+        "Country": "Germany",
+        "Year": 2012,
+        "Capital": 0.340563,
+        "Hours": -0.14527,
+        "MFP": 0.222329,
+        "Fiscal Balance (% of GDP)": -0.054,
+        "Fiscal Balance (% of GDP) YoY": 0.7859999999999999,
+        "predicted_FBLE_mlr": -0.47785751651993047
+      },
+      {
+        "Country": "Germany",
+        "Year": 2013,
+        "Capital": 0.27809,
+        "Hours": -0.027209,
+        "MFP": 0.185758,
+        "Fiscal Balance (% of GDP)": 0.122,
+        "Fiscal Balance (% of GDP) YoY": 0.176,
+        "predicted_FBLE_mlr": -0.3597801380322157
+      },
+      {
+        "Country": "Germany",
+        "Year": 2014,
+        "Capital": 0.312089,
+        "Hours": 0.85665,
+        "MFP": 1.01675,
+        "Fiscal Balance (% of GDP)": 0.731,
+        "Fiscal Balance (% of GDP) YoY": 0.609,
+        "predicted_FBLE_mlr": 0.6269035308238844
+      },
+      {
+        "Country": "Germany",
+        "Year": 2015,
+        "Capital": 0.380032,
+        "Hours": 0.726855,
+        "MFP": 0.374024,
+        "Fiscal Balance (% of GDP)": 0.915,
+        "Fiscal Balance (% of GDP) YoY": 0.18400000000000005,
+        "predicted_FBLE_mlr": 0.3273550566605277
+      },
+      {
+        "Country": "Germany",
+        "Year": 2016,
+        "Capital": 0.407281,
+        "Hours": 0.647783,
+        "MFP": 1.150434,
+        "Fiscal Balance (% of GDP)": 1.134,
+        "Fiscal Balance (% of GDP) YoY": 0.21899999999999986,
+        "predicted_FBLE_mlr": 0.4404437001408355
+      },
+      {
+        "Country": "Germany",
+        "Year": 2017,
+        "Capital": 0.425829,
+        "Hours": 0.667097,
+        "MFP": 1.552013,
+        "Fiscal Balance (% of GDP)": 1.338,
+        "Fiscal Balance (% of GDP) YoY": 0.20400000000000018,
+        "predicted_FBLE_mlr": 0.5513277086905406
+      },
+      {
+        "Country": "Germany",
+        "Year": 2018,
+        "Capital": 0.448805,
+        "Hours": 0.587852,
+        "MFP": -0.060208,
+        "Fiscal Balance (% of GDP)": 1.885,
+        "Fiscal Balance (% of GDP) YoY": 0.5469999999999999,
+        "predicted_FBLE_mlr": 0.0711720455542556
+      },
+      {
+        "Country": "Germany",
+        "Year": 2019,
+        "Capital": 0.480507,
+        "Hours": 0.275303,
+        "MFP": 0.313919,
+        "Fiscal Balance (% of GDP)": 1.328,
+        "Fiscal Balance (% of GDP) YoY": -0.5569999999999999,
+        "predicted_FBLE_mlr": -0.1264852830238417
+      },
+      {
+        "Country": "Germany",
+        "Year": 2020,
+        "Capital": 0.300173,
+        "Hours": -3.900425,
+        "MFP": -0.301658,
+        "Fiscal Balance (% of GDP)": -4.381,
+        "Fiscal Balance (% of GDP) YoY": -5.7090000000000005,
+        "predicted_FBLE_mlr": -3.9572414828691347
+      },
+      {
+        "Country": "Germany",
+        "Year": 2021,
+        "Capital": 0.30152,
+        "Hours": 1.953819,
+        "MFP": 0.859462,
+        "Fiscal Balance (% of GDP)": -3.167,
+        "Fiscal Balance (% of GDP) YoY": 1.2140000000000004,
+        "predicted_FBLE_mlr": 1.5739225397926564
+      },
+      {
+        "Country": "Germany",
+        "Year": 2022,
+        "Capital": 0.320077,
+        "Hours": 0.993032,
+        "MFP": 0.476985,
+        "Fiscal Balance (% of GDP)": -2.147,
+        "Fiscal Balance (% of GDP) YoY": 1.02,
+        "predicted_FBLE_mlr": 0.6119400935925561
+      },
+      {
+        "Country": "Greece",
+        "Year": 2008,
+        "Capital": 1.564559,
+        "Hours": 0.775143,
+        "MFP": -2.675433,
+        "Fiscal Balance (% of GDP)": -10.315,
+        "Fiscal Balance (% of GDP) YoY": -3.507999999999999,
+        "predicted_FBLE_mlr": -0.7952258813661213
+      },
+      {
+        "Country": "Greece",
+        "Year": 2009,
+        "Capital": 1.10352,
+        "Hours": -1.279881,
+        "MFP": -4.219596,
+        "Fiscal Balance (% of GDP)": -15.424,
+        "Fiscal Balance (% of GDP) YoY": -5.109,
+        "predicted_FBLE_mlr": -2.8615806151382555
+      },
+      {
+        "Country": "Greece",
+        "Year": 2010,
+        "Capital": 0.683626,
+        "Hours": -3.323089,
+        "MFP": -2.994967,
+        "Fiscal Balance (% of GDP)": -11.424,
+        "Fiscal Balance (% of GDP) YoY": 4,
+        "predicted_FBLE_mlr": -4.242300442945961
+      },
+      {
+        "Country": "Greece",
+        "Year": 2011,
+        "Capital": -0.088933,
+        "Hours": -2.339028,
+        "MFP": -8.274128,
+        "Fiscal Balance (% of GDP)": -10.5,
+        "Fiscal Balance (% of GDP) YoY": 0.9239999999999995,
+        "predicted_FBLE_mlr": -4.409787160451526
+      },
+      {
+        "Country": "Greece",
+        "Year": 2012,
+        "Capital": -0.482776,
+        "Hours": -1.39722,
+        "MFP": -5.470342,
+        "Fiscal Balance (% of GDP)": -9.312,
+        "Fiscal Balance (% of GDP) YoY": 1.1880000000000006,
+        "predicted_FBLE_mlr": -2.73323260568074
+      },
+      {
+        "Country": "Greece",
+        "Year": 2013,
+        "Capital": -0.883711,
+        "Hours": -0.168275,
+        "MFP": -1.49621,
+        "Fiscal Balance (% of GDP)": -13.597,
+        "Fiscal Balance (% of GDP) YoY": -4.285,
+        "predicted_FBLE_mlr": -0.5057926352958944
+      },
+      {
+        "Country": "Greece",
+        "Year": 2014,
+        "Capital": -1.132622,
+        "Hours": 0.753322,
+        "MFP": 0.853871,
+        "Fiscal Balance (% of GDP)": -3.772,
+        "Fiscal Balance (% of GDP) YoY": 9.825,
+        "predicted_FBLE_mlr": 0.9899589665128583
+      },
+      {
+        "Country": "Greece",
+        "Year": 2015,
+        "Capital": -0.88094,
+        "Hours": -2.598731,
+        "MFP": 3.283388,
+        "Fiscal Balance (% of GDP)": -5.905,
+        "Fiscal Balance (% of GDP) YoY": -2.1330000000000005,
+        "predicted_FBLE_mlr": -1.4935787905128954
+      },
+      {
+        "Country": "Greece",
+        "Year": 2016,
+        "Capital": -0.750248,
+        "Hours": 2.635284,
+        "MFP": -2.373414,
+        "Fiscal Balance (% of GDP)": 0.211,
+        "Fiscal Balance (% of GDP) YoY": 6.1160000000000005,
+        "predicted_FBLE_mlr": 1.7406807568810114
+      },
+      {
+        "Country": "Greece",
+        "Year": 2017,
+        "Capital": -0.438377,
+        "Hours": -0.211423,
+        "MFP": 1.736025,
+        "Fiscal Balance (% of GDP)": 0.723,
+        "Fiscal Balance (% of GDP) YoY": 0.512,
+        "predicted_FBLE_mlr": 0.10717367533633587
+      },
+      {
+        "Country": "Greece",
+        "Year": 2018,
+        "Capital": -0.397732,
+        "Hours": 3.757832,
+        "MFP": -1.705447,
+        "Fiscal Balance (% of GDP)": 0.901,
+        "Fiscal Balance (% of GDP) YoY": 0.17800000000000005,
+        "predicted_FBLE_mlr": 2.7911547982798113
+      },
+      {
+        "Country": "Greece",
+        "Year": 2019,
+        "Capital": -0.310811,
+        "Hours": -0.059266,
+        "MFP": 2.232124,
+        "Fiscal Balance (% of GDP)": 0.824,
+        "Fiscal Balance (% of GDP) YoY": -0.07700000000000007,
+        "predicted_FBLE_mlr": 0.3231107009677138
+      },
+      {
+        "Country": "Greece",
+        "Year": 2020,
+        "Capital": -0.263964,
+        "Hours": -9.348886,
+        "MFP": -0.166562,
+        "Fiscal Balance (% of GDP)": -9.561,
+        "Fiscal Balance (% of GDP) YoY": -10.385,
+        "predicted_FBLE_mlr": -8.609106300728591
+      },
+      {
+        "Country": "Greece",
+        "Year": 2021,
+        "Capital": 0.089671,
+        "Hours": 5.853859,
+        "MFP": 2.103755,
+        "Fiscal Balance (% of GDP)": -7.067,
+        "Fiscal Balance (% of GDP) YoY": 2.4939999999999998,
+        "predicted_FBLE_mlr": 5.448968322596743
+      },
+      {
+        "Country": "Greece",
+        "Year": 2022,
+        "Capital": 0.358066,
+        "Hours": 3.071722,
+        "MFP": 1.978571,
+        "Fiscal Balance (% of GDP)": -2.456,
+        "Fiscal Balance (% of GDP) YoY": 4.611000000000001,
+        "predicted_FBLE_mlr": 2.8341706454412803
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2008,
+        "Capital": 1.708164,
+        "Hours": -2.149852,
+        "MFP": -4.146029,
+        "Fiscal Balance (% of GDP)": -7.031,
+        "Fiscal Balance (% of GDP) YoY": -7.2989999999999995,
+        "predicted_FBLE_mlr": -3.8299898612430727
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2009,
+        "Capital": 1.589621,
+        "Hours": -8.021508,
+        "MFP": 1.201681,
+        "Fiscal Balance (% of GDP)": -13.873,
+        "Fiscal Balance (% of GDP) YoY": -6.842,
+        "predicted_FBLE_mlr": -7.716380213451413
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2010,
+        "Capital": 1.29933,
+        "Hours": -2.892131,
+        "MFP": 3.26177,
+        "Fiscal Balance (% of GDP)": -32.108,
+        "Fiscal Balance (% of GDP) YoY": -18.235,
+        "predicted_FBLE_mlr": -2.510436135512691
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2011,
+        "Capital": 1.401675,
+        "Hours": -1.232283,
+        "MFP": 1.103226,
+        "Fiscal Balance (% of GDP)": -13.45,
+        "Fiscal Balance (% of GDP) YoY": 18.657999999999998,
+        "predicted_FBLE_mlr": -1.5964358761710677
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2012,
+        "Capital": 1.786235,
+        "Hours": -0.522462,
+        "MFP": -1.393551,
+        "Fiscal Balance (% of GDP)": -8.403,
+        "Fiscal Balance (% of GDP) YoY": 5.046999999999999,
+        "predicted_FBLE_mlr": -1.7143126133107094
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2013,
+        "Capital": 1.32708,
+        "Hours": 2.698457,
+        "MFP": -2.857763,
+        "Fiscal Balance (% of GDP)": -6.267,
+        "Fiscal Balance (% of GDP) YoY": 2.136,
+        "predicted_FBLE_mlr": 0.9633153702204504
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2014,
+        "Capital": 1.656504,
+        "Hours": 2.390282,
+        "MFP": 4.41398,
+        "Fiscal Balance (% of GDP)": -3.513,
+        "Fiscal Balance (% of GDP) YoY": 2.7540000000000004,
+        "predicted_FBLE_mlr": 2.3842270985617238
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2016,
+        "Capital": 4.5732,
+        "Hours": 2.922244,
+        "MFP": -5.745285,
+        "Fiscal Balance (% of GDP)": -0.761,
+        "Fiscal Balance (% of GDP) YoY": 1.21,
+        "predicted_FBLE_mlr": -0.6697695783632791
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2017,
+        "Capital": 3.743788,
+        "Hours": 2.347835,
+        "MFP": 2.811293,
+        "Fiscal Balance (% of GDP)": -0.297,
+        "Fiscal Balance (% of GDP) YoY": 0.464,
+        "predicted_FBLE_mlr": 1.2304908071076937
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2018,
+        "Capital": 2.453315,
+        "Hours": 2.013643,
+        "MFP": 3.663662,
+        "Fiscal Balance (% of GDP)": 0.094,
+        "Fiscal Balance (% of GDP) YoY": 0.391,
+        "predicted_FBLE_mlr": 1.5865415796903095
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2019,
+        "Capital": 9.070624,
+        "Hours": 1.54733,
+        "MFP": -5.455791,
+        "Fiscal Balance (% of GDP)": 0.41,
+        "Fiscal Balance (% of GDP) YoY": 0.31599999999999995,
+        "predicted_FBLE_mlr": -3.373445942885349
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2020,
+        "Capital": 6.090614,
+        "Hours": -5.008946,
+        "MFP": 5.325792,
+        "Fiscal Balance (% of GDP)": -4.861,
+        "Fiscal Balance (% of GDP) YoY": -5.271,
+        "predicted_FBLE_mlr": -5.537717203630671
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2021,
+        "Capital": 1.021094,
+        "Hours": 3.06277,
+        "MFP": 10.001163,
+        "Fiscal Balance (% of GDP)": -1.364,
+        "Fiscal Balance (% of GDP) YoY": 3.497,
+        "predicted_FBLE_mlr": 4.595374679745978
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2022,
+        "Capital": 0.408802,
+        "Hours": 4.073193,
+        "MFP": 4.532253,
+        "Fiscal Balance (% of GDP)": 1.669,
+        "Fiscal Balance (% of GDP) YoY": 3.0330000000000004,
+        "predicted_FBLE_mlr": 4.349227571426751
+      },
+      {
+        "Country": "Israel",
+        "Year": 2008,
+        "Capital": 1.437472,
+        "Hours": 2.624318,
+        "MFP": -0.828381,
+        "Fiscal Balance (% of GDP)": -3.49,
+        "Fiscal Balance (% of GDP) YoY": -3.0610000000000004,
+        "predicted_FBLE_mlr": 1.3641480064253249
+      },
+      {
+        "Country": "Israel",
+        "Year": 2009,
+        "Capital": 1.070522,
+        "Hours": 1.269434,
+        "MFP": -1.237932,
+        "Fiscal Balance (% of GDP)": -6.516,
+        "Fiscal Balance (% of GDP) YoY": -3.026,
+        "predicted_FBLE_mlr": 0.17489111611974056
+      },
+      {
+        "Country": "Israel",
+        "Year": 2010,
+        "Capital": 1.034561,
+        "Hours": 1.984219,
+        "MFP": 2.461247,
+        "Fiscal Balance (% of GDP)": -3.712,
+        "Fiscal Balance (% of GDP) YoY": 2.804,
+        "predicted_FBLE_mlr": 1.7481137703990708
+      },
+      {
+        "Country": "Israel",
+        "Year": 2011,
+        "Capital": 1.20587,
+        "Hours": 2.150208,
+        "MFP": 2.057294,
+        "Fiscal Balance (% of GDP)": -3.425,
+        "Fiscal Balance (% of GDP) YoY": 0.28700000000000037,
+        "predicted_FBLE_mlr": 1.7373828839041683
+      },
+      {
+        "Country": "Israel",
+        "Year": 2012,
+        "Capital": 1.272205,
+        "Hours": 2.193077,
+        "MFP": -0.955913,
+        "Fiscal Balance (% of GDP)": -4.451,
+        "Fiscal Balance (% of GDP) YoY": -1.0259999999999998,
+        "predicted_FBLE_mlr": 1.0029721798844211
+      },
+      {
+        "Country": "Israel",
+        "Year": 2013,
+        "Capital": 1.051421,
+        "Hours": 1.801658,
+        "MFP": 1.290579,
+        "Fiscal Balance (% of GDP)": -4.055,
+        "Fiscal Balance (% of GDP) YoY": 0.3959999999999999,
+        "predicted_FBLE_mlr": 1.2874439887202616
+      },
+      {
+        "Country": "Israel",
+        "Year": 2014,
+        "Capital": 0.861,
+        "Hours": 1.77751,
+        "MFP": 1.173421,
+        "Fiscal Balance (% of GDP)": -2.284,
+        "Fiscal Balance (% of GDP) YoY": 1.771,
+        "predicted_FBLE_mlr": 1.3020497394719333
+      },
+      {
+        "Country": "Israel",
+        "Year": 2015,
+        "Capital": 0.617766,
+        "Hours": 1.700207,
+        "MFP": -0.030642,
+        "Fiscal Balance (% of GDP)": -1.207,
+        "Fiscal Balance (% of GDP) YoY": 1.0769999999999997,
+        "predicted_FBLE_mlr": 1.0166478289024854
+      },
+      {
+        "Country": "Israel",
+        "Year": 2016,
+        "Capital": 0.904893,
+        "Hours": 2.811922,
+        "MFP": 0.557711,
+        "Fiscal Balance (% of GDP)": -1.784,
+        "Fiscal Balance (% of GDP) YoY": -0.577,
+        "predicted_FBLE_mlr": 2.0600591973228624
+      },
+      {
+        "Country": "Israel",
+        "Year": 2017,
+        "Capital": 0.970537,
+        "Hours": 1.831459,
+        "MFP": 1.382553,
+        "Fiscal Balance (% of GDP)": -1.128,
+        "Fiscal Balance (% of GDP) YoY": 0.6560000000000001,
+        "predicted_FBLE_mlr": 1.3648013232066178
+      },
+      {
+        "Country": "Israel",
+        "Year": 2018,
+        "Capital": 1.265718,
+        "Hours": 1.127046,
+        "MFP": 1.600976,
+        "Fiscal Balance (% of GDP)": -3.548,
+        "Fiscal Balance (% of GDP) YoY": -2.42,
+        "predicted_FBLE_mlr": 0.6869825311216329
+      },
+      {
+        "Country": "Israel",
+        "Year": 2019,
+        "Capital": 1.218601,
+        "Hours": 0.485389,
+        "MFP": 2.011226,
+        "Fiscal Balance (% of GDP)": -3.776,
+        "Fiscal Balance (% of GDP) YoY": -0.22799999999999976,
+        "predicted_FBLE_mlr": 0.23066014543249574
+      },
+      {
+        "Country": "Israel",
+        "Year": 2020,
+        "Capital": 1.146794,
+        "Hours": -6.79446,
+        "MFP": 4.172363,
+        "Fiscal Balance (% of GDP)": -10.703,
+        "Fiscal Balance (% of GDP) YoY": -6.927,
+        "predicted_FBLE_mlr": -5.726022700916425
+      },
+      {
+        "Country": "Israel",
+        "Year": 2021,
+        "Capital": 1.405851,
+        "Hours": 5.199055,
+        "MFP": 2.328295,
+        "Fiscal Balance (% of GDP)": -3.37,
+        "Fiscal Balance (% of GDP) YoY": 7.332999999999999,
+        "predicted_FBLE_mlr": 4.466475279196617
+      },
+      {
+        "Country": "Israel",
+        "Year": 2022,
+        "Capital": 1.336654,
+        "Hours": 5.246879,
+        "MFP": -0.313891,
+        "Fiscal Balance (% of GDP)": 0.319,
+        "Fiscal Balance (% of GDP) YoY": 3.689,
+        "predicted_FBLE_mlr": 3.8753963929389976
+      },
+      {
+        "Country": "Italy",
+        "Year": 2008,
+        "Capital": 0.593515,
+        "Hours": -0.286678,
+        "MFP": -1.273503,
+        "Fiscal Balance (% of GDP)": -2.584,
+        "Fiscal Balance (% of GDP) YoY": -1.258,
+        "predicted_FBLE_mlr": -1.0636874841170216
+      },
+      {
+        "Country": "Italy",
+        "Year": 2009,
+        "Capital": 0.329661,
+        "Hours": -2.453646,
+        "MFP": -3.301511,
+        "Fiscal Balance (% of GDP)": -5.057,
+        "Fiscal Balance (% of GDP) YoY": -2.4730000000000003,
+        "predicted_FBLE_mlr": -3.4184406588682683
+      },
+      {
+        "Country": "Italy",
+        "Year": 2010,
+        "Capital": 0.352202,
+        "Hours": -0.388664,
+        "MFP": 1.735253,
+        "Fiscal Balance (% of GDP)": -4.161,
+        "Fiscal Balance (% of GDP) YoY": 0.8960000000000008,
+        "predicted_FBLE_mlr": -0.3232358586120822
+      },
+      {
+        "Country": "Italy",
+        "Year": 2011,
+        "Capital": 0.285513,
+        "Hours": 0.022383,
+        "MFP": 0.39694,
+        "Fiscal Balance (% of GDP)": -3.524,
+        "Fiscal Balance (% of GDP) YoY": 0.6369999999999996,
+        "predicted_FBLE_mlr": -0.26535295395738245
+      },
+      {
+        "Country": "Italy",
+        "Year": 2012,
+        "Capital": 0.096954,
+        "Hours": -1.721072,
+        "MFP": -1.402117,
+        "Fiscal Balance (% of GDP)": -2.985,
+        "Fiscal Balance (% of GDP) YoY": 0.5390000000000001,
+        "predicted_FBLE_mlr": -2.209709165868777
+      },
+      {
+        "Country": "Italy",
+        "Year": 2013,
+        "Capital": -0.017994,
+        "Hours": -1.812934,
+        "MFP": -0.027298,
+        "Fiscal Balance (% of GDP)": -2.875,
+        "Fiscal Balance (% of GDP) YoY": 0.10999999999999988,
+        "predicted_FBLE_mlr": -1.910291526617733
+      },
+      {
+        "Country": "Italy",
+        "Year": 2014,
+        "Capital": 0.008386,
+        "Hours": -0.057418,
+        "MFP": 0.044489,
+        "Fiscal Balance (% of GDP)": -2.818,
+        "Fiscal Balance (% of GDP) YoY": 0.05699999999999994,
+        "predicted_FBLE_mlr": -0.3293769508131418
+      },
+      {
+        "Country": "Italy",
+        "Year": 2015,
+        "Capital": 0.055848,
+        "Hours": 0.492835,
+        "MFP": 0.226608,
+        "Fiscal Balance (% of GDP)": -2.459,
+        "Fiscal Balance (% of GDP) YoY": 0.359,
+        "predicted_FBLE_mlr": 0.19241978291969225
+      },
+      {
+        "Country": "Italy",
+        "Year": 2016,
+        "Capital": 0.137023,
+        "Hours": 1.111266,
+        "MFP": 0.03688,
+        "Fiscal Balance (% of GDP)": -2.405,
+        "Fiscal Balance (% of GDP) YoY": 0.05400000000000027,
+        "predicted_FBLE_mlr": 0.6711372121846875
+      },
+      {
+        "Country": "Italy",
+        "Year": 2017,
+        "Capital": 0.140512,
+        "Hours": 0.711812,
+        "MFP": 0.801774,
+        "Fiscal Balance (% of GDP)": -2.509,
+        "Fiscal Balance (% of GDP) YoY": -0.10400000000000009,
+        "predicted_FBLE_mlr": 0.5026093608995337
+      },
+      {
+        "Country": "Italy",
+        "Year": 2018,
+        "Capital": 0.158826,
+        "Hours": 0.661153,
+        "MFP": 0.101581,
+        "Fiscal Balance (% of GDP)": -2.192,
+        "Fiscal Balance (% of GDP) YoY": 0.3169999999999997,
+        "predicted_FBLE_mlr": 0.27666800285769927
+      },
+      {
+        "Country": "Italy",
+        "Year": 2019,
+        "Capital": 0.145007,
+        "Hours": -0.009663,
+        "MFP": 0.346687,
+        "Fiscal Balance (% of GDP)": -1.45,
+        "Fiscal Balance (% of GDP) YoY": 0.7420000000000002,
+        "predicted_FBLE_mlr": -0.25830803497470917
+      },
+      {
+        "Country": "Italy",
+        "Year": 2020,
+        "Capital": -0.010439,
+        "Hours": -8.79534,
+        "MFP": -0.59693,
+        "Fiscal Balance (% of GDP)": -9.379,
+        "Fiscal Balance (% of GDP) YoY": -7.928999999999999,
+        "predicted_FBLE_mlr": -8.307579838457247
+      },
+      {
+        "Country": "Italy",
+        "Year": 2021,
+        "Capital": 0.206825,
+        "Hours": 6.752499,
+        "MFP": 1.02362,
+        "Fiscal Balance (% of GDP)": -8.879,
+        "Fiscal Balance (% of GDP) YoY": 0.5,
+        "predicted_FBLE_mlr": 5.944631600603411
+      },
+      {
+        "Country": "Italy",
+        "Year": 2022,
+        "Capital": 0.383195,
+        "Hours": 2.868193,
+        "MFP": 0.657129,
+        "Fiscal Balance (% of GDP)": -8.109,
+        "Fiscal Balance (% of GDP) YoY": 0.7699999999999996,
+        "predicted_FBLE_mlr": 2.314354541825222
+      },
+      {
+        "Country": "Japan",
+        "Year": 2008,
+        "Capital": 0.451971,
+        "Hours": -0.647673,
+        "MFP": -1.036149,
+        "Fiscal Balance (% of GDP)": -4.11,
+        "Fiscal Balance (% of GDP) YoY": -1.2090000000000005,
+        "predicted_FBLE_mlr": -1.2792789677138707
+      },
+      {
+        "Country": "Japan",
+        "Year": 2009,
+        "Capital": 0.115545,
+        "Hours": -3.003917,
+        "MFP": -2.97335,
+        "Fiscal Balance (% of GDP)": -9.693,
+        "Fiscal Balance (% of GDP) YoY": -5.582999999999999,
+        "predicted_FBLE_mlr": -3.7560082457741024
+      },
+      {
+        "Country": "Japan",
+        "Year": 2010,
+        "Capital": 0.088971,
+        "Hours": 0.651333,
+        "MFP": 3.275866,
+        "Fiscal Balance (% of GDP)": -9.076,
+        "Fiscal Balance (% of GDP) YoY": 0.6169999999999991,
+        "predicted_FBLE_mlr": 1.0819777623717495
+      },
+      {
+        "Country": "Japan",
+        "Year": 2011,
+        "Capital": 0.056081,
+        "Hours": -0.403887,
+        "MFP": 0.371621,
+        "Fiscal Balance (% of GDP)": -8.986,
+        "Fiscal Balance (% of GDP) YoY": 0.08999999999999986,
+        "predicted_FBLE_mlr": -0.574600182332409
+      },
+      {
+        "Country": "Japan",
+        "Year": 2012,
+        "Capital": 0.138653,
+        "Hours": 0.185253,
+        "MFP": 1.041481,
+        "Fiscal Balance (% of GDP)": -8.196,
+        "Fiscal Balance (% of GDP) YoY": 0.7900000000000009,
+        "predicted_FBLE_mlr": 0.09136773071569632
+      },
+      {
+        "Country": "Japan",
+        "Year": 2013,
+        "Capital": 0.195289,
+        "Hours": -0.150164,
+        "MFP": 1.940136,
+        "Fiscal Balance (% of GDP)": -7.611,
+        "Fiscal Balance (% of GDP) YoY": 0.585,
+        "predicted_FBLE_mlr": -0.004770201028241328
+      },
+      {
+        "Country": "Japan",
+        "Year": 2014,
+        "Capital": 0.271924,
+        "Hours": 0.078778,
+        "MFP": -0.054933,
+        "Fiscal Balance (% of GDP)": -5.616,
+        "Fiscal Balance (% of GDP) YoY": 1.995,
+        "predicted_FBLE_mlr": -0.3226595144358887
+      },
+      {
+        "Country": "Japan",
+        "Year": 2015,
+        "Capital": 0.332928,
+        "Hours": -0.292312,
+        "MFP": 1.507953,
+        "Fiscal Balance (% of GDP)": -3.678,
+        "Fiscal Balance (% of GDP) YoY": 1.9379999999999997,
+        "predicted_FBLE_mlr": -0.2869089932475495
+      },
+      {
+        "Country": "Japan",
+        "Year": 2016,
+        "Capital": 0.272472,
+        "Hours": 0.429785,
+        "MFP": 0.048746,
+        "Fiscal Balance (% of GDP)": -3.6,
+        "Fiscal Balance (% of GDP) YoY": 0.07799999999999985,
+        "predicted_FBLE_mlr": 0.01729403924602768
+      },
+      {
+        "Country": "Japan",
+        "Year": 2017,
+        "Capital": 0.266345,
+        "Hours": 0.501302,
+        "MFP": 0.893805,
+        "Fiscal Balance (% of GDP)": -3.099,
+        "Fiscal Balance (% of GDP) YoY": 0.5009999999999999,
+        "predicted_FBLE_mlr": 0.293787818241015
+      },
+      {
+        "Country": "Japan",
+        "Year": 2018,
+        "Capital": 0.244336,
+        "Hours": 0.020208,
+        "MFP": 0.376791,
+        "Fiscal Balance (% of GDP)": -2.471,
+        "Fiscal Balance (% of GDP) YoY": 0.6280000000000001,
+        "predicted_FBLE_mlr": -0.25817536926739576
+      },
+      {
+        "Country": "Japan",
+        "Year": 2019,
+        "Capital": 0.250771,
+        "Hours": -0.871442,
+        "MFP": 0.217689,
+        "Fiscal Balance (% of GDP)": -3.045,
+        "Fiscal Balance (% of GDP) YoY": -0.5739999999999998,
+        "predicted_FBLE_mlr": -1.0984806799225297
+      },
+      {
+        "Country": "Japan",
+        "Year": 2020,
+        "Capital": 0.102302,
+        "Hours": -2.352529,
+        "MFP": -1.985339,
+        "Fiscal Balance (% of GDP)": -9.075,
+        "Fiscal Balance (% of GDP) YoY": -6.029999999999999,
+        "predicted_FBLE_mlr": -2.922200514548132
+      },
+      {
+        "Country": "Japan",
+        "Year": 2021,
+        "Capital": 0.141534,
+        "Hours": 0.39094,
+        "MFP": 1.994642,
+        "Fiscal Balance (% of GDP)": -6.128,
+        "Fiscal Balance (% of GDP) YoY": 2.946999999999999,
+        "predicted_FBLE_mlr": 0.5118281855793927
+      },
+      {
+        "Country": "Japan",
+        "Year": 2022,
+        "Capital": 0.200016,
+        "Hours": 0.084758,
+        "MFP": 0.665432,
+        "Fiscal Balance (% of GDP)": -4.208,
+        "Fiscal Balance (% of GDP) YoY": 1.92,
+        "predicted_FBLE_mlr": -0.11330340120109916
+      },
+      {
+        "Country": "Korea",
+        "Year": 2012,
+        "Capital": 1.451351,
+        "Hours": 0.629405,
+        "MFP": 0.293368,
+        "Fiscal Balance (% of GDP)": 0.937,
+        "Fiscal Balance (% of GDP) YoY": 0.03200000000000003,
+        "predicted_FBLE_mlr": -0.14789316362836674
+      },
+      {
+        "Country": "Korea",
+        "Year": 2013,
+        "Capital": 1.381104,
+        "Hours": 0.506137,
+        "MFP": 1.228423,
+        "Fiscal Balance (% of GDP)": 1.182,
+        "Fiscal Balance (% of GDP) YoY": 0.24499999999999988,
+        "predicted_FBLE_mlr": -0.001413306204519127
+      },
+      {
+        "Country": "Korea",
+        "Year": 2014,
+        "Capital": 1.379139,
+        "Hours": 0.602298,
+        "MFP": 1.170807,
+        "Fiscal Balance (% of GDP)": 1.119,
+        "Fiscal Balance (% of GDP) YoY": -0.06299999999999994,
+        "predicted_FBLE_mlr": 0.07103463547516531
+      },
+      {
+        "Country": "Korea",
+        "Year": 2015,
+        "Capital": 1.368987,
+        "Hours": 0.950016,
+        "MFP": 0.451368,
+        "Fiscal Balance (% of GDP)": 1.092,
+        "Fiscal Balance (% of GDP) YoY": -0.026999999999999913,
+        "predicted_FBLE_mlr": 0.20683410724118806
+      },
+      {
+        "Country": "Korea",
+        "Year": 2016,
+        "Capital": 1.293029,
+        "Hours": 0.106951,
+        "MFP": 1.504315,
+        "Fiscal Balance (% of GDP)": 2.069,
+        "Fiscal Balance (% of GDP) YoY": 0.9769999999999999,
+        "predicted_FBLE_mlr": -0.2599750498087651
+      },
+      {
+        "Country": "Korea",
+        "Year": 2017,
+        "Capital": 1.401147,
+        "Hours": -0.867723,
+        "MFP": 2.577322,
+        "Fiscal Balance (% of GDP)": 2.487,
+        "Fiscal Balance (% of GDP) YoY": 0.41800000000000015,
+        "predicted_FBLE_mlr": -0.9028637785526554
+      },
+      {
+        "Country": "Korea",
+        "Year": 2018,
+        "Capital": 1.211597,
+        "Hours": -0.613581,
+        "MFP": 2.267925,
+        "Fiscal Balance (% of GDP)": 2.852,
+        "Fiscal Balance (% of GDP) YoY": 0.36499999999999977,
+        "predicted_FBLE_mlr": -0.6871924278229831
+      },
+      {
+        "Country": "Korea",
+        "Year": 2019,
+        "Capital": 1.044653,
+        "Hours": -0.139281,
+        "MFP": 1.313798,
+        "Fiscal Balance (% of GDP)": 0.906,
+        "Fiscal Balance (% of GDP) YoY": -1.9459999999999997,
+        "predicted_FBLE_mlr": -0.4426081122282508
+      },
+      {
+        "Country": "Korea",
+        "Year": 2020,
+        "Capital": 1.092727,
+        "Hours": -2.718485,
+        "MFP": 0.913813,
+        "Fiscal Balance (% of GDP)": -2.575,
+        "Fiscal Balance (% of GDP) YoY": -3.4810000000000003,
+        "predicted_FBLE_mlr": -2.8684148375430283
+      },
+      {
+        "Country": "Korea",
+        "Year": 2021,
+        "Capital": 1.145351,
+        "Hours": 1.028157,
+        "MFP": 2.041149,
+        "Fiscal Balance (% of GDP)": -0.315,
+        "Fiscal Balance (% of GDP) YoY": 2.2600000000000002,
+        "predicted_FBLE_mlr": 0.7493245090126437
+      },
+      {
+        "Country": "Korea",
+        "Year": 2022,
+        "Capital": 1.057422,
+        "Hours": 1.725373,
+        "MFP": -0.20367,
+        "Fiscal Balance (% of GDP)": -0.008,
+        "Fiscal Balance (% of GDP) YoY": 0.307,
+        "predicted_FBLE_mlr": 0.8451330258314431
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2008,
+        "Capital": 1.223474,
+        "Hours": 3.709534,
+        "MFP": -5.233634,
+        "Fiscal Balance (% of GDP)": 3.374,
+        "Fiscal Balance (% of GDP) YoY": -0.9890000000000003,
+        "predicted_FBLE_mlr": 1.312957038447441
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2009,
+        "Capital": 0.74188,
+        "Hours": -2.457645,
+        "MFP": -1.576804,
+        "Fiscal Balance (% of GDP)": -0.21,
+        "Fiscal Balance (% of GDP) YoY": -3.584,
+        "predicted_FBLE_mlr": -3.134283898023885
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2010,
+        "Capital": 0.784855,
+        "Hours": 1.611492,
+        "MFP": 1.295089,
+        "Fiscal Balance (% of GDP)": -0.317,
+        "Fiscal Balance (% of GDP) YoY": -0.10700000000000001,
+        "predicted_FBLE_mlr": 1.2098103682620465
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2011,
+        "Capital": 1.013297,
+        "Hours": 2.237908,
+        "MFP": -2.212321,
+        "Fiscal Balance (% of GDP)": 0.658,
+        "Fiscal Balance (% of GDP) YoY": 0.9750000000000001,
+        "predicted_FBLE_mlr": 0.8192974727157631
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2012,
+        "Capital": 1.076568,
+        "Hours": 1.611035,
+        "MFP": -1.05117,
+        "Fiscal Balance (% of GDP)": 0.506,
+        "Fiscal Balance (% of GDP) YoY": -0.15200000000000002,
+        "predicted_FBLE_mlr": 0.5252135837368022
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2013,
+        "Capital": 0.901725,
+        "Hours": 1.036337,
+        "MFP": 1.184471,
+        "Fiscal Balance (% of GDP)": 0.844,
+        "Fiscal Balance (% of GDP) YoY": 0.33799999999999997,
+        "predicted_FBLE_mlr": 0.6270772036561831
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2014,
+        "Capital": 0.917617,
+        "Hours": 2.283278,
+        "MFP": -0.611623,
+        "Fiscal Balance (% of GDP)": 1.339,
+        "Fiscal Balance (% of GDP) YoY": 0.495,
+        "predicted_FBLE_mlr": 1.2912164802511126
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2015,
+        "Capital": 0.618704,
+        "Hours": 2.440543,
+        "MFP": -0.814842,
+        "Fiscal Balance (% of GDP)": 1.334,
+        "Fiscal Balance (% of GDP) YoY": -0.004999999999999893,
+        "predicted_FBLE_mlr": 1.484117636640606
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2016,
+        "Capital": 0.562734,
+        "Hours": 2.340543,
+        "MFP": 1.954971,
+        "Fiscal Balance (% of GDP)": 1.893,
+        "Fiscal Balance (% of GDP) YoY": 0.5589999999999999,
+        "predicted_FBLE_mlr": 2.1032232785735863
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2017,
+        "Capital": 0.728459,
+        "Hours": 2.263416,
+        "MFP": -1.683291,
+        "Fiscal Balance (% of GDP)": 1.367,
+        "Fiscal Balance (% of GDP) YoY": -0.526,
+        "predicted_FBLE_mlr": 1.0716385767310865
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2018,
+        "Capital": 0.567928,
+        "Hours": 2.353542,
+        "MFP": -1.709516,
+        "Fiscal Balance (% of GDP)": 3.175,
+        "Fiscal Balance (% of GDP) YoY": 1.8079999999999998,
+        "predicted_FBLE_mlr": 1.2009490003683605
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2019,
+        "Capital": 0.540633,
+        "Hours": 2.503145,
+        "MFP": -0.169633,
+        "Fiscal Balance (% of GDP)": 2.679,
+        "Fiscal Balance (% of GDP) YoY": -0.496,
+        "predicted_FBLE_mlr": 1.7275893432598575
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2020,
+        "Capital": 0.398097,
+        "Hours": -3.390997,
+        "MFP": 2.078905,
+        "Fiscal Balance (% of GDP)": -3.093,
+        "Fiscal Balance (% of GDP) YoY": -5.772,
+        "predicted_FBLE_mlr": -2.9421165920971055
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2021,
+        "Capital": 0.52548,
+        "Hours": 5.819088,
+        "MFP": 0.578553,
+        "Fiscal Balance (% of GDP)": 1.002,
+        "Fiscal Balance (% of GDP) YoY": 4.095,
+        "predicted_FBLE_mlr": 4.888528530836296
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2022,
+        "Capital": 0.339253,
+        "Hours": 2.313494,
+        "MFP": -1.282,
+        "Fiscal Balance (% of GDP)": 0.184,
+        "Fiscal Balance (% of GDP) YoY": -0.8180000000000001,
+        "predicted_FBLE_mlr": 1.3500282051852976
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2008,
+        "Capital": 0.843491,
+        "Hours": 0.988178,
+        "MFP": 0.315439,
+        "Fiscal Balance (% of GDP)": -0.004,
+        "Fiscal Balance (% of GDP) YoY": 0.256,
+        "predicted_FBLE_mlr": 0.3876362188275542
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2009,
+        "Capital": 0.518857,
+        "Hours": -1.132675,
+        "MFP": -3.121989,
+        "Fiscal Balance (% of GDP)": -5.101,
+        "Fiscal Balance (% of GDP) YoY": -5.097,
+        "predicted_FBLE_mlr": -2.255767640497375
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2010,
+        "Capital": 0.410169,
+        "Hours": -0.493404,
+        "MFP": 1.41704,
+        "Fiscal Balance (% of GDP)": -5.277,
+        "Fiscal Balance (% of GDP) YoY": -0.17600000000000016,
+        "predicted_FBLE_mlr": -0.5161462380194304
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2011,
+        "Capital": 0.503045,
+        "Hours": 0.52173,
+        "MFP": 0.514509,
+        "Fiscal Balance (% of GDP)": -4.42,
+        "Fiscal Balance (% of GDP) YoY": 0.8570000000000002,
+        "predicted_FBLE_mlr": 0.1363850652696782
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2012,
+        "Capital": 0.405974,
+        "Hours": -0.445496,
+        "MFP": -0.996178,
+        "Fiscal Balance (% of GDP)": -3.837,
+        "Fiscal Balance (% of GDP) YoY": 0.5829999999999997,
+        "predicted_FBLE_mlr": -1.0724796602129845
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2013,
+        "Capital": 0.565712,
+        "Hours": -0.446643,
+        "MFP": -0.249327,
+        "Fiscal Balance (% of GDP)": -2.861,
+        "Fiscal Balance (% of GDP) YoY": 0.976,
+        "predicted_FBLE_mlr": -0.942463192453171
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2014,
+        "Capital": 0.326926,
+        "Hours": 0.273417,
+        "MFP": 0.813012,
+        "Fiscal Balance (% of GDP)": -2.242,
+        "Fiscal Balance (% of GDP) YoY": 0.6190000000000002,
+        "predicted_FBLE_mlr": 0.04879703889522552
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2015,
+        "Capital": 1.517591,
+        "Hours": 0.838659,
+        "MFP": -0.416022,
+        "Fiscal Balance (% of GDP)": -1.778,
+        "Fiscal Balance (% of GDP) YoY": 0.46399999999999997,
+        "predicted_FBLE_mlr": -0.15982399450278656
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2016,
+        "Capital": 0.45964,
+        "Hours": 1.518309,
+        "MFP": 0.190092,
+        "Fiscal Balance (% of GDP)": 0.227,
+        "Fiscal Balance (% of GDP) YoY": 2.005,
+        "predicted_FBLE_mlr": 0.9629993998867337
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2017,
+        "Capital": 0.373637,
+        "Hours": 1.86774,
+        "MFP": 0.627968,
+        "Fiscal Balance (% of GDP)": 1.316,
+        "Fiscal Balance (% of GDP) YoY": 1.089,
+        "predicted_FBLE_mlr": 1.414449566192209
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2018,
+        "Capital": 0.32865,
+        "Hours": 1.941726,
+        "MFP": 0.063096,
+        "Fiscal Balance (% of GDP)": 1.474,
+        "Fiscal Balance (% of GDP) YoY": 0.15799999999999992,
+        "predicted_FBLE_mlr": 1.3555518831639364
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2019,
+        "Capital": 0.440631,
+        "Hours": 1.755061,
+        "MFP": -0.258978,
+        "Fiscal Balance (% of GDP)": 1.782,
+        "Fiscal Balance (% of GDP) YoY": 0.30800000000000005,
+        "predicted_FBLE_mlr": 1.0697656938014077
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2020,
+        "Capital": 0.365904,
+        "Hours": -2.692357,
+        "MFP": -1.637156,
+        "Fiscal Balance (% of GDP)": -3.608,
+        "Fiscal Balance (% of GDP) YoY": -5.390000000000001,
+        "predicted_FBLE_mlr": -3.23038170651138
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2021,
+        "Capital": 0.40172,
+        "Hours": 1.814134,
+        "MFP": 3.791874,
+        "Fiscal Balance (% of GDP)": -2.198,
+        "Fiscal Balance (% of GDP) YoY": 1.4100000000000001,
+        "predicted_FBLE_mlr": 2.144331461143894
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2022,
+        "Capital": 0.426521,
+        "Hours": 3.004203,
+        "MFP": 0.807114,
+        "Fiscal Balance (% of GDP)": 0.012,
+        "Fiscal Balance (% of GDP) YoY": 2.21,
+        "predicted_FBLE_mlr": 2.458608926494685
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2008,
+        "Capital": 1.209104,
+        "Hours": 1.202009,
+        "MFP": -4.130804,
+        "Fiscal Balance (% of GDP)": 0.299,
+        "Fiscal Balance (% of GDP) YoY": -3.8430000000000004,
+        "predicted_FBLE_mlr": -0.6531481529833494
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2009,
+        "Capital": 0.889355,
+        "Hours": -2.27411,
+        "MFP": 3.40338,
+        "Fiscal Balance (% of GDP)": -2.97,
+        "Fiscal Balance (% of GDP) YoY": -3.269,
+        "predicted_FBLE_mlr": -1.7809455813392947
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2010,
+        "Capital": 1.046025,
+        "Hours": 1.260407,
+        "MFP": -1.392479,
+        "Fiscal Balance (% of GDP)": -7.057,
+        "Fiscal Balance (% of GDP) YoY": -4.087,
+        "predicted_FBLE_mlr": 0.13675131713928002
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2011,
+        "Capital": 1.08786,
+        "Hours": 0.500403,
+        "MFP": 0.987289,
+        "Fiscal Balance (% of GDP)": -4.261,
+        "Fiscal Balance (% of GDP) YoY": 2.7960000000000003,
+        "predicted_FBLE_mlr": 0.03413421021063384
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2012,
+        "Capital": 1.027418,
+        "Hours": -0.794259,
+        "MFP": 2.321821,
+        "Fiscal Balance (% of GDP)": -2.365,
+        "Fiscal Balance (% of GDP) YoY": 1.896,
+        "predicted_FBLE_mlr": -0.7723292482661381
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2013,
+        "Capital": 1.124163,
+        "Hours": 2.97742,
+        "MFP": -2.104826,
+        "Fiscal Balance (% of GDP)": -0.865,
+        "Fiscal Balance (% of GDP) YoY": 1.5000000000000002,
+        "predicted_FBLE_mlr": 1.470231611333928
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2014,
+        "Capital": 1.114888,
+        "Hours": 2.713745,
+        "MFP": -0.256049,
+        "Fiscal Balance (% of GDP)": 0.264,
+        "Fiscal Balance (% of GDP) YoY": 1.129,
+        "predicted_FBLE_mlr": 1.6974708146055695
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2015,
+        "Capital": 1.01054,
+        "Hours": 1.404186,
+        "MFP": 1.745249,
+        "Fiscal Balance (% of GDP)": 0.027,
+        "Fiscal Balance (% of GDP) YoY": -0.23700000000000002,
+        "predicted_FBLE_mlr": 1.05871003644979
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2016,
+        "Capital": 0.784412,
+        "Hours": 3.581914,
+        "MFP": -0.602952,
+        "Fiscal Balance (% of GDP)": 1.075,
+        "Fiscal Balance (% of GDP) YoY": 1.048,
+        "predicted_FBLE_mlr": 2.5020775051083404
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2017,
+        "Capital": 0.901549,
+        "Hours": 3.17707,
+        "MFP": 0.147774,
+        "Fiscal Balance (% of GDP)": 1.515,
+        "Fiscal Balance (% of GDP) YoY": 0.43999999999999995,
+        "predicted_FBLE_mlr": 2.286168175933797
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2018,
+        "Capital": 0.851328,
+        "Hours": 1.389417,
+        "MFP": 1.553995,
+        "Fiscal Balance (% of GDP)": 0.703,
+        "Fiscal Balance (% of GDP) YoY": -0.8119999999999999,
+        "predicted_FBLE_mlr": 1.0525540505162998
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2019,
+        "Capital": 1.163388,
+        "Hours": 2.34838,
+        "MFP": -1.065365,
+        "Fiscal Balance (% of GDP)": -0.523,
+        "Fiscal Balance (% of GDP) YoY": -1.226,
+        "predicted_FBLE_mlr": 1.1521748056049308
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2020,
+        "Capital": 1.002857,
+        "Hours": -1.317717,
+        "MFP": 0.382317,
+        "Fiscal Balance (% of GDP)": -7.907,
+        "Fiscal Balance (% of GDP) YoY": -7.384,
+        "predicted_FBLE_mlr": -1.7154275475474479
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2021,
+        "Capital": 1.29225,
+        "Hours": 1.46619,
+        "MFP": 1.793933,
+        "Fiscal Balance (% of GDP)": -4.19,
+        "Fiscal Balance (% of GDP) YoY": 3.7169999999999996,
+        "predicted_FBLE_mlr": 1.029611573700065
+      },
+      {
+        "Country": "Norway",
+        "Year": 2008,
+        "Capital": 1.405841,
+        "Hours": 2.810189,
+        "MFP": -3.735267,
+        "Fiscal Balance (% of GDP)": 18.531,
+        "Fiscal Balance (% of GDP) YoY": 1.4929999999999986,
+        "predicted_FBLE_mlr": 0.8179060349236318
+      },
+      {
+        "Country": "Norway",
+        "Year": 2009,
+        "Capital": 1.079231,
+        "Hours": -1.487002,
+        "MFP": -1.55167,
+        "Fiscal Balance (% of GDP)": 10.195,
+        "Fiscal Balance (% of GDP) YoY": -8.335999999999999,
+        "predicted_FBLE_mlr": -2.374644733799399
+      },
+      {
+        "Country": "Norway",
+        "Year": 2010,
+        "Capital": 0.902627,
+        "Hours": 0.209927,
+        "MFP": -0.328579,
+        "Fiscal Balance (% of GDP)": 10.871,
+        "Fiscal Balance (% of GDP) YoY": 0.6760000000000002,
+        "predicted_FBLE_mlr": -0.4899167727033622
+      },
+      {
+        "Country": "Norway",
+        "Year": 2011,
+        "Capital": 0.816597,
+        "Hours": 1.352766,
+        "MFP": -1.069771,
+        "Fiscal Balance (% of GDP)": 13.273,
+        "Fiscal Balance (% of GDP) YoY": 2.4019999999999992,
+        "predicted_FBLE_mlr": 0.3785747675652887
+      },
+      {
+        "Country": "Norway",
+        "Year": 2012,
+        "Capital": 0.708966,
+        "Hours": 1.350749,
+        "MFP": 0.62196,
+        "Fiscal Balance (% of GDP)": 13.68,
+        "Fiscal Balance (% of GDP) YoY": 0.40700000000000003,
+        "predicted_FBLE_mlr": 0.834820856249376
+      },
+      {
+        "Country": "Norway",
+        "Year": 2013,
+        "Capital": 0.797037,
+        "Hours": 0.321409,
+        "MFP": -0.107389,
+        "Fiscal Balance (% of GDP)": 10.608,
+        "Fiscal Balance (% of GDP) YoY": -3.071999999999999,
+        "predicted_FBLE_mlr": -0.29876459016269674
+      },
+      {
+        "Country": "Norway",
+        "Year": 2014,
+        "Capital": 0.673365,
+        "Hours": 0.924878,
+        "MFP": 0.429202,
+        "Fiscal Balance (% of GDP)": 8.572,
+        "Fiscal Balance (% of GDP) YoY": -2.0360000000000014,
+        "predicted_FBLE_mlr": 0.41768971142582806
+      },
+      {
+        "Country": "Norway",
+        "Year": 2015,
+        "Capital": 0.518991,
+        "Hours": 0.378467,
+        "MFP": 0.942848,
+        "Fiscal Balance (% of GDP)": 5.987,
+        "Fiscal Balance (% of GDP) YoY": -2.584999999999999,
+        "predicted_FBLE_mlr": 0.10923202716139457
+      },
+      {
+        "Country": "Norway",
+        "Year": 2016,
+        "Capital": 0.644913,
+        "Hours": 0.369116,
+        "MFP": 0.143962,
+        "Fiscal Balance (% of GDP)": 4.036,
+        "Fiscal Balance (% of GDP) YoY": -1.9510000000000005,
+        "predicted_FBLE_mlr": -0.1412366747240373
+      },
+      {
+        "Country": "Norway",
+        "Year": 2017,
+        "Capital": 0.737275,
+        "Hours": 0.272394,
+        "MFP": 1.424218,
+        "Fiscal Balance (% of GDP)": 4.957,
+        "Fiscal Balance (% of GDP) YoY": 0.9210000000000003,
+        "predicted_FBLE_mlr": 0.059098293247137446
+      },
+      {
+        "Country": "Norway",
+        "Year": 2018,
+        "Capital": 0.80964,
+        "Hours": 1.13458,
+        "MFP": -1.118744,
+        "Fiscal Balance (% of GDP)": 7.814,
+        "Fiscal Balance (% of GDP) YoY": 2.857,
+        "predicted_FBLE_mlr": 0.1733833475926556
+      },
+      {
+        "Country": "Norway",
+        "Year": 2019,
+        "Capital": 1.004978,
+        "Hours": 1.080692,
+        "MFP": -0.968153,
+        "Fiscal Balance (% of GDP)": 6.522,
+        "Fiscal Balance (% of GDP) YoY": -1.2919999999999998,
+        "predicted_FBLE_mlr": 0.09552784386132468
+      },
+      {
+        "Country": "Norway",
+        "Year": 2020,
+        "Capital": 0.857898,
+        "Hours": -1.584523,
+        "MFP": -0.55979,
+        "Fiscal Balance (% of GDP)": -2.559,
+        "Fiscal Balance (% of GDP) YoY": -9.081,
+        "predicted_FBLE_mlr": -2.139078791526884
+      },
+      {
+        "Country": "Norway",
+        "Year": 2021,
+        "Capital": 0.796893,
+        "Hours": 1.701077,
+        "MFP": 1.336268,
+        "Fiscal Balance (% of GDP)": 10.286,
+        "Fiscal Balance (% of GDP) YoY": 12.844999999999999,
+        "predicted_FBLE_mlr": 1.2961517303888215
+      },
+      {
+        "Country": "Norway",
+        "Year": 2022,
+        "Capital": 0.918007,
+        "Hours": 2.772316,
+        "MFP": -0.728973,
+        "Fiscal Balance (% of GDP)": 25.538,
+        "Fiscal Balance (% of GDP) YoY": 15.252,
+        "predicted_FBLE_mlr": 1.6998176743903897
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2008,
+        "Capital": 1.292502,
+        "Hours": -0.240364,
+        "MFP": -0.733394,
+        "Fiscal Balance (% of GDP)": -3.811,
+        "Fiscal Balance (% of GDP) YoY": -0.9359999999999999,
+        "predicted_FBLE_mlr": -1.1278133064561506
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2009,
+        "Capital": 1.028229,
+        "Hours": -1.982902,
+        "MFP": -2.217181,
+        "Fiscal Balance (% of GDP)": -9.874,
+        "Fiscal Balance (% of GDP) YoY": -6.063000000000001,
+        "predicted_FBLE_mlr": -2.9668730579825335
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2010,
+        "Capital": 1.020945,
+        "Hours": -0.911682,
+        "MFP": 1.613437,
+        "Fiscal Balance (% of GDP)": -11.418,
+        "Fiscal Balance (% of GDP) YoY": -1.5439999999999987,
+        "predicted_FBLE_mlr": -1.051586001657731
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2011,
+        "Capital": 0.656208,
+        "Hours": -2.221792,
+        "MFP": -0.145131,
+        "Fiscal Balance (% of GDP)": -7.727,
+        "Fiscal Balance (% of GDP) YoY": 3.690999999999999,
+        "predicted_FBLE_mlr": -2.5372920193421185
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2012,
+        "Capital": 0.272291,
+        "Hours": -3.490646,
+        "MFP": -0.923547,
+        "Fiscal Balance (% of GDP)": -6.202,
+        "Fiscal Balance (% of GDP) YoY": 1.5250000000000004,
+        "predicted_FBLE_mlr": -3.735494984922886
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2013,
+        "Capital": 0.183461,
+        "Hours": -1.60392,
+        "MFP": 0.493537,
+        "Fiscal Balance (% of GDP)": -5.214,
+        "Fiscal Balance (% of GDP) YoY": 0.9879999999999995,
+        "predicted_FBLE_mlr": -1.6626550129787145
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2014,
+        "Capital": 0.234727,
+        "Hours": 1.241864,
+        "MFP": -0.687528,
+        "Fiscal Balance (% of GDP)": -7.363,
+        "Fiscal Balance (% of GDP) YoY": -2.149,
+        "predicted_FBLE_mlr": 0.574224865718483
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2015,
+        "Capital": 0.287401,
+        "Hours": 1.252808,
+        "MFP": 0.235971,
+        "Fiscal Balance (% of GDP)": -4.474,
+        "Fiscal Balance (% of GDP) YoY": 2.8890000000000002,
+        "predicted_FBLE_mlr": 0.7958057663934899
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2016,
+        "Capital": 0.289956,
+        "Hours": 1.375912,
+        "MFP": 0.333498,
+        "Fiscal Balance (% of GDP)": -1.943,
+        "Fiscal Balance (% of GDP) YoY": 2.531,
+        "predicted_FBLE_mlr": 0.9294463830564155
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2017,
+        "Capital": 0.4907,
+        "Hours": 1.905473,
+        "MFP": 1.0501,
+        "Fiscal Balance (% of GDP)": -3.002,
+        "Fiscal Balance (% of GDP) YoY": -1.0589999999999997,
+        "predicted_FBLE_mlr": 1.513112896561147
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2018,
+        "Capital": 0.607849,
+        "Hours": 2.123551,
+        "MFP": 0.078085,
+        "Fiscal Balance (% of GDP)": -0.426,
+        "Fiscal Balance (% of GDP) YoY": 2.5759999999999996,
+        "predicted_FBLE_mlr": 1.4262311446754143
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2019,
+        "Capital": 0.67372,
+        "Hours": 0.849222,
+        "MFP": 1.124465,
+        "Fiscal Balance (% of GDP)": 0.116,
+        "Fiscal Balance (% of GDP) YoY": 0.542,
+        "predicted_FBLE_mlr": 0.5228747827860016
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2020,
+        "Capital": 0.586029,
+        "Hours": -7.263977,
+        "MFP": -1.987393,
+        "Fiscal Balance (% of GDP)": -5.752,
+        "Fiscal Balance (% of GDP) YoY": -5.867999999999999,
+        "predicted_FBLE_mlr": -7.487144524210595
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2021,
+        "Capital": 0.757166,
+        "Hours": 3.168983,
+        "MFP": 1.652729,
+        "Fiscal Balance (% of GDP)": -2.825,
+        "Fiscal Balance (% of GDP) YoY": 2.9269999999999996,
+        "predicted_FBLE_mlr": 2.703108880111695
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2022,
+        "Capital": 0.745967,
+        "Hours": 0.508476,
+        "MFP": 5.350092,
+        "Fiscal Balance (% of GDP)": -0.31,
+        "Fiscal Balance (% of GDP) YoY": 2.515,
+        "predicted_FBLE_mlr": 1.2447238832382013
+      },
+      {
+        "Country": "Spain",
+        "Year": 2008,
+        "Capital": 1.472787,
+        "Hours": 0.457927,
+        "MFP": -1.047553,
+        "Fiscal Balance (% of GDP)": -4.56,
+        "Fiscal Balance (% of GDP) YoY": -6.443,
+        "predicted_FBLE_mlr": -0.6425871758002759
+      },
+      {
+        "Country": "Spain",
+        "Year": 2009,
+        "Capital": 0.933701,
+        "Hours": -4.462496,
+        "MFP": -0.306946,
+        "Fiscal Balance (% of GDP)": -11.237,
+        "Fiscal Balance (% of GDP) YoY": -6.6770000000000005,
+        "predicted_FBLE_mlr": -4.67946614010586
+      },
+      {
+        "Country": "Spain",
+        "Year": 2010,
+        "Capital": 0.950661,
+        "Hours": -1.646532,
+        "MFP": 0.858658,
+        "Fiscal Balance (% of GDP)": -9.487,
+        "Fiscal Balance (% of GDP) YoY": 1.75,
+        "predicted_FBLE_mlr": -1.8733977137680533
+      },
+      {
+        "Country": "Spain",
+        "Year": 2011,
+        "Capital": 0.790331,
+        "Hours": -1.582897,
+        "MFP": -0.025156,
+        "Fiscal Balance (% of GDP)": -9.692,
+        "Fiscal Balance (% of GDP) YoY": -0.20500000000000007,
+        "predicted_FBLE_mlr": -1.9813430437629809
+      },
+      {
+        "Country": "Spain",
+        "Year": 2012,
+        "Capital": 0.647665,
+        "Hours": -3.361617,
+        "MFP": -0.289627,
+        "Fiscal Balance (% of GDP)": -11.496,
+        "Fiscal Balance (% of GDP) YoY": -1.8040000000000003,
+        "predicted_FBLE_mlr": -3.591064570154838
+      },
+      {
+        "Country": "Spain",
+        "Year": 2013,
+        "Capital": 0.523959,
+        "Hours": -1.944132,
+        "MFP": 0.00689,
+        "Fiscal Balance (% of GDP)": -7.488,
+        "Fiscal Balance (% of GDP) YoY": 4.008,
+        "predicted_FBLE_mlr": -2.2053855170110834
+      },
+      {
+        "Country": "Spain",
+        "Year": 2014,
+        "Capital": 0.493078,
+        "Hours": 0.73573,
+        "MFP": 0.157316,
+        "Fiscal Balance (% of GDP)": -6.036,
+        "Fiscal Balance (% of GDP) YoY": 1.4520000000000008,
+        "predicted_FBLE_mlr": 0.24254049508405834
+      },
+      {
+        "Country": "Spain",
+        "Year": 2015,
+        "Capital": 0.561703,
+        "Hours": 2.082358,
+        "MFP": 1.122619,
+        "Fiscal Balance (% of GDP)": -5.266,
+        "Fiscal Balance (% of GDP) YoY": 0.7699999999999996,
+        "predicted_FBLE_mlr": 1.6651850403609134
+      },
+      {
+        "Country": "Spain",
+        "Year": 2016,
+        "Capital": 0.513233,
+        "Hours": 1.808126,
+        "MFP": 0.671188,
+        "Fiscal Balance (% of GDP)": -4.221,
+        "Fiscal Balance (% of GDP) YoY": 1.045,
+        "predicted_FBLE_mlr": 1.323882909414323
+      },
+      {
+        "Country": "Spain",
+        "Year": 2017,
+        "Capital": 0.511933,
+        "Hours": 1.48109,
+        "MFP": 0.939323,
+        "Fiscal Balance (% of GDP)": -3.069,
+        "Fiscal Balance (% of GDP) YoY": 1.1520000000000001,
+        "predicted_FBLE_mlr": 1.0982028194046873
+      },
+      {
+        "Country": "Spain",
+        "Year": 2018,
+        "Capital": 0.476643,
+        "Hours": 1.803952,
+        "MFP": -0.021829,
+        "Fiscal Balance (% of GDP)": -2.552,
+        "Fiscal Balance (% of GDP) YoY": 0.5169999999999999,
+        "predicted_FBLE_mlr": 1.1602107980268281
+      },
+      {
+        "Country": "Spain",
+        "Year": 2019,
+        "Capital": 0.453927,
+        "Hours": 1.040091,
+        "MFP": 0.470522,
+        "Fiscal Balance (% of GDP)": -3.065,
+        "Fiscal Balance (% of GDP) YoY": -0.5129999999999999,
+        "predicted_FBLE_mlr": 0.606508168535959
+      },
+      {
+        "Country": "Spain",
+        "Year": 2020,
+        "Capital": 0.151091,
+        "Hours": -8.626758,
+        "MFP": -3.36587,
+        "Fiscal Balance (% of GDP)": -9.909,
+        "Fiscal Balance (% of GDP) YoY": -6.844000000000001,
+        "predicted_FBLE_mlr": -8.901301936454905
+      },
+      {
+        "Country": "Spain",
+        "Year": 2021,
+        "Capital": 0.269082,
+        "Hours": 5.168666,
+        "MFP": 0.768777,
+        "Fiscal Balance (% of GDP)": -6.651,
+        "Fiscal Balance (% of GDP) YoY": 3.258000000000001,
+        "predicted_FBLE_mlr": 4.441459482663638
+      },
+      {
+        "Country": "Spain",
+        "Year": 2022,
+        "Capital": 0.346722,
+        "Hours": 2.882153,
+        "MFP": 2.381414,
+        "Fiscal Balance (% of GDP)": -4.594,
+        "Fiscal Balance (% of GDP) YoY": 2.0569999999999995,
+        "predicted_FBLE_mlr": 2.7685749767253953
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2008,
+        "Capital": 1.13515,
+        "Hours": 0.92772,
+        "MFP": -2.514445,
+        "Fiscal Balance (% of GDP)": 1.873,
+        "Fiscal Balance (% of GDP) YoY": -1.4949999999999999,
+        "predicted_FBLE_mlr": -0.4710539376205981
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2009,
+        "Capital": 0.494919,
+        "Hours": -2.084784,
+        "MFP": -2.84691,
+        "Fiscal Balance (% of GDP)": -0.889,
+        "Fiscal Balance (% of GDP) YoY": -2.762,
+        "predicted_FBLE_mlr": -3.0317124734403698
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2010,
+        "Capital": 0.624475,
+        "Hours": 1.593221,
+        "MFP": 3.564002,
+        "Fiscal Balance (% of GDP)": -0.144,
+        "Fiscal Balance (% of GDP) YoY": 0.745,
+        "predicted_FBLE_mlr": 1.8132822483795636
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2011,
+        "Capital": 0.828714,
+        "Hours": 1.596243,
+        "MFP": 0.720386,
+        "Fiscal Balance (% of GDP)": -0.407,
+        "Fiscal Balance (% of GDP) YoY": -0.263,
+        "predicted_FBLE_mlr": 1.0380428908145878
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2012,
+        "Capital": 0.714612,
+        "Hours": -0.075606,
+        "MFP": -1.229045,
+        "Fiscal Balance (% of GDP)": -1.191,
+        "Fiscal Balance (% of GDP) YoY": -0.784,
+        "predicted_FBLE_mlr": -0.9051876435151387
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2013,
+        "Capital": 0.664355,
+        "Hours": 0.264561,
+        "MFP": 0.251862,
+        "Fiscal Balance (% of GDP)": -1.63,
+        "Fiscal Balance (% of GDP) YoY": -0.43899999999999983,
+        "predicted_FBLE_mlr": -0.21468719528910613
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2014,
+        "Capital": 0.705391,
+        "Hours": 1.036475,
+        "MFP": 0.881224,
+        "Fiscal Balance (% of GDP)": -1.841,
+        "Fiscal Balance (% of GDP) YoY": -0.21100000000000008,
+        "predicted_FBLE_mlr": 0.6191426033544356
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2015,
+        "Capital": 1.027611,
+        "Hours": 1.098676,
+        "MFP": 2.265143,
+        "Fiscal Balance (% of GDP)": -0.272,
+        "Fiscal Balance (% of GDP) YoY": 1.569,
+        "predicted_FBLE_mlr": 0.9086637744437329
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2016,
+        "Capital": 0.93791,
+        "Hours": 1.872945,
+        "MFP": -0.761406,
+        "Fiscal Balance (% of GDP)": 0.86,
+        "Fiscal Balance (% of GDP) YoY": 1.1320000000000001,
+        "predicted_FBLE_mlr": 0.8795022834777337
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2017,
+        "Capital": 1.169237,
+        "Hours": 1.160075,
+        "MFP": 0.206193,
+        "Fiscal Balance (% of GDP)": 1.287,
+        "Fiscal Balance (% of GDP) YoY": 0.42699999999999994,
+        "predicted_FBLE_mlr": 0.4025164783318565
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2018,
+        "Capital": 1.005304,
+        "Hours": 1.098026,
+        "MFP": -0.172077,
+        "Fiscal Balance (% of GDP)": 0.671,
+        "Fiscal Balance (% of GDP) YoY": -0.6159999999999999,
+        "predicted_FBLE_mlr": 0.3090910455394676
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2019,
+        "Capital": 0.848184,
+        "Hours": -0.20407,
+        "MFP": 1.322618,
+        "Fiscal Balance (% of GDP)": 0.439,
+        "Fiscal Balance (% of GDP) YoY": -0.23200000000000004,
+        "predicted_FBLE_mlr": -0.4309630411131401
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2020,
+        "Capital": 0.997655,
+        "Hours": -2.296406,
+        "MFP": -0.895357,
+        "Fiscal Balance (% of GDP)": -3.175,
+        "Fiscal Balance (% of GDP) YoY": -3.614,
+        "predicted_FBLE_mlr": -2.9081070072623643
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2021,
+        "Capital": 1.219551,
+        "Hours": 1.743823,
+        "MFP": 3.002122,
+        "Fiscal Balance (% of GDP)": -0.202,
+        "Fiscal Balance (% of GDP) YoY": 2.973,
+        "predicted_FBLE_mlr": 1.6039356818122652
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2022,
+        "Capital": 1.390601,
+        "Hours": 1.600564,
+        "MFP": -0.362814,
+        "Fiscal Balance (% of GDP)": 1.008,
+        "Fiscal Balance (% of GDP) YoY": 1.21,
+        "predicted_FBLE_mlr": 0.5793334538837214
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2008,
+        "Capital": 1.315427,
+        "Hours": 1.257069,
+        "MFP": 0.196784,
+        "Fiscal Balance (% of GDP)": 1.934,
+        "Fiscal Balance (% of GDP) YoY": 0.3579999999999999,
+        "predicted_FBLE_mlr": 0.43683151037694473
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2009,
+        "Capital": 0.888234,
+        "Hours": -0.039518,
+        "MFP": -3.172895,
+        "Fiscal Balance (% of GDP)": 0.498,
+        "Fiscal Balance (% of GDP) YoY": -1.436,
+        "predicted_FBLE_mlr": -1.4163396535529729
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2010,
+        "Capital": 0.875938,
+        "Hours": -1.482768,
+        "MFP": 3.798742,
+        "Fiscal Balance (% of GDP)": 0.354,
+        "Fiscal Balance (% of GDP) YoY": -0.14400000000000002,
+        "predicted_FBLE_mlr": -0.969262968459053
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2011,
+        "Capital": 0.751164,
+        "Hours": 1.644671,
+        "MFP": -0.598969,
+        "Fiscal Balance (% of GDP)": 0.683,
+        "Fiscal Balance (% of GDP) YoY": 0.32900000000000007,
+        "predicted_FBLE_mlr": 0.779640741480508
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2012,
+        "Capital": 0.87642,
+        "Hours": 0.54557,
+        "MFP": -0.249634,
+        "Fiscal Balance (% of GDP)": 0.235,
+        "Fiscal Balance (% of GDP) YoY": -0.44800000000000006,
+        "predicted_FBLE_mlr": -0.16069062771761428
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2013,
+        "Capital": 0.781303,
+        "Hours": -0.037792,
+        "MFP": 1.032768,
+        "Fiscal Balance (% of GDP)": -0.433,
+        "Fiscal Balance (% of GDP) YoY": -0.6679999999999999,
+        "predicted_FBLE_mlr": -0.3312364209878307
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2014,
+        "Capital": 0.731703,
+        "Hours": 0.941868,
+        "MFP": 0.649127,
+        "Fiscal Balance (% of GDP)": -0.247,
+        "Fiscal Balance (% of GDP) YoY": 0.186,
+        "predicted_FBLE_mlr": 0.46761248105111336
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2015,
+        "Capital": 0.739732,
+        "Hours": 1.602677,
+        "MFP": -0.711162,
+        "Fiscal Balance (% of GDP)": 0.546,
+        "Fiscal Balance (% of GDP) YoY": 0.793,
+        "predicted_FBLE_mlr": 0.7180339403293801
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2016,
+        "Capital": 0.694723,
+        "Hours": 0.981764,
+        "MFP": 0.371094,
+        "Fiscal Balance (% of GDP)": 0.238,
+        "Fiscal Balance (% of GDP) YoY": -0.30800000000000005,
+        "predicted_FBLE_mlr": 0.4468341301852748
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2017,
+        "Capital": 0.758002,
+        "Hours": -0.165851,
+        "MFP": 0.761442,
+        "Fiscal Balance (% of GDP)": 1.13,
+        "Fiscal Balance (% of GDP) YoY": 0.8919999999999999,
+        "predicted_FBLE_mlr": -0.5054504397156041
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2018,
+        "Capital": 0.621278,
+        "Hours": 0.377181,
+        "MFP": 1.821843,
+        "Fiscal Balance (% of GDP)": 1.29,
+        "Fiscal Balance (% of GDP) YoY": 0.16000000000000014,
+        "predicted_FBLE_mlr": 0.29174546297857723
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2019,
+        "Capital": 0.576699,
+        "Hours": 0.409567,
+        "MFP": 0.149245,
+        "Fiscal Balance (% of GDP)": 1.341,
+        "Fiscal Balance (% of GDP) YoY": 0.050999999999999934,
+        "predicted_FBLE_mlr": -0.08027139567091657
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2020,
+        "Capital": 0.557301,
+        "Hours": -2.675317,
+        "MFP": -0.046984,
+        "Fiscal Balance (% of GDP)": -3.059,
+        "Fiscal Balance (% of GDP) YoY": -4.4,
+        "predicted_FBLE_mlr": -2.8850384647955534
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2021,
+        "Capital": 0.87704,
+        "Hours": 1.91829,
+        "MFP": 2.456218,
+        "Fiscal Balance (% of GDP)": -0.312,
+        "Fiscal Balance (% of GDP) YoY": 2.7470000000000003,
+        "predicted_FBLE_mlr": 1.7419155822697565
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2022,
+        "Capital": 0.79921,
+        "Hours": 0.924662,
+        "MFP": 0.812029,
+        "Fiscal Balance (% of GDP)": 1.267,
+        "Fiscal Balance (% of GDP) YoY": 1.579,
+        "predicted_FBLE_mlr": 0.46956954320939753
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2008,
+        "Capital": 0.640792,
+        "Hours": -0.169482,
+        "MFP": -0.697299,
+        "Fiscal Balance (% of GDP)": -5.087,
+        "Fiscal Balance (% of GDP) YoY": -2.433,
+        "predicted_FBLE_mlr": -0.8315476490000828
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2009,
+        "Capital": 0.475479,
+        "Hours": -1.656109,
+        "MFP": -3.54421,
+        "Fiscal Balance (% of GDP)": -10.057,
+        "Fiscal Balance (% of GDP) YoY": -4.970000000000001,
+        "predicted_FBLE_mlr": -2.814713885882136
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2010,
+        "Capital": 0.637608,
+        "Hours": -0.26286,
+        "MFP": 1.839252,
+        "Fiscal Balance (% of GDP)": -9.219,
+        "Fiscal Balance (% of GDP) YoY": 0.838000000000001,
+        "predicted_FBLE_mlr": -0.2827006767579949
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2011,
+        "Capital": 0.618033,
+        "Hours": 0.7797,
+        "MFP": -0.259139,
+        "Fiscal Balance (% of GDP)": -7.378,
+        "Fiscal Balance (% of GDP) YoY": 1.8409999999999993,
+        "predicted_FBLE_mlr": 0.13534538354106868
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2012,
+        "Capital": 0.607241,
+        "Hours": 1.596661,
+        "MFP": -0.70229,
+        "Fiscal Balance (% of GDP)": -7.969,
+        "Fiscal Balance (% of GDP) YoY": -0.5910000000000002,
+        "predicted_FBLE_mlr": 0.7603537519512038
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2013,
+        "Capital": 0.563025,
+        "Hours": 1.016164,
+        "MFP": 0.19726,
+        "Fiscal Balance (% of GDP)": -5.344,
+        "Fiscal Balance (% of GDP) YoY": 2.625,
+        "predicted_FBLE_mlr": 0.4795975273327961
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2014,
+        "Capital": 0.585244,
+        "Hours": 2.2655,
+        "MFP": 0.295035,
+        "Fiscal Balance (% of GDP)": -5.529,
+        "Fiscal Balance (% of GDP) YoY": -0.1849999999999996,
+        "predicted_FBLE_mlr": 1.6151138401148502
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2015,
+        "Capital": 0.599102,
+        "Hours": 0.47206,
+        "MFP": 1.124807,
+        "Fiscal Balance (% of GDP)": -4.594,
+        "Fiscal Balance (% of GDP) YoY": 0.9349999999999996,
+        "predicted_FBLE_mlr": 0.2108272968488768
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2016,
+        "Capital": 0.625412,
+        "Hours": 1.970869,
+        "MFP": -0.69344,
+        "Fiscal Balance (% of GDP)": -3.312,
+        "Fiscal Balance (% of GDP) YoY": 1.2820000000000005,
+        "predicted_FBLE_mlr": 1.0914284050988963
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2017,
+        "Capital": 0.595526,
+        "Hours": 0.489517,
+        "MFP": 1.535393,
+        "Fiscal Balance (% of GDP)": -2.491,
+        "Fiscal Balance (% of GDP) YoY": 0.8209999999999997,
+        "predicted_FBLE_mlr": 0.32988789835064297
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2018,
+        "Capital": 0.569302,
+        "Hours": 0.956328,
+        "MFP": -0.131598,
+        "Fiscal Balance (% of GDP)": -2.27,
+        "Fiscal Balance (% of GDP) YoY": 0.22100000000000009,
+        "predicted_FBLE_mlr": 0.3420010030069243
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2019,
+        "Capital": 0.529848,
+        "Hours": 0.884986,
+        "MFP": 0.213442,
+        "Fiscal Balance (% of GDP)": -2.472,
+        "Fiscal Balance (% of GDP) YoY": -0.20199999999999996,
+        "predicted_FBLE_mlr": 0.3775458380194207
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2020,
+        "Capital": 0.388559,
+        "Hours": -9.849094,
+        "MFP": -1.476202,
+        "Fiscal Balance (% of GDP)": -13.173,
+        "Fiscal Balance (% of GDP) YoY": -10.701,
+        "predicted_FBLE_mlr": -9.607122008657756
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2021,
+        "Capital": 0.444652,
+        "Hours": 6.844075,
+        "MFP": 1.030343,
+        "Fiscal Balance (% of GDP)": -7.725,
+        "Fiscal Balance (% of GDP) YoY": 5.448,
+        "predicted_FBLE_mlr": 5.946640918151398
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2022,
+        "Capital": 0.626473,
+        "Hours": 2.443602,
+        "MFP": 1.183397,
+        "Fiscal Balance (% of GDP)": -4.723,
+        "Fiscal Balance (% of GDP) YoY": 3.002,
+        "predicted_FBLE_mlr": 1.9815729526343597
+      },
+      {
+        "Country": "United States",
+        "Year": 2008,
+        "Capital": 0.920216,
+        "Hours": -0.87941,
+        "MFP": 0.072717,
+        "Fiscal Balance (% of GDP)": -7.361,
+        "Fiscal Balance (% of GDP) YoY": -3.3659999999999997,
+        "predicted_FBLE_mlr": -1.3715964929498294
+      },
+      {
+        "Country": "United States",
+        "Year": 2009,
+        "Capital": 0.585946,
+        "Hours": -4.274345,
+        "MFP": 1.078123,
+        "Fiscal Balance (% of GDP)": -13.117,
+        "Fiscal Balance (% of GDP) YoY": -5.756000000000001,
+        "predicted_FBLE_mlr": -4.046790430172949
+      },
+      {
+        "Country": "United States",
+        "Year": 2010,
+        "Capital": 0.634484,
+        "Hours": 0.03825,
+        "MFP": 1.98678,
+        "Fiscal Balance (% of GDP)": -12.4,
+        "Fiscal Balance (% of GDP) YoY": 0.7170000000000005,
+        "predicted_FBLE_mlr": 0.02474446927469459
+      },
+      {
+        "Country": "United States",
+        "Year": 2011,
+        "Capital": 0.677377,
+        "Hours": 1.086181,
+        "MFP": -0.211262,
+        "Fiscal Balance (% of GDP)": -10.979,
+        "Fiscal Balance (% of GDP) YoY": 1.4210000000000012,
+        "predicted_FBLE_mlr": 0.4013439113110719
+      },
+      {
+        "Country": "United States",
+        "Year": 2012,
+        "Capital": 0.748384,
+        "Hours": 1.382152,
+        "MFP": 0.132773,
+        "Fiscal Balance (% of GDP)": -9.21,
+        "Fiscal Balance (% of GDP) YoY": 1.7689999999999984,
+        "predicted_FBLE_mlr": 0.7276422967100529
+      },
+      {
+        "Country": "United States",
+        "Year": 2013,
+        "Capital": 0.735289,
+        "Hours": 1.02305,
+        "MFP": 0.337373,
+        "Fiscal Balance (% of GDP)": -5.826,
+        "Fiscal Balance (% of GDP) YoY": 3.3840000000000012,
+        "predicted_FBLE_mlr": 0.46148233410739853
+      },
+      {
+        "Country": "United States",
+        "Year": 2014,
+        "Capital": 0.739677,
+        "Hours": 1.424845,
+        "MFP": 0.327982,
+        "Fiscal Balance (% of GDP)": -5.175,
+        "Fiscal Balance (% of GDP) YoY": 0.6509999999999998,
+        "predicted_FBLE_mlr": 0.8174546378985685
+      },
+      {
+        "Country": "United States",
+        "Year": 2015,
+        "Capital": 0.689701,
+        "Hours": 1.448688,
+        "MFP": 0.764614,
+        "Fiscal Balance (% of GDP)": -4.604,
+        "Fiscal Balance (% of GDP) YoY": 0.5709999999999997,
+        "predicted_FBLE_mlr": 0.9646514846012195
+      },
+      {
+        "Country": "United States",
+        "Year": 2016,
+        "Capital": 0.680747,
+        "Hours": 1.05866,
+        "MFP": 0.063686,
+        "Fiscal Balance (% of GDP)": -5.392,
+        "Fiscal Balance (% of GDP) YoY": -0.7880000000000003,
+        "predicted_FBLE_mlr": 0.4439785323604953
+      },
+      {
+        "Country": "United States",
+        "Year": 2017,
+        "Capital": 0.72627,
+        "Hours": 0.969201,
+        "MFP": 0.732442,
+        "Fiscal Balance (% of GDP)": -4.43,
+        "Fiscal Balance (% of GDP) YoY": 0.9620000000000006,
+        "predicted_FBLE_mlr": 0.5146935984399714
+      },
+      {
+        "Country": "United States",
+        "Year": 2018,
+        "Capital": 0.822296,
+        "Hours": 1.199779,
+        "MFP": 0.90128,
+        "Fiscal Balance (% of GDP)": -6.116,
+        "Fiscal Balance (% of GDP) YoY": -1.686,
+        "predicted_FBLE_mlr": 0.7302307473237573
+      },
+      {
+        "Country": "United States",
+        "Year": 2019,
+        "Capital": 0.804126,
+        "Hours": 0.804527,
+        "MFP": 0.82844,
+        "Fiscal Balance (% of GDP)": -6.693,
+        "Fiscal Balance (% of GDP) YoY": -0.577,
+        "predicted_FBLE_mlr": 0.3643825403923296
+      },
+      {
+        "Country": "United States",
+        "Year": 2020,
+        "Capital": 0.668832,
+        "Hours": -4.944034,
+        "MFP": 2.036865,
+        "Fiscal Balance (% of GDP)": -14.978,
+        "Fiscal Balance (% of GDP) YoY": -8.285,
+        "predicted_FBLE_mlr": -4.436334902805199
+      },
+      {
+        "Country": "United States",
+        "Year": 2021,
+        "Capital": 0.779273,
+        "Hours": 3.187789,
+        "MFP": 1.671172,
+        "Fiscal Balance (% of GDP)": -11.84,
+        "Fiscal Balance (% of GDP) YoY": 3.138,
+        "predicted_FBLE_mlr": 2.7169489565611866
+      },
+      {
+        "Country": "United States",
+        "Year": 2022,
+        "Capital": 0.828794,
+        "Hours": 2.660291,
+        "MFP": -1.572088,
+        "Fiscal Balance (% of GDP)": -3.669,
+        "Fiscal Balance (% of GDP) YoY": 8.171,
+        "predicted_FBLE_mlr": 1.420272784491586
+      }
+    ],
+    "data-8f1e3f2a7b66d79f34d180094d2a7e8e": [
+      {"value": -18.235},
+      {"value": 18.657999999999998}
+    ]
+  },
+  "config": {}
+}
