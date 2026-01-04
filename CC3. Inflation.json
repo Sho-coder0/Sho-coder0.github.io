@@ -1,5 +1,4 @@
 {
-  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
   "data": {"name": "data-0ef70bf8677305bb11239351ef3c040f"},
   "mark": {"type": "line", "point": true},
   "encoding": {
@@ -17,9 +16,9 @@
       "type": "quantitative"
     }
   },
-  "height": 400,
+  "height": 300,
   "title": "Inflation, 2015–2024",
-  "width": 700,
+  "width": 400,
   "$schema": "https://vega.github.io/schema/vega-lite/v6.20.1.json",
   "datasets": {
     "data-0ef70bf8677305bb11239351ef3c040f": [
