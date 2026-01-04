@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
   "title": "Scotland Airports",
-  "width": 400,
-  "height": 440,
+  "width": 440,
+  "height": 400,
   "layer": [
     {
       "data": {
