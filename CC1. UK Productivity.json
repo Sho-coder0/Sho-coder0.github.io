@@ -5,7 +5,7 @@
   },
   "title": {"text": "UK Productivity 1960-2023"},
   "width": 400,
-  "height": 400,
+  "height": 300,
   "mark": {"type": "line", "color": "red"},
   "encoding": {
     "x": {"field": "Year", "type": "temporal"},
