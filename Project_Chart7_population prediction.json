@@ -100,7 +100,7 @@
     }
   ],
   "title": {
-    "text": "Population Trend (Relative to 2015)",
+    "text": "Population Trend (2015=100)",
     "subtitle": "Source: World Bank"
     },
   "transform": [{"filter": {"param": "param_1"}}],
