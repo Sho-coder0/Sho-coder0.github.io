@@ -1,0 +1,88 @@
+{
+  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
+  "data": {"name": "data-34b2a0ad39515a00d266e37c63b53109"},
+  "mark": {"type": "line"},
+  "encoding": {
+    "tooltip": [
+      {"field": "date", "format": "%Y", "title": "Year", "type": "temporal"},
+      {
+        "field": "value_scaled",
+        "format": ".1f",
+        "title": "Value",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "axis": {"format": "%Y"},
+      "field": "date",
+      "title": "Year",
+      "type": "temporal"
+    },
+    "y": {
+      "field": "value_scaled",
+      "title": "Index (2015=100)",
+      "type": "quantitative"
+    }
+  },
+  "height": 170,
+  "title": {
+    "text": "Child living with HIV",
+    "subtitle": "Zambia — World Bank, index (2015=100)"
+  },
+  "width": 260,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-34b2a0ad39515a00d266e37c63b53109": [
+      {
+        "date": "2024",
+        "value_scaled": 67.41573033707866,
+        "indicator": "Child living with HIV"
+      },
+      {
+        "date": "2023",
+        "value_scaled": 71.91011235955057,
+        "indicator": "Child living with HIV"
+      },
+      {
+        "date": "2022",
+        "value_scaled": 76.40449438202246,
+        "indicator": "Child living with HIV"
+      },
+      {
+        "date": "2021",
+        "value_scaled": 79.7752808988764,
+        "indicator": "Child living with HIV"
+      },
+      {
+        "date": "2020",
+        "value_scaled": 83.14606741573034,
+        "indicator": "Child living with HIV"
+      },
+      {
+        "date": "2019",
+        "value_scaled": 88.76404494382022,
+        "indicator": "Child living with HIV"
+      },
+      {
+        "date": "2018",
+        "value_scaled": 94.3820224719101,
+        "indicator": "Child living with HIV"
+      },
+      {
+        "date": "2017",
+        "value_scaled": 96.62921348314607,
+        "indicator": "Child living with HIV"
+      },
+      {
+        "date": "2016",
+        "value_scaled": 98.87640449438202,
+        "indicator": "Child living with HIV"
+      },
+      {
+        "date": "2015",
+        "value_scaled": 100,
+        "indicator": "Child living with HIV"
+      }
+    ]
+  }
+}
