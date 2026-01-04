@@ -1,8 +1,8 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
   "title": "Wales enterprises (2024)",
-  "width": 350,
-  "height": 450,
+  "width": 440,
+  "height": 400,
   "data": {
     "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/refs/heads/main/MappingWorkshop/geo_data/LAD_WLS_2025_05.topojson",
     "format": {"type": "topojson", "feature": "object_name"}
