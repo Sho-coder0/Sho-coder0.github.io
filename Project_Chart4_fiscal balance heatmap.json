@@ -1,0 +1,4040 @@
+{
+  "data": {"name": "data-a5c6bc0786acee096da263d93a673206"},
+  "mark": {"type": "rect"},
+  "encoding": {
+    "color": {
+      "field": "Fiscal Balance (% of GDP)",
+      "scale": {"domainMid": 0, "scheme": "redblue"},
+      "title": "Fiscal Balance (% of GDP)",
+      "type": "quantitative"
+    },
+    "tooltip": [
+      {"field": "Country", "type": "nominal"},
+      {"field": "Year", "type": "ordinal"},
+      {
+        "field": "Fiscal Balance (% of GDP)",
+        "format": ".2f",
+        "type": "quantitative"
+      }
+    ],
+    "x": {"field": "Year", "title": "Year", "type": "ordinal"},
+    "y": {"field": "Country", "title": null, "type": "nominal"}
+  },
+  "height": 450,
+  "title": {"text": "Fiscal Balance - heatmap", "subtitle": "Source: OECD"},
+  "width": 600,
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
+  "datasets": {
+    "data-a5c6bc0786acee096da263d93a673206": [
+      {
+        "Country": "Australia",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 0.618,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Australia",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -3.855,
+        "Fiscal Balance (% of GDP) YoY": -4.473
+      },
+      {
+        "Country": "Australia",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -5.652,
+        "Fiscal Balance (% of GDP) YoY": -1.7970000000000002
+      },
+      {
+        "Country": "Australia",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -4.568,
+        "Fiscal Balance (% of GDP) YoY": 1.0840000000000005
+      },
+      {
+        "Country": "Australia",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -4.62,
+        "Fiscal Balance (% of GDP) YoY": -0.05200000000000049
+      },
+      {
+        "Country": "Australia",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -2.832,
+        "Fiscal Balance (% of GDP) YoY": 1.7880000000000003
+      },
+      {
+        "Country": "Australia",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -2.77,
+        "Fiscal Balance (% of GDP) YoY": 0.06199999999999983
+      },
+      {
+        "Country": "Australia",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -2.225,
+        "Fiscal Balance (% of GDP) YoY": 0.5449999999999999
+      },
+      {
+        "Country": "Australia",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -2.213,
+        "Fiscal Balance (% of GDP) YoY": 0.01200000000000001
+      },
+      {
+        "Country": "Australia",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -1.578,
+        "Fiscal Balance (% of GDP) YoY": 0.635
+      },
+      {
+        "Country": "Australia",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -1.197,
+        "Fiscal Balance (% of GDP) YoY": 0.381
+      },
+      {
+        "Country": "Australia",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -1.35,
+        "Fiscal Balance (% of GDP) YoY": -0.15300000000000002
+      },
+      {
+        "Country": "Australia",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -6.795,
+        "Fiscal Balance (% of GDP) YoY": -5.445
+      },
+      {
+        "Country": "Australia",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -8.166,
+        "Fiscal Balance (% of GDP) YoY": -1.3710000000000004
+      },
+      {
+        "Country": "Australia",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -4.369,
+        "Fiscal Balance (% of GDP) YoY": 3.7970000000000006
+      },
+      {
+        "Country": "Australia",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -1.136,
+        "Fiscal Balance (% of GDP) YoY": 3.2329999999999997
+      },
+      {
+        "Country": "Australia",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -2.101,
+        "Fiscal Balance (% of GDP) YoY": -0.9650000000000001
+      },
+      {
+        "Country": "Austria",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -1.37,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Austria",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -1.572,
+        "Fiscal Balance (% of GDP) YoY": -0.20199999999999996
+      },
+      {
+        "Country": "Austria",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -5.381,
+        "Fiscal Balance (% of GDP) YoY": -3.809
+      },
+      {
+        "Country": "Austria",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -4.464,
+        "Fiscal Balance (% of GDP) YoY": 0.9169999999999998
+      },
+      {
+        "Country": "Austria",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -2.482,
+        "Fiscal Balance (% of GDP) YoY": 1.9820000000000002
+      },
+      {
+        "Country": "Austria",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -2.177,
+        "Fiscal Balance (% of GDP) YoY": 0.30500000000000016
+      },
+      {
+        "Country": "Austria",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -1.993,
+        "Fiscal Balance (% of GDP) YoY": 0.18399999999999994
+      },
+      {
+        "Country": "Austria",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -1.924,
+        "Fiscal Balance (% of GDP) YoY": 0.06900000000000017
+      },
+      {
+        "Country": "Austria",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -0.477,
+        "Fiscal Balance (% of GDP) YoY": 1.447
+      },
+      {
+        "Country": "Austria",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -1.451,
+        "Fiscal Balance (% of GDP) YoY": -0.9740000000000001
+      },
+      {
+        "Country": "Austria",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -0.776,
+        "Fiscal Balance (% of GDP) YoY": 0.675
+      },
+      {
+        "Country": "Austria",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": 0.195,
+        "Fiscal Balance (% of GDP) YoY": 0.9710000000000001
+      },
+      {
+        "Country": "Austria",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": 0.536,
+        "Fiscal Balance (% of GDP) YoY": 0.341
+      },
+      {
+        "Country": "Austria",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -8.204,
+        "Fiscal Balance (% of GDP) YoY": -8.74
+      },
+      {
+        "Country": "Austria",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -5.693,
+        "Fiscal Balance (% of GDP) YoY": 2.511000000000001
+      },
+      {
+        "Country": "Austria",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -3.421,
+        "Fiscal Balance (% of GDP) YoY": 2.272
+      },
+      {
+        "Country": "Austria",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -2.616,
+        "Fiscal Balance (% of GDP) YoY": 0.8049999999999997
+      },
+      {
+        "Country": "Austria",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -4.665,
+        "Fiscal Balance (% of GDP) YoY": -2.049
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 0.066,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -1.095,
+        "Fiscal Balance (% of GDP) YoY": -1.161
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -5.448,
+        "Fiscal Balance (% of GDP) YoY": -4.353000000000001
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -4.133,
+        "Fiscal Balance (% of GDP) YoY": 1.3150000000000004
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -4.442,
+        "Fiscal Balance (% of GDP) YoY": -0.30900000000000016
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -4.349,
+        "Fiscal Balance (% of GDP) YoY": 0.09299999999999997
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -3.164,
+        "Fiscal Balance (% of GDP) YoY": 1.185
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -3.175,
+        "Fiscal Balance (% of GDP) YoY": -0.010999999999999677
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -2.475,
+        "Fiscal Balance (% of GDP) YoY": 0.6999999999999997
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -2.431,
+        "Fiscal Balance (% of GDP) YoY": 0.04400000000000004
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -0.763,
+        "Fiscal Balance (% of GDP) YoY": 1.6680000000000001
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -1.048,
+        "Fiscal Balance (% of GDP) YoY": -0.28500000000000003
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -2.048,
+        "Fiscal Balance (% of GDP) YoY": -1
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -9.035,
+        "Fiscal Balance (% of GDP) YoY": -6.987
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -5.402,
+        "Fiscal Balance (% of GDP) YoY": 3.633
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -3.62,
+        "Fiscal Balance (% of GDP) YoY": 1.782
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -4.096,
+        "Fiscal Balance (% of GDP) YoY": -0.476
+      },
+      {
+        "Country": "Belgium",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -4.519,
+        "Fiscal Balance (% of GDP) YoY": -0.42300000000000004
+      },
+      {
+        "Country": "Canada",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 1.82,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Canada",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": 0.184,
+        "Fiscal Balance (% of GDP) YoY": -1.6360000000000001
+      },
+      {
+        "Country": "Canada",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -3.881,
+        "Fiscal Balance (% of GDP) YoY": -4.0649999999999995
+      },
+      {
+        "Country": "Canada",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -4.738,
+        "Fiscal Balance (% of GDP) YoY": -0.8570000000000007
+      },
+      {
+        "Country": "Canada",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -3.309,
+        "Fiscal Balance (% of GDP) YoY": 1.4290000000000003
+      },
+      {
+        "Country": "Canada",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -2.525,
+        "Fiscal Balance (% of GDP) YoY": 0.7840000000000003
+      },
+      {
+        "Country": "Canada",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -1.495,
+        "Fiscal Balance (% of GDP) YoY": 1.0299999999999998
+      },
+      {
+        "Country": "Canada",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": 0.175,
+        "Fiscal Balance (% of GDP) YoY": 1.6700000000000002
+      },
+      {
+        "Country": "Canada",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -0.062,
+        "Fiscal Balance (% of GDP) YoY": -0.237
+      },
+      {
+        "Country": "Canada",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -0.453,
+        "Fiscal Balance (% of GDP) YoY": -0.391
+      },
+      {
+        "Country": "Canada",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -0.112,
+        "Fiscal Balance (% of GDP) YoY": 0.341
+      },
+      {
+        "Country": "Canada",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": 0.351,
+        "Fiscal Balance (% of GDP) YoY": 0.46299999999999997
+      },
+      {
+        "Country": "Canada",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -0.017,
+        "Fiscal Balance (% of GDP) YoY": -0.368
+      },
+      {
+        "Country": "Canada",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -10.949,
+        "Fiscal Balance (% of GDP) YoY": -10.932
+      },
+      {
+        "Country": "Canada",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -3.057,
+        "Fiscal Balance (% of GDP) YoY": 7.8919999999999995
+      },
+      {
+        "Country": "Canada",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": 0.556,
+        "Fiscal Balance (% of GDP) YoY": 3.613
+      },
+      {
+        "Country": "Canada",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": 0.072,
+        "Fiscal Balance (% of GDP) YoY": -0.48400000000000004
+      },
+      {
+        "Country": "Canada",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -2.15,
+        "Fiscal Balance (% of GDP) YoY": -2.222
+      },
+      {
+        "Country": "Chile",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 6.921,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Chile",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": 4.807,
+        "Fiscal Balance (% of GDP) YoY": -2.114
+      },
+      {
+        "Country": "Chile",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -4.661,
+        "Fiscal Balance (% of GDP) YoY": -9.468
+      },
+      {
+        "Country": "Chile",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -0.469,
+        "Fiscal Balance (% of GDP) YoY": 4.191999999999999
+      },
+      {
+        "Country": "Chile",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": 0.947,
+        "Fiscal Balance (% of GDP) YoY": 1.416
+      },
+      {
+        "Country": "Chile",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": 0.34,
+        "Fiscal Balance (% of GDP) YoY": -0.607
+      },
+      {
+        "Country": "Chile",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -0.608,
+        "Fiscal Balance (% of GDP) YoY": -0.948
+      },
+      {
+        "Country": "Chile",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -1.764,
+        "Fiscal Balance (% of GDP) YoY": -1.1560000000000001
+      },
+      {
+        "Country": "Chile",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -2.295,
+        "Fiscal Balance (% of GDP) YoY": -0.5309999999999999
+      },
+      {
+        "Country": "Chile",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -2.742,
+        "Fiscal Balance (% of GDP) YoY": -0.44700000000000006
+      },
+      {
+        "Country": "Chile",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -2.925,
+        "Fiscal Balance (% of GDP) YoY": -0.18299999999999983
+      },
+      {
+        "Country": "Chile",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -1.273,
+        "Fiscal Balance (% of GDP) YoY": 1.652
+      },
+      {
+        "Country": "Chile",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -3.44,
+        "Fiscal Balance (% of GDP) YoY": -2.167
+      },
+      {
+        "Country": "Chile",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -7.341,
+        "Fiscal Balance (% of GDP) YoY": -3.9010000000000002
+      },
+      {
+        "Country": "Chile",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -7.388,
+        "Fiscal Balance (% of GDP) YoY": -0.04699999999999971
+      },
+      {
+        "Country": "Chile",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": 1.24,
+        "Fiscal Balance (% of GDP) YoY": 8.628
+      },
+      {
+        "Country": "Chile",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -2.098,
+        "Fiscal Balance (% of GDP) YoY": -3.338
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -1.714,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -0.456,
+        "Fiscal Balance (% of GDP) YoY": 1.258
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -0.721,
+        "Fiscal Balance (% of GDP) YoY": -0.26499999999999996
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -0.807,
+        "Fiscal Balance (% of GDP) YoY": -0.08600000000000008
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -0.478,
+        "Fiscal Balance (% of GDP) YoY": 0.32900000000000007
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -0.401,
+        "Fiscal Balance (% of GDP) YoY": 0.07699999999999996
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -1.527,
+        "Fiscal Balance (% of GDP) YoY": -1.126
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -3.115,
+        "Fiscal Balance (% of GDP) YoY": -1.5880000000000003
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -3.396,
+        "Fiscal Balance (% of GDP) YoY": -0.2809999999999997
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -4.555,
+        "Fiscal Balance (% of GDP) YoY": -1.1589999999999998
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -3.797,
+        "Fiscal Balance (% of GDP) YoY": 0.7579999999999996
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -5.241,
+        "Fiscal Balance (% of GDP) YoY": -1.4439999999999995
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -4.087,
+        "Fiscal Balance (% of GDP) YoY": 1.154
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -8.765,
+        "Fiscal Balance (% of GDP) YoY": -4.678000000000001
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -7.821,
+        "Fiscal Balance (% of GDP) YoY": 0.9440000000000008
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -4.986,
+        "Fiscal Balance (% of GDP) YoY": 2.835
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -3.221,
+        "Fiscal Balance (% of GDP) YoY": 1.7649999999999997
+      },
+      {
+        "Country": "Colombia",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -5.31,
+        "Fiscal Balance (% of GDP) YoY": -2.0889999999999995
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 0.946,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -2.069,
+        "Fiscal Balance (% of GDP) YoY": -3.0149999999999997
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -3.262,
+        "Fiscal Balance (% of GDP) YoY": -1.193
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -6.411,
+        "Fiscal Balance (% of GDP) YoY": -3.1489999999999996
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -5.06,
+        "Fiscal Balance (% of GDP) YoY": 1.351
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -1.731,
+        "Fiscal Balance (% of GDP) YoY": 3.3289999999999997
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -2.614,
+        "Fiscal Balance (% of GDP) YoY": -0.8829999999999998
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -1.41,
+        "Fiscal Balance (% of GDP) YoY": 1.204
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -2.437,
+        "Fiscal Balance (% of GDP) YoY": -1.027
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -2.302,
+        "Fiscal Balance (% of GDP) YoY": 0.1349999999999998
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -3.451,
+        "Fiscal Balance (% of GDP) YoY": -1.149
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -2.887,
+        "Fiscal Balance (% of GDP) YoY": 0.5640000000000001
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -3.089,
+        "Fiscal Balance (% of GDP) YoY": -0.20199999999999996
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -5.314,
+        "Fiscal Balance (% of GDP) YoY": -2.225
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -1.838,
+        "Fiscal Balance (% of GDP) YoY": 3.476
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": 0.362,
+        "Fiscal Balance (% of GDP) YoY": 2.2
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -1.005,
+        "Fiscal Balance (% of GDP) YoY": -1.367
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -0.678,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -1.999,
+        "Fiscal Balance (% of GDP) YoY": -1.3210000000000002
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -5.456,
+        "Fiscal Balance (% of GDP) YoY": -3.4570000000000003
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -4.144,
+        "Fiscal Balance (% of GDP) YoY": 1.3120000000000003
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -2.712,
+        "Fiscal Balance (% of GDP) YoY": 1.432
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -3.918,
+        "Fiscal Balance (% of GDP) YoY": -1.206
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -1.299,
+        "Fiscal Balance (% of GDP) YoY": 2.619
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -2.093,
+        "Fiscal Balance (% of GDP) YoY": -0.794
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -0.666,
+        "Fiscal Balance (% of GDP) YoY": 1.427
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": 0.685,
+        "Fiscal Balance (% of GDP) YoY": 1.351
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": 1.46,
+        "Fiscal Balance (% of GDP) YoY": 0.7749999999999999
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": 0.882,
+        "Fiscal Balance (% of GDP) YoY": -0.578
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": 0.283,
+        "Fiscal Balance (% of GDP) YoY": -0.599
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -5.65,
+        "Fiscal Balance (% of GDP) YoY": -5.933000000000001
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -4.951,
+        "Fiscal Balance (% of GDP) YoY": 0.6990000000000007
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -3.069,
+        "Fiscal Balance (% of GDP) YoY": 1.8819999999999997
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -3.755,
+        "Fiscal Balance (% of GDP) YoY": -0.6859999999999999
+      },
+      {
+        "Country": "Czechia",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -2.212,
+        "Fiscal Balance (% of GDP) YoY": 1.5429999999999997
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 5.308,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": 3.462,
+        "Fiscal Balance (% of GDP) YoY": -1.8459999999999996
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -2.746,
+        "Fiscal Balance (% of GDP) YoY": -6.208
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -2.521,
+        "Fiscal Balance (% of GDP) YoY": 0.2250000000000001
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -1.766,
+        "Fiscal Balance (% of GDP) YoY": 0.7549999999999999
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -3.202,
+        "Fiscal Balance (% of GDP) YoY": -1.436
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -0.944,
+        "Fiscal Balance (% of GDP) YoY": 2.258
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": 1.428,
+        "Fiscal Balance (% of GDP) YoY": 2.372
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -0.895,
+        "Fiscal Balance (% of GDP) YoY": -2.323
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": 0.302,
+        "Fiscal Balance (% of GDP) YoY": 1.197
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": 1.689,
+        "Fiscal Balance (% of GDP) YoY": 1.387
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": 0.81,
+        "Fiscal Balance (% of GDP) YoY": -0.879
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": 4.283,
+        "Fiscal Balance (% of GDP) YoY": 3.4730000000000003
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": 0.363,
+        "Fiscal Balance (% of GDP) YoY": -3.9200000000000004
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": 4.098,
+        "Fiscal Balance (% of GDP) YoY": 3.735
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": 3.444,
+        "Fiscal Balance (% of GDP) YoY": -0.6539999999999999
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": 3.306,
+        "Fiscal Balance (% of GDP) YoY": -0.1379999999999999
+      },
+      {
+        "Country": "Denmark",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": 4.5,
+        "Fiscal Balance (% of GDP) YoY": 1.194
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 2.689,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -2.644,
+        "Fiscal Balance (% of GDP) YoY": -5.333
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -2.731,
+        "Fiscal Balance (% of GDP) YoY": -0.08699999999999974
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -0.421,
+        "Fiscal Balance (% of GDP) YoY": 2.31
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": 0.622,
+        "Fiscal Balance (% of GDP) YoY": 1.043
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -0.393,
+        "Fiscal Balance (% of GDP) YoY": -1.0150000000000001
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -0.218,
+        "Fiscal Balance (% of GDP) YoY": 0.17500000000000002
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": 0.861,
+        "Fiscal Balance (% of GDP) YoY": 1.079
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": 0.249,
+        "Fiscal Balance (% of GDP) YoY": -0.612
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -0.086,
+        "Fiscal Balance (% of GDP) YoY": -0.33499999999999996
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -0.526,
+        "Fiscal Balance (% of GDP) YoY": -0.44000000000000006
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -0.577,
+        "Fiscal Balance (% of GDP) YoY": -0.050999999999999934
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -0.109,
+        "Fiscal Balance (% of GDP) YoY": 0.46799999999999997
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -5.424,
+        "Fiscal Balance (% of GDP) YoY": -5.315
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -2.569,
+        "Fiscal Balance (% of GDP) YoY": 2.8550000000000004
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -1.074,
+        "Fiscal Balance (% of GDP) YoY": 1.4949999999999999
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -3.139,
+        "Fiscal Balance (% of GDP) YoY": -2.0649999999999995
+      },
+      {
+        "Country": "Estonia",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -1.522,
+        "Fiscal Balance (% of GDP) YoY": 1.6169999999999998
+      },
+      {
+        "Country": "Finland",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 5.112,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Finland",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": 4.18,
+        "Fiscal Balance (% of GDP) YoY": -0.9320000000000004
+      },
+      {
+        "Country": "Finland",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -2.482,
+        "Fiscal Balance (% of GDP) YoY": -6.662
+      },
+      {
+        "Country": "Finland",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -2.575,
+        "Fiscal Balance (% of GDP) YoY": -0.09299999999999997
+      },
+      {
+        "Country": "Finland",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -1.013,
+        "Fiscal Balance (% of GDP) YoY": 1.5620000000000003
+      },
+      {
+        "Country": "Finland",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -2.151,
+        "Fiscal Balance (% of GDP) YoY": -1.138
+      },
+      {
+        "Country": "Finland",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -2.522,
+        "Fiscal Balance (% of GDP) YoY": -0.371
+      },
+      {
+        "Country": "Finland",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -2.995,
+        "Fiscal Balance (% of GDP) YoY": -0.4730000000000003
+      },
+      {
+        "Country": "Finland",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -2.427,
+        "Fiscal Balance (% of GDP) YoY": 0.5680000000000001
+      },
+      {
+        "Country": "Finland",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -1.701,
+        "Fiscal Balance (% of GDP) YoY": 0.726
+      },
+      {
+        "Country": "Finland",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -0.629,
+        "Fiscal Balance (% of GDP) YoY": 1.072
+      },
+      {
+        "Country": "Finland",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -0.872,
+        "Fiscal Balance (% of GDP) YoY": -0.243
+      },
+      {
+        "Country": "Finland",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -0.934,
+        "Fiscal Balance (% of GDP) YoY": -0.062000000000000055
+      },
+      {
+        "Country": "Finland",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -5.534,
+        "Fiscal Balance (% of GDP) YoY": -4.6
+      },
+      {
+        "Country": "Finland",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -2.652,
+        "Fiscal Balance (% of GDP) YoY": 2.8819999999999997
+      },
+      {
+        "Country": "Finland",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -0.179,
+        "Fiscal Balance (% of GDP) YoY": 2.4730000000000003
+      },
+      {
+        "Country": "Finland",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -2.986,
+        "Fiscal Balance (% of GDP) YoY": -2.8070000000000004
+      },
+      {
+        "Country": "Finland",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -4.389,
+        "Fiscal Balance (% of GDP) YoY": -1.403
+      },
+      {
+        "Country": "France",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -2.99,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "France",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -3.502,
+        "Fiscal Balance (% of GDP) YoY": -0.5119999999999996
+      },
+      {
+        "Country": "France",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -7.378,
+        "Fiscal Balance (% of GDP) YoY": -3.8760000000000003
+      },
+      {
+        "Country": "France",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -7.152,
+        "Fiscal Balance (% of GDP) YoY": 0.22599999999999998
+      },
+      {
+        "Country": "France",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -5.304,
+        "Fiscal Balance (% of GDP) YoY": 1.8479999999999999
+      },
+      {
+        "Country": "France",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -5.171,
+        "Fiscal Balance (% of GDP) YoY": 0.133
+      },
+      {
+        "Country": "France",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -4.938,
+        "Fiscal Balance (% of GDP) YoY": 0.23300000000000054
+      },
+      {
+        "Country": "France",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -4.574,
+        "Fiscal Balance (% of GDP) YoY": 0.3639999999999999
+      },
+      {
+        "Country": "France",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -3.892,
+        "Fiscal Balance (% of GDP) YoY": 0.6819999999999999
+      },
+      {
+        "Country": "France",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -3.765,
+        "Fiscal Balance (% of GDP) YoY": 0.12699999999999978
+      },
+      {
+        "Country": "France",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -3.362,
+        "Fiscal Balance (% of GDP) YoY": 0.403
+      },
+      {
+        "Country": "France",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -2.319,
+        "Fiscal Balance (% of GDP) YoY": 1.0430000000000001
+      },
+      {
+        "Country": "France",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -2.394,
+        "Fiscal Balance (% of GDP) YoY": -0.07500000000000018
+      },
+      {
+        "Country": "France",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -8.933,
+        "Fiscal Balance (% of GDP) YoY": -6.539
+      },
+      {
+        "Country": "France",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -6.585,
+        "Fiscal Balance (% of GDP) YoY": 2.348
+      },
+      {
+        "Country": "France",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -4.741,
+        "Fiscal Balance (% of GDP) YoY": 1.8440000000000003
+      },
+      {
+        "Country": "France",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -5.375,
+        "Fiscal Balance (% of GDP) YoY": -0.6340000000000003
+      },
+      {
+        "Country": "France",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -5.804,
+        "Fiscal Balance (% of GDP) YoY": -0.42900000000000027
+      },
+      {
+        "Country": "Germany",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 0.155,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Germany",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -0.263,
+        "Fiscal Balance (% of GDP) YoY": -0.41800000000000004
+      },
+      {
+        "Country": "Germany",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -3.175,
+        "Fiscal Balance (% of GDP) YoY": -2.912
+      },
+      {
+        "Country": "Germany",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -4.42,
+        "Fiscal Balance (% of GDP) YoY": -1.245
+      },
+      {
+        "Country": "Germany",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -0.84,
+        "Fiscal Balance (% of GDP) YoY": 3.58
+      },
+      {
+        "Country": "Germany",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -0.054,
+        "Fiscal Balance (% of GDP) YoY": 0.7859999999999999
+      },
+      {
+        "Country": "Germany",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": 0.122,
+        "Fiscal Balance (% of GDP) YoY": 0.176
+      },
+      {
+        "Country": "Germany",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": 0.731,
+        "Fiscal Balance (% of GDP) YoY": 0.609
+      },
+      {
+        "Country": "Germany",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": 0.915,
+        "Fiscal Balance (% of GDP) YoY": 0.18400000000000005
+      },
+      {
+        "Country": "Germany",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": 1.134,
+        "Fiscal Balance (% of GDP) YoY": 0.21899999999999986
+      },
+      {
+        "Country": "Germany",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": 1.338,
+        "Fiscal Balance (% of GDP) YoY": 0.20400000000000018
+      },
+      {
+        "Country": "Germany",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": 1.885,
+        "Fiscal Balance (% of GDP) YoY": 0.5469999999999999
+      },
+      {
+        "Country": "Germany",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": 1.328,
+        "Fiscal Balance (% of GDP) YoY": -0.5569999999999999
+      },
+      {
+        "Country": "Germany",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -4.381,
+        "Fiscal Balance (% of GDP) YoY": -5.7090000000000005
+      },
+      {
+        "Country": "Germany",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -3.167,
+        "Fiscal Balance (% of GDP) YoY": 1.2140000000000004
+      },
+      {
+        "Country": "Germany",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -2.147,
+        "Fiscal Balance (% of GDP) YoY": 1.02
+      },
+      {
+        "Country": "Germany",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -2.48,
+        "Fiscal Balance (% of GDP) YoY": -0.3330000000000002
+      },
+      {
+        "Country": "Germany",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -2.759,
+        "Fiscal Balance (% of GDP) YoY": -0.2789999999999999
+      },
+      {
+        "Country": "Greece",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -6.807,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Greece",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -10.315,
+        "Fiscal Balance (% of GDP) YoY": -3.507999999999999
+      },
+      {
+        "Country": "Greece",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -15.424,
+        "Fiscal Balance (% of GDP) YoY": -5.109
+      },
+      {
+        "Country": "Greece",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -11.424,
+        "Fiscal Balance (% of GDP) YoY": 4
+      },
+      {
+        "Country": "Greece",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -10.5,
+        "Fiscal Balance (% of GDP) YoY": 0.9239999999999995
+      },
+      {
+        "Country": "Greece",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -9.312,
+        "Fiscal Balance (% of GDP) YoY": 1.1880000000000006
+      },
+      {
+        "Country": "Greece",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -13.597,
+        "Fiscal Balance (% of GDP) YoY": -4.285
+      },
+      {
+        "Country": "Greece",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -3.772,
+        "Fiscal Balance (% of GDP) YoY": 9.825
+      },
+      {
+        "Country": "Greece",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -5.905,
+        "Fiscal Balance (% of GDP) YoY": -2.1330000000000005
+      },
+      {
+        "Country": "Greece",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": 0.211,
+        "Fiscal Balance (% of GDP) YoY": 6.1160000000000005
+      },
+      {
+        "Country": "Greece",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": 0.723,
+        "Fiscal Balance (% of GDP) YoY": 0.512
+      },
+      {
+        "Country": "Greece",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": 0.901,
+        "Fiscal Balance (% of GDP) YoY": 0.17800000000000005
+      },
+      {
+        "Country": "Greece",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": 0.824,
+        "Fiscal Balance (% of GDP) YoY": -0.07700000000000007
+      },
+      {
+        "Country": "Greece",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -9.561,
+        "Fiscal Balance (% of GDP) YoY": -10.385
+      },
+      {
+        "Country": "Greece",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -7.067,
+        "Fiscal Balance (% of GDP) YoY": 2.4939999999999998
+      },
+      {
+        "Country": "Greece",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -2.456,
+        "Fiscal Balance (% of GDP) YoY": 4.611000000000001
+      },
+      {
+        "Country": "Greece",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -1.351,
+        "Fiscal Balance (% of GDP) YoY": 1.105
+      },
+      {
+        "Country": "Greece",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": 1.339,
+        "Fiscal Balance (% of GDP) YoY": 2.69
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -5.085,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -3.785,
+        "Fiscal Balance (% of GDP) YoY": 1.2999999999999998
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -4.759,
+        "Fiscal Balance (% of GDP) YoY": -0.9740000000000002
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -4.436,
+        "Fiscal Balance (% of GDP) YoY": 0.3230000000000004
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -5.22,
+        "Fiscal Balance (% of GDP) YoY": -0.7839999999999998
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -2.331,
+        "Fiscal Balance (% of GDP) YoY": 2.889
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -2.598,
+        "Fiscal Balance (% of GDP) YoY": -0.2669999999999999
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -2.773,
+        "Fiscal Balance (% of GDP) YoY": -0.17500000000000027
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -2.003,
+        "Fiscal Balance (% of GDP) YoY": 0.77
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -1.792,
+        "Fiscal Balance (% of GDP) YoY": 0.21100000000000008
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -2.455,
+        "Fiscal Balance (% of GDP) YoY": -0.663
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -2.046,
+        "Fiscal Balance (% of GDP) YoY": 0.40900000000000025
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -2.024,
+        "Fiscal Balance (% of GDP) YoY": 0.021999999999999797
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -7.487,
+        "Fiscal Balance (% of GDP) YoY": -5.463
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -7.11,
+        "Fiscal Balance (% of GDP) YoY": 0.3769999999999998
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -6.172,
+        "Fiscal Balance (% of GDP) YoY": 0.9380000000000006
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -6.748,
+        "Fiscal Balance (% of GDP) YoY": -0.5760000000000005
+      },
+      {
+        "Country": "Hungary",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -4.915,
+        "Fiscal Balance (% of GDP) YoY": 1.8330000000000002
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 5.599,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -12.138,
+        "Fiscal Balance (% of GDP) YoY": -17.737000000000002
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -8.579,
+        "Fiscal Balance (% of GDP) YoY": 3.5589999999999993
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -6.663,
+        "Fiscal Balance (% of GDP) YoY": 1.9160000000000004
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -6.53,
+        "Fiscal Balance (% of GDP) YoY": 0.133
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -2.625,
+        "Fiscal Balance (% of GDP) YoY": 3.9050000000000002
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -1.248,
+        "Fiscal Balance (% of GDP) YoY": 1.377
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": 0.295,
+        "Fiscal Balance (% of GDP) YoY": 1.543
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -0.396,
+        "Fiscal Balance (% of GDP) YoY": -0.6910000000000001
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": 12.549,
+        "Fiscal Balance (% of GDP) YoY": 12.945
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": 0.978,
+        "Fiscal Balance (% of GDP) YoY": -11.571
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": 0.955,
+        "Fiscal Balance (% of GDP) YoY": -0.02300000000000002
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -1.593,
+        "Fiscal Balance (% of GDP) YoY": -2.548
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -8.895,
+        "Fiscal Balance (% of GDP) YoY": -7.302
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -8.359,
+        "Fiscal Balance (% of GDP) YoY": 0.5359999999999996
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -3.993,
+        "Fiscal Balance (% of GDP) YoY": 4.366
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -2.293,
+        "Fiscal Balance (% of GDP) YoY": 1.6999999999999997
+      },
+      {
+        "Country": "Iceland",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -3.484,
+        "Fiscal Balance (% of GDP) YoY": -1.1909999999999998
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 0.268,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -7.031,
+        "Fiscal Balance (% of GDP) YoY": -7.2989999999999995
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -13.873,
+        "Fiscal Balance (% of GDP) YoY": -6.842
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -32.108,
+        "Fiscal Balance (% of GDP) YoY": -18.235
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -13.45,
+        "Fiscal Balance (% of GDP) YoY": 18.657999999999998
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -8.403,
+        "Fiscal Balance (% of GDP) YoY": 5.046999999999999
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -6.267,
+        "Fiscal Balance (% of GDP) YoY": 2.136
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -3.513,
+        "Fiscal Balance (% of GDP) YoY": 2.7540000000000004
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -1.971,
+        "Fiscal Balance (% of GDP) YoY": 1.5419999999999998
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -0.761,
+        "Fiscal Balance (% of GDP) YoY": 1.21
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -0.297,
+        "Fiscal Balance (% of GDP) YoY": 0.464
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": 0.094,
+        "Fiscal Balance (% of GDP) YoY": 0.391
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": 0.41,
+        "Fiscal Balance (% of GDP) YoY": 0.31599999999999995
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -4.861,
+        "Fiscal Balance (% of GDP) YoY": -5.271
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -1.364,
+        "Fiscal Balance (% of GDP) YoY": 3.497
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": 1.669,
+        "Fiscal Balance (% of GDP) YoY": 3.0330000000000004
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": 1.549,
+        "Fiscal Balance (% of GDP) YoY": -0.1200000000000001
+      },
+      {
+        "Country": "Ireland",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": 4.345,
+        "Fiscal Balance (% of GDP) YoY": 2.796
+      },
+      {
+        "Country": "Israel",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -0.429,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Israel",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -3.49,
+        "Fiscal Balance (% of GDP) YoY": -3.0610000000000004
+      },
+      {
+        "Country": "Israel",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -6.516,
+        "Fiscal Balance (% of GDP) YoY": -3.026
+      },
+      {
+        "Country": "Israel",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -3.712,
+        "Fiscal Balance (% of GDP) YoY": 2.804
+      },
+      {
+        "Country": "Israel",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -3.425,
+        "Fiscal Balance (% of GDP) YoY": 0.28700000000000037
+      },
+      {
+        "Country": "Israel",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -4.451,
+        "Fiscal Balance (% of GDP) YoY": -1.0259999999999998
+      },
+      {
+        "Country": "Israel",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -4.055,
+        "Fiscal Balance (% of GDP) YoY": 0.3959999999999999
+      },
+      {
+        "Country": "Israel",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -2.284,
+        "Fiscal Balance (% of GDP) YoY": 1.771
+      },
+      {
+        "Country": "Israel",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -1.207,
+        "Fiscal Balance (% of GDP) YoY": 1.0769999999999997
+      },
+      {
+        "Country": "Israel",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -1.784,
+        "Fiscal Balance (% of GDP) YoY": -0.577
+      },
+      {
+        "Country": "Israel",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -1.128,
+        "Fiscal Balance (% of GDP) YoY": 0.6560000000000001
+      },
+      {
+        "Country": "Israel",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -3.548,
+        "Fiscal Balance (% of GDP) YoY": -2.42
+      },
+      {
+        "Country": "Israel",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -3.776,
+        "Fiscal Balance (% of GDP) YoY": -0.22799999999999976
+      },
+      {
+        "Country": "Israel",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -10.703,
+        "Fiscal Balance (% of GDP) YoY": -6.927
+      },
+      {
+        "Country": "Israel",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -3.37,
+        "Fiscal Balance (% of GDP) YoY": 7.332999999999999
+      },
+      {
+        "Country": "Israel",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": 0.319,
+        "Fiscal Balance (% of GDP) YoY": 3.689
+      },
+      {
+        "Country": "Israel",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -5.068,
+        "Fiscal Balance (% of GDP) YoY": -5.387
+      },
+      {
+        "Country": "Italy",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -1.326,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Italy",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -2.584,
+        "Fiscal Balance (% of GDP) YoY": -1.258
+      },
+      {
+        "Country": "Italy",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -5.057,
+        "Fiscal Balance (% of GDP) YoY": -2.4730000000000003
+      },
+      {
+        "Country": "Italy",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -4.161,
+        "Fiscal Balance (% of GDP) YoY": 0.8960000000000008
+      },
+      {
+        "Country": "Italy",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -3.524,
+        "Fiscal Balance (% of GDP) YoY": 0.6369999999999996
+      },
+      {
+        "Country": "Italy",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -2.985,
+        "Fiscal Balance (% of GDP) YoY": 0.5390000000000001
+      },
+      {
+        "Country": "Italy",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -2.875,
+        "Fiscal Balance (% of GDP) YoY": 0.10999999999999988
+      },
+      {
+        "Country": "Italy",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -2.818,
+        "Fiscal Balance (% of GDP) YoY": 0.05699999999999994
+      },
+      {
+        "Country": "Italy",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -2.459,
+        "Fiscal Balance (% of GDP) YoY": 0.359
+      },
+      {
+        "Country": "Italy",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -2.405,
+        "Fiscal Balance (% of GDP) YoY": 0.05400000000000027
+      },
+      {
+        "Country": "Italy",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -2.509,
+        "Fiscal Balance (% of GDP) YoY": -0.10400000000000009
+      },
+      {
+        "Country": "Italy",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -2.192,
+        "Fiscal Balance (% of GDP) YoY": 0.3169999999999997
+      },
+      {
+        "Country": "Italy",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -1.45,
+        "Fiscal Balance (% of GDP) YoY": 0.7420000000000002
+      },
+      {
+        "Country": "Italy",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -9.379,
+        "Fiscal Balance (% of GDP) YoY": -7.928999999999999
+      },
+      {
+        "Country": "Italy",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -8.879,
+        "Fiscal Balance (% of GDP) YoY": 0.5
+      },
+      {
+        "Country": "Italy",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -8.109,
+        "Fiscal Balance (% of GDP) YoY": 0.7699999999999996
+      },
+      {
+        "Country": "Italy",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -7.239,
+        "Fiscal Balance (% of GDP) YoY": 0.8700000000000001
+      },
+      {
+        "Country": "Italy",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -3.446,
+        "Fiscal Balance (% of GDP) YoY": 3.7929999999999997
+      },
+      {
+        "Country": "Japan",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -2.901,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Japan",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -4.11,
+        "Fiscal Balance (% of GDP) YoY": -1.2090000000000005
+      },
+      {
+        "Country": "Japan",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -9.693,
+        "Fiscal Balance (% of GDP) YoY": -5.582999999999999
+      },
+      {
+        "Country": "Japan",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -9.076,
+        "Fiscal Balance (% of GDP) YoY": 0.6169999999999991
+      },
+      {
+        "Country": "Japan",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -8.986,
+        "Fiscal Balance (% of GDP) YoY": 0.08999999999999986
+      },
+      {
+        "Country": "Japan",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -8.196,
+        "Fiscal Balance (% of GDP) YoY": 0.7900000000000009
+      },
+      {
+        "Country": "Japan",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -7.611,
+        "Fiscal Balance (% of GDP) YoY": 0.585
+      },
+      {
+        "Country": "Japan",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -5.616,
+        "Fiscal Balance (% of GDP) YoY": 1.995
+      },
+      {
+        "Country": "Japan",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -3.678,
+        "Fiscal Balance (% of GDP) YoY": 1.9379999999999997
+      },
+      {
+        "Country": "Japan",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -3.6,
+        "Fiscal Balance (% of GDP) YoY": 0.07799999999999985
+      },
+      {
+        "Country": "Japan",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -3.099,
+        "Fiscal Balance (% of GDP) YoY": 0.5009999999999999
+      },
+      {
+        "Country": "Japan",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -2.471,
+        "Fiscal Balance (% of GDP) YoY": 0.6280000000000001
+      },
+      {
+        "Country": "Japan",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -3.045,
+        "Fiscal Balance (% of GDP) YoY": -0.5739999999999998
+      },
+      {
+        "Country": "Japan",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -9.075,
+        "Fiscal Balance (% of GDP) YoY": -6.029999999999999
+      },
+      {
+        "Country": "Japan",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -6.128,
+        "Fiscal Balance (% of GDP) YoY": 2.946999999999999
+      },
+      {
+        "Country": "Japan",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -4.208,
+        "Fiscal Balance (% of GDP) YoY": 1.92
+      },
+      {
+        "Country": "Japan",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -2.255,
+        "Fiscal Balance (% of GDP) YoY": 1.9530000000000003
+      },
+      {
+        "Country": "Korea",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 3.774,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Korea",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": 2.017,
+        "Fiscal Balance (% of GDP) YoY": -1.7570000000000001
+      },
+      {
+        "Country": "Korea",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -1.268,
+        "Fiscal Balance (% of GDP) YoY": -3.285
+      },
+      {
+        "Country": "Korea",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": 0.814,
+        "Fiscal Balance (% of GDP) YoY": 2.082
+      },
+      {
+        "Country": "Korea",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": 0.905,
+        "Fiscal Balance (% of GDP) YoY": 0.09100000000000008
+      },
+      {
+        "Country": "Korea",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": 0.937,
+        "Fiscal Balance (% of GDP) YoY": 0.03200000000000003
+      },
+      {
+        "Country": "Korea",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": 1.182,
+        "Fiscal Balance (% of GDP) YoY": 0.24499999999999988
+      },
+      {
+        "Country": "Korea",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": 1.119,
+        "Fiscal Balance (% of GDP) YoY": -0.06299999999999994
+      },
+      {
+        "Country": "Korea",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": 1.092,
+        "Fiscal Balance (% of GDP) YoY": -0.026999999999999913
+      },
+      {
+        "Country": "Korea",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": 2.069,
+        "Fiscal Balance (% of GDP) YoY": 0.9769999999999999
+      },
+      {
+        "Country": "Korea",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": 2.487,
+        "Fiscal Balance (% of GDP) YoY": 0.41800000000000015
+      },
+      {
+        "Country": "Korea",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": 2.852,
+        "Fiscal Balance (% of GDP) YoY": 0.36499999999999977
+      },
+      {
+        "Country": "Korea",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": 0.906,
+        "Fiscal Balance (% of GDP) YoY": -1.9459999999999997
+      },
+      {
+        "Country": "Korea",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -2.575,
+        "Fiscal Balance (% of GDP) YoY": -3.4810000000000003
+      },
+      {
+        "Country": "Korea",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -0.315,
+        "Fiscal Balance (% of GDP) YoY": 2.2600000000000002
+      },
+      {
+        "Country": "Korea",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -0.008,
+        "Fiscal Balance (% of GDP) YoY": 0.307
+      },
+      {
+        "Country": "Korea",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -0.707,
+        "Fiscal Balance (% of GDP) YoY": -0.699
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -0.595,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -4.471,
+        "Fiscal Balance (% of GDP) YoY": -3.8760000000000003
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -9.814,
+        "Fiscal Balance (% of GDP) YoY": -5.343
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -8.795,
+        "Fiscal Balance (% of GDP) YoY": 1.0190000000000001
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -4.47,
+        "Fiscal Balance (% of GDP) YoY": 4.325
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -1.46,
+        "Fiscal Balance (% of GDP) YoY": 3.01
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -1.259,
+        "Fiscal Balance (% of GDP) YoY": 0.20100000000000007
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -1.701,
+        "Fiscal Balance (% of GDP) YoY": -0.44200000000000017
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -1.522,
+        "Fiscal Balance (% of GDP) YoY": 0.17900000000000005
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -0.014,
+        "Fiscal Balance (% of GDP) YoY": 1.508
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -0.298,
+        "Fiscal Balance (% of GDP) YoY": -0.284
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -1.356,
+        "Fiscal Balance (% of GDP) YoY": -1.058
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -0.155,
+        "Fiscal Balance (% of GDP) YoY": 1.201
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -4.087,
+        "Fiscal Balance (% of GDP) YoY": -3.932
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -7.22,
+        "Fiscal Balance (% of GDP) YoY": -3.133
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -4.858,
+        "Fiscal Balance (% of GDP) YoY": 2.362
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -2.366,
+        "Fiscal Balance (% of GDP) YoY": 2.4919999999999995
+      },
+      {
+        "Country": "Latvia",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -1.756,
+        "Fiscal Balance (% of GDP) YoY": 0.6100000000000001
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -0.816,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -3.084,
+        "Fiscal Balance (% of GDP) YoY": -2.2680000000000002
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -9.055,
+        "Fiscal Balance (% of GDP) YoY": -5.971
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -6.949,
+        "Fiscal Balance (% of GDP) YoY": 2.106
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -5.913,
+        "Fiscal Balance (% of GDP) YoY": 1.0359999999999996
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -3.146,
+        "Fiscal Balance (% of GDP) YoY": 2.7670000000000003
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -2.694,
+        "Fiscal Balance (% of GDP) YoY": 0.45199999999999996
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -1.79,
+        "Fiscal Balance (% of GDP) YoY": 0.9039999999999999
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -0.767,
+        "Fiscal Balance (% of GDP) YoY": 1.0230000000000001
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": 0.034,
+        "Fiscal Balance (% of GDP) YoY": 0.801
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": 0.36,
+        "Fiscal Balance (% of GDP) YoY": 0.32599999999999996
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": 0.522,
+        "Fiscal Balance (% of GDP) YoY": 0.16200000000000003
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": 0.412,
+        "Fiscal Balance (% of GDP) YoY": -0.11000000000000004
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -6.416,
+        "Fiscal Balance (% of GDP) YoY": -6.828
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -1.154,
+        "Fiscal Balance (% of GDP) YoY": 5.2620000000000005
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -0.715,
+        "Fiscal Balance (% of GDP) YoY": 0.43899999999999995
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -0.688,
+        "Fiscal Balance (% of GDP) YoY": 0.027000000000000024
+      },
+      {
+        "Country": "Lithuania",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -1.283,
+        "Fiscal Balance (% of GDP) YoY": -0.595
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 4.363,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": 3.374,
+        "Fiscal Balance (% of GDP) YoY": -0.9890000000000003
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -0.21,
+        "Fiscal Balance (% of GDP) YoY": -3.584
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -0.317,
+        "Fiscal Balance (% of GDP) YoY": -0.10700000000000001
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": 0.658,
+        "Fiscal Balance (% of GDP) YoY": 0.9750000000000001
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": 0.506,
+        "Fiscal Balance (% of GDP) YoY": -0.15200000000000002
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": 0.844,
+        "Fiscal Balance (% of GDP) YoY": 0.33799999999999997
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": 1.339,
+        "Fiscal Balance (% of GDP) YoY": 0.495
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": 1.334,
+        "Fiscal Balance (% of GDP) YoY": -0.004999999999999893
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": 1.893,
+        "Fiscal Balance (% of GDP) YoY": 0.5589999999999999
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": 1.367,
+        "Fiscal Balance (% of GDP) YoY": -0.526
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": 3.175,
+        "Fiscal Balance (% of GDP) YoY": 1.8079999999999998
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": 2.679,
+        "Fiscal Balance (% of GDP) YoY": -0.496
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -3.093,
+        "Fiscal Balance (% of GDP) YoY": -5.772
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": 1.002,
+        "Fiscal Balance (% of GDP) YoY": 4.095
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": 0.184,
+        "Fiscal Balance (% of GDP) YoY": -0.8180000000000001
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -0.79,
+        "Fiscal Balance (% of GDP) YoY": -0.974
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": 1.031,
+        "Fiscal Balance (% of GDP) YoY": 1.821
+      },
+      {
+        "Country": "Mexico",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -0.616,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Mexico",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -0.881,
+        "Fiscal Balance (% of GDP) YoY": -0.265
+      },
+      {
+        "Country": "Mexico",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -2.921,
+        "Fiscal Balance (% of GDP) YoY": -2.04
+      },
+      {
+        "Country": "Mexico",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -2.774,
+        "Fiscal Balance (% of GDP) YoY": 0.1469999999999998
+      },
+      {
+        "Country": "Mexico",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -5.037,
+        "Fiscal Balance (% of GDP) YoY": -2.263
+      },
+      {
+        "Country": "Mexico",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -4.447,
+        "Fiscal Balance (% of GDP) YoY": 0.5899999999999999
+      },
+      {
+        "Country": "Mexico",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -3.412,
+        "Fiscal Balance (% of GDP) YoY": 1.0350000000000001
+      },
+      {
+        "Country": "Mexico",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -5.13,
+        "Fiscal Balance (% of GDP) YoY": -1.718
+      },
+      {
+        "Country": "Mexico",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -5.243,
+        "Fiscal Balance (% of GDP) YoY": -0.11300000000000043
+      },
+      {
+        "Country": "Mexico",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -3.265,
+        "Fiscal Balance (% of GDP) YoY": 1.9780000000000002
+      },
+      {
+        "Country": "Mexico",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -3.887,
+        "Fiscal Balance (% of GDP) YoY": -0.6219999999999999
+      },
+      {
+        "Country": "Mexico",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -4.57,
+        "Fiscal Balance (% of GDP) YoY": -0.6830000000000003
+      },
+      {
+        "Country": "Mexico",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -5.292,
+        "Fiscal Balance (% of GDP) YoY": -0.7219999999999995
+      },
+      {
+        "Country": "Mexico",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -6.487,
+        "Fiscal Balance (% of GDP) YoY": -1.1950000000000003
+      },
+      {
+        "Country": "Mexico",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -5.203,
+        "Fiscal Balance (% of GDP) YoY": 1.2839999999999998
+      },
+      {
+        "Country": "Mexico",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -4.564,
+        "Fiscal Balance (% of GDP) YoY": 0.6390000000000002
+      },
+      {
+        "Country": "Mexico",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -4.617,
+        "Fiscal Balance (% of GDP) YoY": -0.052999999999999936
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -0.26,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -0.004,
+        "Fiscal Balance (% of GDP) YoY": 0.256
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -5.101,
+        "Fiscal Balance (% of GDP) YoY": -5.097
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -5.277,
+        "Fiscal Balance (% of GDP) YoY": -0.17600000000000016
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -4.42,
+        "Fiscal Balance (% of GDP) YoY": 0.8570000000000002
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -3.837,
+        "Fiscal Balance (% of GDP) YoY": 0.5829999999999997
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -2.861,
+        "Fiscal Balance (% of GDP) YoY": 0.976
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -2.242,
+        "Fiscal Balance (% of GDP) YoY": 0.6190000000000002
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -1.778,
+        "Fiscal Balance (% of GDP) YoY": 0.46399999999999997
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": 0.227,
+        "Fiscal Balance (% of GDP) YoY": 2.005
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": 1.316,
+        "Fiscal Balance (% of GDP) YoY": 1.089
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": 1.474,
+        "Fiscal Balance (% of GDP) YoY": 0.15799999999999992
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": 1.782,
+        "Fiscal Balance (% of GDP) YoY": 0.30800000000000005
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -3.608,
+        "Fiscal Balance (% of GDP) YoY": -5.390000000000001
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -2.198,
+        "Fiscal Balance (% of GDP) YoY": 1.4100000000000001
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": 0.012,
+        "Fiscal Balance (% of GDP) YoY": 2.21
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -0.358,
+        "Fiscal Balance (% of GDP) YoY": -0.37
+      },
+      {
+        "Country": "Netherlands",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -0.889,
+        "Fiscal Balance (% of GDP) YoY": -0.531
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 4.142,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": 0.299,
+        "Fiscal Balance (% of GDP) YoY": -3.8430000000000004
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -2.97,
+        "Fiscal Balance (% of GDP) YoY": -3.269
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -7.057,
+        "Fiscal Balance (% of GDP) YoY": -4.087
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -4.261,
+        "Fiscal Balance (% of GDP) YoY": 2.7960000000000003
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -2.365,
+        "Fiscal Balance (% of GDP) YoY": 1.896
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -0.865,
+        "Fiscal Balance (% of GDP) YoY": 1.5000000000000002
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": 0.264,
+        "Fiscal Balance (% of GDP) YoY": 1.129
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": 0.027,
+        "Fiscal Balance (% of GDP) YoY": -0.23700000000000002
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": 1.075,
+        "Fiscal Balance (% of GDP) YoY": 1.048
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": 1.515,
+        "Fiscal Balance (% of GDP) YoY": 0.43999999999999995
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": 0.703,
+        "Fiscal Balance (% of GDP) YoY": -0.8119999999999999
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -0.523,
+        "Fiscal Balance (% of GDP) YoY": -1.226
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -7.907,
+        "Fiscal Balance (% of GDP) YoY": -7.384
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -4.19,
+        "Fiscal Balance (% of GDP) YoY": 3.7169999999999996
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -2.7,
+        "Fiscal Balance (% of GDP) YoY": 1.4900000000000002
+      },
+      {
+        "Country": "New Zealand",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -3.214,
+        "Fiscal Balance (% of GDP) YoY": -0.5139999999999998
+      },
+      {
+        "Country": "Norway",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 17.038,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Norway",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": 18.531,
+        "Fiscal Balance (% of GDP) YoY": 1.4929999999999986
+      },
+      {
+        "Country": "Norway",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": 10.195,
+        "Fiscal Balance (% of GDP) YoY": -8.335999999999999
+      },
+      {
+        "Country": "Norway",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": 10.871,
+        "Fiscal Balance (% of GDP) YoY": 0.6760000000000002
+      },
+      {
+        "Country": "Norway",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": 13.273,
+        "Fiscal Balance (% of GDP) YoY": 2.4019999999999992
+      },
+      {
+        "Country": "Norway",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": 13.68,
+        "Fiscal Balance (% of GDP) YoY": 0.40700000000000003
+      },
+      {
+        "Country": "Norway",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": 10.608,
+        "Fiscal Balance (% of GDP) YoY": -3.071999999999999
+      },
+      {
+        "Country": "Norway",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": 8.572,
+        "Fiscal Balance (% of GDP) YoY": -2.0360000000000014
+      },
+      {
+        "Country": "Norway",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": 5.987,
+        "Fiscal Balance (% of GDP) YoY": -2.584999999999999
+      },
+      {
+        "Country": "Norway",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": 4.036,
+        "Fiscal Balance (% of GDP) YoY": -1.9510000000000005
+      },
+      {
+        "Country": "Norway",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": 4.957,
+        "Fiscal Balance (% of GDP) YoY": 0.9210000000000003
+      },
+      {
+        "Country": "Norway",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": 7.814,
+        "Fiscal Balance (% of GDP) YoY": 2.857
+      },
+      {
+        "Country": "Norway",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": 6.522,
+        "Fiscal Balance (% of GDP) YoY": -1.2919999999999998
+      },
+      {
+        "Country": "Norway",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -2.559,
+        "Fiscal Balance (% of GDP) YoY": -9.081
+      },
+      {
+        "Country": "Norway",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": 10.286,
+        "Fiscal Balance (% of GDP) YoY": 12.844999999999999
+      },
+      {
+        "Country": "Norway",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": 25.538,
+        "Fiscal Balance (% of GDP) YoY": 15.252
+      },
+      {
+        "Country": "Norway",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": 16.49,
+        "Fiscal Balance (% of GDP) YoY": -9.048000000000002
+      },
+      {
+        "Country": "Norway",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": 13.228,
+        "Fiscal Balance (% of GDP) YoY": -3.2619999999999987
+      },
+      {
+        "Country": "Poland",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -1.879,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Poland",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -3.595,
+        "Fiscal Balance (% of GDP) YoY": -1.7160000000000002
+      },
+      {
+        "Country": "Poland",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -7.236,
+        "Fiscal Balance (% of GDP) YoY": -3.6409999999999996
+      },
+      {
+        "Country": "Poland",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -7.43,
+        "Fiscal Balance (% of GDP) YoY": -0.19399999999999995
+      },
+      {
+        "Country": "Poland",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -4.975,
+        "Fiscal Balance (% of GDP) YoY": 2.455
+      },
+      {
+        "Country": "Poland",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -3.795,
+        "Fiscal Balance (% of GDP) YoY": 1.1799999999999997
+      },
+      {
+        "Country": "Poland",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -4.246,
+        "Fiscal Balance (% of GDP) YoY": -0.4510000000000005
+      },
+      {
+        "Country": "Poland",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -3.662,
+        "Fiscal Balance (% of GDP) YoY": 0.5840000000000005
+      },
+      {
+        "Country": "Poland",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -2.595,
+        "Fiscal Balance (% of GDP) YoY": 1.0669999999999997
+      },
+      {
+        "Country": "Poland",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -2.383,
+        "Fiscal Balance (% of GDP) YoY": 0.2120000000000002
+      },
+      {
+        "Country": "Poland",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -1.486,
+        "Fiscal Balance (% of GDP) YoY": 0.897
+      },
+      {
+        "Country": "Poland",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -0.245,
+        "Fiscal Balance (% of GDP) YoY": 1.241
+      },
+      {
+        "Country": "Poland",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -0.734,
+        "Fiscal Balance (% of GDP) YoY": -0.489
+      },
+      {
+        "Country": "Poland",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -6.853,
+        "Fiscal Balance (% of GDP) YoY": -6.119
+      },
+      {
+        "Country": "Poland",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -1.745,
+        "Fiscal Balance (% of GDP) YoY": 5.108
+      },
+      {
+        "Country": "Poland",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -3.437,
+        "Fiscal Balance (% of GDP) YoY": -1.6919999999999997
+      },
+      {
+        "Country": "Poland",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -5.273,
+        "Fiscal Balance (% of GDP) YoY": -1.8359999999999999
+      },
+      {
+        "Country": "Poland",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -6.586,
+        "Fiscal Balance (% of GDP) YoY": -1.3130000000000006
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -2.875,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -3.811,
+        "Fiscal Balance (% of GDP) YoY": -0.9359999999999999
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -9.874,
+        "Fiscal Balance (% of GDP) YoY": -6.063000000000001
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -11.418,
+        "Fiscal Balance (% of GDP) YoY": -1.5439999999999987
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -7.727,
+        "Fiscal Balance (% of GDP) YoY": 3.690999999999999
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -6.202,
+        "Fiscal Balance (% of GDP) YoY": 1.5250000000000004
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -5.214,
+        "Fiscal Balance (% of GDP) YoY": 0.9879999999999995
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -7.363,
+        "Fiscal Balance (% of GDP) YoY": -2.149
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -4.474,
+        "Fiscal Balance (% of GDP) YoY": 2.8890000000000002
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -1.943,
+        "Fiscal Balance (% of GDP) YoY": 2.531
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -3.002,
+        "Fiscal Balance (% of GDP) YoY": -1.0589999999999997
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -0.426,
+        "Fiscal Balance (% of GDP) YoY": 2.5759999999999996
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": 0.116,
+        "Fiscal Balance (% of GDP) YoY": 0.542
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -5.752,
+        "Fiscal Balance (% of GDP) YoY": -5.867999999999999
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -2.825,
+        "Fiscal Balance (% of GDP) YoY": 2.9269999999999996
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -0.31,
+        "Fiscal Balance (% of GDP) YoY": 2.515
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": 1.212,
+        "Fiscal Balance (% of GDP) YoY": 1.522
+      },
+      {
+        "Country": "Portugal",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": 0.699,
+        "Fiscal Balance (% of GDP) YoY": -0.513
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -2.258,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -2.541,
+        "Fiscal Balance (% of GDP) YoY": -0.2829999999999999
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -8.185,
+        "Fiscal Balance (% of GDP) YoY": -5.644
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -7.444,
+        "Fiscal Balance (% of GDP) YoY": 0.7410000000000005
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -4.356,
+        "Fiscal Balance (% of GDP) YoY": 3.088
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -4.366,
+        "Fiscal Balance (% of GDP) YoY": -0.009999999999999787
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -2.861,
+        "Fiscal Balance (% of GDP) YoY": 1.5049999999999994
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -3.245,
+        "Fiscal Balance (% of GDP) YoY": -0.3839999999999999
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -2.782,
+        "Fiscal Balance (% of GDP) YoY": 0.4630000000000001
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -2.594,
+        "Fiscal Balance (% of GDP) YoY": 0.18800000000000017
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -0.985,
+        "Fiscal Balance (% of GDP) YoY": 1.609
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -1.006,
+        "Fiscal Balance (% of GDP) YoY": -0.02100000000000002
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -1.205,
+        "Fiscal Balance (% of GDP) YoY": -0.19900000000000007
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -5.296,
+        "Fiscal Balance (% of GDP) YoY": -4.091
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -5.09,
+        "Fiscal Balance (% of GDP) YoY": 0.2060000000000004
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -1.668,
+        "Fiscal Balance (% of GDP) YoY": 3.4219999999999997
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -5.19,
+        "Fiscal Balance (% of GDP) YoY": -3.5220000000000002
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -5.273,
+        "Fiscal Balance (% of GDP) YoY": -0.0829999999999993
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -0.077,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -1.441,
+        "Fiscal Balance (% of GDP) YoY": -1.364
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -5.872,
+        "Fiscal Balance (% of GDP) YoY": -4.431
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -5.556,
+        "Fiscal Balance (% of GDP) YoY": 0.31599999999999984
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -6.686,
+        "Fiscal Balance (% of GDP) YoY": -1.13
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -4.196,
+        "Fiscal Balance (% of GDP) YoY": 2.49
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -11.227,
+        "Fiscal Balance (% of GDP) YoY": -7.031000000000001
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -4.526,
+        "Fiscal Balance (% of GDP) YoY": 6.7010000000000005
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -2.838,
+        "Fiscal Balance (% of GDP) YoY": 1.6879999999999997
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -1.999,
+        "Fiscal Balance (% of GDP) YoY": 0.839
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": 0.054,
+        "Fiscal Balance (% of GDP) YoY": 2.053
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": 0.896,
+        "Fiscal Balance (% of GDP) YoY": 0.842
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": 0.681,
+        "Fiscal Balance (% of GDP) YoY": -0.21499999999999997
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -7.677,
+        "Fiscal Balance (% of GDP) YoY": -8.358
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -4.611,
+        "Fiscal Balance (% of GDP) YoY": 3.066
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -3.013,
+        "Fiscal Balance (% of GDP) YoY": 1.5979999999999999
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -2.59,
+        "Fiscal Balance (% of GDP) YoY": 0.42300000000000004
+      },
+      {
+        "Country": "Slovenia",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -0.94,
+        "Fiscal Balance (% of GDP) YoY": 1.65
+      },
+      {
+        "Country": "Spain",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 1.883,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Spain",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -4.56,
+        "Fiscal Balance (% of GDP) YoY": -6.443
+      },
+      {
+        "Country": "Spain",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -11.237,
+        "Fiscal Balance (% of GDP) YoY": -6.6770000000000005
+      },
+      {
+        "Country": "Spain",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -9.487,
+        "Fiscal Balance (% of GDP) YoY": 1.75
+      },
+      {
+        "Country": "Spain",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -9.692,
+        "Fiscal Balance (% of GDP) YoY": -0.20500000000000007
+      },
+      {
+        "Country": "Spain",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -11.496,
+        "Fiscal Balance (% of GDP) YoY": -1.8040000000000003
+      },
+      {
+        "Country": "Spain",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -7.488,
+        "Fiscal Balance (% of GDP) YoY": 4.008
+      },
+      {
+        "Country": "Spain",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -6.036,
+        "Fiscal Balance (% of GDP) YoY": 1.4520000000000008
+      },
+      {
+        "Country": "Spain",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -5.266,
+        "Fiscal Balance (% of GDP) YoY": 0.7699999999999996
+      },
+      {
+        "Country": "Spain",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -4.221,
+        "Fiscal Balance (% of GDP) YoY": 1.045
+      },
+      {
+        "Country": "Spain",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -3.069,
+        "Fiscal Balance (% of GDP) YoY": 1.1520000000000001
+      },
+      {
+        "Country": "Spain",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -2.552,
+        "Fiscal Balance (% of GDP) YoY": 0.5169999999999999
+      },
+      {
+        "Country": "Spain",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -3.065,
+        "Fiscal Balance (% of GDP) YoY": -0.5129999999999999
+      },
+      {
+        "Country": "Spain",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -9.909,
+        "Fiscal Balance (% of GDP) YoY": -6.844000000000001
+      },
+      {
+        "Country": "Spain",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -6.651,
+        "Fiscal Balance (% of GDP) YoY": 3.258000000000001
+      },
+      {
+        "Country": "Spain",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -4.594,
+        "Fiscal Balance (% of GDP) YoY": 2.0569999999999995
+      },
+      {
+        "Country": "Spain",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -3.515,
+        "Fiscal Balance (% of GDP) YoY": 1.0790000000000002
+      },
+      {
+        "Country": "Spain",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -3.153,
+        "Fiscal Balance (% of GDP) YoY": 0.3620000000000001
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 3.368,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": 1.873,
+        "Fiscal Balance (% of GDP) YoY": -1.4949999999999999
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -0.889,
+        "Fiscal Balance (% of GDP) YoY": -2.762
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -0.144,
+        "Fiscal Balance (% of GDP) YoY": 0.745
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -0.407,
+        "Fiscal Balance (% of GDP) YoY": -0.263
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -1.191,
+        "Fiscal Balance (% of GDP) YoY": -0.784
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -1.63,
+        "Fiscal Balance (% of GDP) YoY": -0.43899999999999983
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -1.841,
+        "Fiscal Balance (% of GDP) YoY": -0.21100000000000008
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -0.272,
+        "Fiscal Balance (% of GDP) YoY": 1.569
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": 0.86,
+        "Fiscal Balance (% of GDP) YoY": 1.1320000000000001
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": 1.287,
+        "Fiscal Balance (% of GDP) YoY": 0.42699999999999994
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": 0.671,
+        "Fiscal Balance (% of GDP) YoY": -0.6159999999999999
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": 0.439,
+        "Fiscal Balance (% of GDP) YoY": -0.23200000000000004
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -3.175,
+        "Fiscal Balance (% of GDP) YoY": -3.614
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -0.202,
+        "Fiscal Balance (% of GDP) YoY": 2.973
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": 1.008,
+        "Fiscal Balance (% of GDP) YoY": 1.21
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -0.781,
+        "Fiscal Balance (% of GDP) YoY": -1.7890000000000001
+      },
+      {
+        "Country": "Sweden",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -1.491,
+        "Fiscal Balance (% of GDP) YoY": -0.7100000000000001
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": 1.576,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": 1.934,
+        "Fiscal Balance (% of GDP) YoY": 0.3579999999999999
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": 0.498,
+        "Fiscal Balance (% of GDP) YoY": -1.436
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": 0.354,
+        "Fiscal Balance (% of GDP) YoY": -0.14400000000000002
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": 0.683,
+        "Fiscal Balance (% of GDP) YoY": 0.32900000000000007
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": 0.235,
+        "Fiscal Balance (% of GDP) YoY": -0.44800000000000006
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -0.433,
+        "Fiscal Balance (% of GDP) YoY": -0.6679999999999999
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -0.247,
+        "Fiscal Balance (% of GDP) YoY": 0.186
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": 0.546,
+        "Fiscal Balance (% of GDP) YoY": 0.793
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": 0.238,
+        "Fiscal Balance (% of GDP) YoY": -0.30800000000000005
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": 1.13,
+        "Fiscal Balance (% of GDP) YoY": 0.8919999999999999
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": 1.29,
+        "Fiscal Balance (% of GDP) YoY": 0.16000000000000014
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": 1.341,
+        "Fiscal Balance (% of GDP) YoY": 0.050999999999999934
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -3.059,
+        "Fiscal Balance (% of GDP) YoY": -4.4
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -0.312,
+        "Fiscal Balance (% of GDP) YoY": 2.7470000000000003
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": 1.267,
+        "Fiscal Balance (% of GDP) YoY": 1.579
+      },
+      {
+        "Country": "Switzerland",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": 0.197,
+        "Fiscal Balance (% of GDP) YoY": -1.0699999999999998
+      },
+      {
+        "Country": "Türkiye",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -6.127,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "Türkiye",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -2.753,
+        "Fiscal Balance (% of GDP) YoY": 3.3739999999999997
+      },
+      {
+        "Country": "Türkiye",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -0.736,
+        "Fiscal Balance (% of GDP) YoY": 2.0170000000000003
+      },
+      {
+        "Country": "Türkiye",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -0.3,
+        "Fiscal Balance (% of GDP) YoY": 0.436
+      },
+      {
+        "Country": "Türkiye",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": 0.204,
+        "Fiscal Balance (% of GDP) YoY": 0.504
+      },
+      {
+        "Country": "Türkiye",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": 0.22,
+        "Fiscal Balance (% of GDP) YoY": 0.016000000000000014
+      },
+      {
+        "Country": "Türkiye",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": 0.497,
+        "Fiscal Balance (% of GDP) YoY": 0.277
+      },
+      {
+        "Country": "Türkiye",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -1.323,
+        "Fiscal Balance (% of GDP) YoY": -1.8199999999999998
+      },
+      {
+        "Country": "Türkiye",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -2.784,
+        "Fiscal Balance (% of GDP) YoY": -1.4609999999999999
+      },
+      {
+        "Country": "Türkiye",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -2.874,
+        "Fiscal Balance (% of GDP) YoY": -0.0900000000000003
+      },
+      {
+        "Country": "Türkiye",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -4.419,
+        "Fiscal Balance (% of GDP) YoY": -1.5449999999999995
+      },
+      {
+        "Country": "Türkiye",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -4.66,
+        "Fiscal Balance (% of GDP) YoY": -0.24100000000000055
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -2.654,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -5.087,
+        "Fiscal Balance (% of GDP) YoY": -2.433
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -10.057,
+        "Fiscal Balance (% of GDP) YoY": -4.970000000000001
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -9.219,
+        "Fiscal Balance (% of GDP) YoY": 0.838000000000001
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -7.378,
+        "Fiscal Balance (% of GDP) YoY": 1.8409999999999993
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -7.969,
+        "Fiscal Balance (% of GDP) YoY": -0.5910000000000002
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -5.344,
+        "Fiscal Balance (% of GDP) YoY": 2.625
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -5.529,
+        "Fiscal Balance (% of GDP) YoY": -0.1849999999999996
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -4.594,
+        "Fiscal Balance (% of GDP) YoY": 0.9349999999999996
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -3.312,
+        "Fiscal Balance (% of GDP) YoY": 1.2820000000000005
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -2.491,
+        "Fiscal Balance (% of GDP) YoY": 0.8209999999999997
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -2.27,
+        "Fiscal Balance (% of GDP) YoY": 0.22100000000000009
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -2.472,
+        "Fiscal Balance (% of GDP) YoY": -0.20199999999999996
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -13.173,
+        "Fiscal Balance (% of GDP) YoY": -10.701
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -7.725,
+        "Fiscal Balance (% of GDP) YoY": 5.448
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -4.723,
+        "Fiscal Balance (% of GDP) YoY": 3.002
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -6.072,
+        "Fiscal Balance (% of GDP) YoY": -1.3490000000000002
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": 2024,
+        "Fiscal Balance (% of GDP)": -5.831,
+        "Fiscal Balance (% of GDP) YoY": 0.24099999999999966
+      },
+      {
+        "Country": "United States",
+        "Year": 2007,
+        "Fiscal Balance (% of GDP)": -3.995,
+        "Fiscal Balance (% of GDP) YoY": null
+      },
+      {
+        "Country": "United States",
+        "Year": 2008,
+        "Fiscal Balance (% of GDP)": -7.361,
+        "Fiscal Balance (% of GDP) YoY": -3.3659999999999997
+      },
+      {
+        "Country": "United States",
+        "Year": 2009,
+        "Fiscal Balance (% of GDP)": -13.117,
+        "Fiscal Balance (% of GDP) YoY": -5.756000000000001
+      },
+      {
+        "Country": "United States",
+        "Year": 2010,
+        "Fiscal Balance (% of GDP)": -12.4,
+        "Fiscal Balance (% of GDP) YoY": 0.7170000000000005
+      },
+      {
+        "Country": "United States",
+        "Year": 2011,
+        "Fiscal Balance (% of GDP)": -10.979,
+        "Fiscal Balance (% of GDP) YoY": 1.4210000000000012
+      },
+      {
+        "Country": "United States",
+        "Year": 2012,
+        "Fiscal Balance (% of GDP)": -9.21,
+        "Fiscal Balance (% of GDP) YoY": 1.7689999999999984
+      },
+      {
+        "Country": "United States",
+        "Year": 2013,
+        "Fiscal Balance (% of GDP)": -5.826,
+        "Fiscal Balance (% of GDP) YoY": 3.3840000000000012
+      },
+      {
+        "Country": "United States",
+        "Year": 2014,
+        "Fiscal Balance (% of GDP)": -5.175,
+        "Fiscal Balance (% of GDP) YoY": 0.6509999999999998
+      },
+      {
+        "Country": "United States",
+        "Year": 2015,
+        "Fiscal Balance (% of GDP)": -4.604,
+        "Fiscal Balance (% of GDP) YoY": 0.5709999999999997
+      },
+      {
+        "Country": "United States",
+        "Year": 2016,
+        "Fiscal Balance (% of GDP)": -5.392,
+        "Fiscal Balance (% of GDP) YoY": -0.7880000000000003
+      },
+      {
+        "Country": "United States",
+        "Year": 2017,
+        "Fiscal Balance (% of GDP)": -4.43,
+        "Fiscal Balance (% of GDP) YoY": 0.9620000000000006
+      },
+      {
+        "Country": "United States",
+        "Year": 2018,
+        "Fiscal Balance (% of GDP)": -6.116,
+        "Fiscal Balance (% of GDP) YoY": -1.686
+      },
+      {
+        "Country": "United States",
+        "Year": 2019,
+        "Fiscal Balance (% of GDP)": -6.693,
+        "Fiscal Balance (% of GDP) YoY": -0.577
+      },
+      {
+        "Country": "United States",
+        "Year": 2020,
+        "Fiscal Balance (% of GDP)": -14.978,
+        "Fiscal Balance (% of GDP) YoY": -8.285
+      },
+      {
+        "Country": "United States",
+        "Year": 2021,
+        "Fiscal Balance (% of GDP)": -11.84,
+        "Fiscal Balance (% of GDP) YoY": 3.138
+      },
+      {
+        "Country": "United States",
+        "Year": 2022,
+        "Fiscal Balance (% of GDP)": -3.669,
+        "Fiscal Balance (% of GDP) YoY": 8.171
+      },
+      {
+        "Country": "United States",
+        "Year": 2023,
+        "Fiscal Balance (% of GDP)": -7.577,
+        "Fiscal Balance (% of GDP) YoY": -3.908
+      }
+    ]
+  },
+  "config": {}
+}
