@@ -16,7 +16,7 @@
       "type": "quantitative"
     }
   },
-  "height": 300,
+  "height": 400,
   "title": "Inflation, 2015–2024",
   "width": 400,
   "$schema": "https://vega.github.io/schema/vega-lite/v6.20.1.json",
