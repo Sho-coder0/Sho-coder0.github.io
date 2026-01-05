@@ -1,34 +1,55 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
-  "title": "Scotland Airports",
+  "title": "Scotland Airports (Layered)",
   "width": 360,
   "height": 300,
   "layer": [
     {
       "data": {
         "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/refs/heads/main/MappingWorkshop/geo_data/LAD_SCT_2025_05.topojson",
-        "format": {"type": "topojson", "feature": "object_name"}
+        "format": { "type": "topojson", "feature": "object_name" }
       },
+      "projection": { "type": "mercator" },
       "mark": {
         "type": "geoshape",
-        "fill": "lightblue",
+        "fill": "lightgray",
         "stroke": "white",
         "strokeWidth": 0.5
+      },
+      "encoding": {
+        "tooltip": [
+          { "field": "properties.LAD25NM", "title": "Local Authority" }
+        ]
       }
     },
     {
       "data": {
         "url": "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC7.%20Scotland_airports.csv",
-        "format": {"type": "csv"}
+        "format": { "type": "csv" }
       },
-      "mark": {"type": "circle"},
+      "projection": { "type": "mercator" },
+      "mark": { "type": "circle", "color": "#D35400", "opacity": 0.85 },
       "encoding": {
-        "latitude": {"field": "lat"},
-        "longitude": {"field": "lon"},
-        "tooltip": [{"type": "name"}]
+        "longitude": { "field": "lon", "type": "quantitative" },
+        "latitude": { "field": "lat", "type": "quantitative" },
+
+        "size": {
+          "field": "type",
+          "type": "nominal",
+          "scale": {
+            "domain": ["small_airport", "medium_airport", "large_airport"],
+            "range": [40, 110, 220]
+          },
+          "legend": { "title": "Airport type" }
+        },
+
+        "tooltip": [
+          { "field": "name", "title": "Airport" },
+          { "field": "type", "title": "Type" },
+          { "field": "lat", "title": "Lat" },
+          { "field": "lon", "title": "Lon" }
+        ]
       }
     }
-  ],
-  "projection": {"type": "mercator"},
-  "config": {}
+  ]
 }
