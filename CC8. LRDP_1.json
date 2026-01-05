@@ -1,0 +1,386 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "data": [
+    {
+      "name": "source_0",
+      "values": [
+        {
+          "region": 2,
+          "region_s": "London",
+          "price_type": "Median Price",
+          "price": 0.58999997,
+          "price_end": 0.58999997,
+          "price_start": 0
+        },
+        {
+          "region": 3,
+          "region_s": "South East",
+          "price_type": "Median Price",
+          "price": 0.57999998,
+          "price_end": 0.57999998,
+          "price_start": 0
+        },
+        {
+          "region": 4,
+          "region_s": "South West",
+          "price_type": "Median Price",
+          "price": 0.52999997,
+          "price_end": 0.52999997,
+          "price_start": 0
+        },
+        {
+          "region": 5,
+          "region_s": "East Anglia",
+          "price_type": "Median Price",
+          "price": 0.47,
+          "price_end": 0.47,
+          "price_start": 0
+        },
+        {
+          "region": 6,
+          "region_s": "East Midlands",
+          "price_type": "Median Price",
+          "price": 0.49000001,
+          "price_end": 0.49000001,
+          "price_start": 0
+        },
+        {
+          "region": 7,
+          "region_s": "West Midlands",
+          "price_type": "Median Price",
+          "price": 0.56999999,
+          "price_end": 0.56999999,
+          "price_start": 0
+        },
+        {
+          "region": 8,
+          "region_s": "Yorkshire & Humber",
+          "price_type": "Median Price",
+          "price": 0.57999998,
+          "price_end": 0.57999998,
+          "price_start": 0
+        },
+        {
+          "region": 9,
+          "region_s": "North West",
+          "price_type": "Median Price",
+          "price": 0.56,
+          "price_end": 0.56,
+          "price_start": 0
+        },
+        {
+          "region": 10,
+          "region_s": "North",
+          "price_type": "Median Price",
+          "price": 0.49000001,
+          "price_end": 0.49000001,
+          "price_start": 0
+        },
+        {
+          "region": 11,
+          "region_s": "Wales",
+          "price_type": "Median Price",
+          "price": 0.47,
+          "price_end": 0.47,
+          "price_start": 0
+        },
+        {
+          "region": 12,
+          "region_s": "Scotland",
+          "price_type": "Median Price",
+          "price": 0.49000001,
+          "price_end": 0.49000001,
+          "price_start": 0
+        },
+        {
+          "region": 13,
+          "region_s": "Northern Ireland",
+          "price_type": "Median Price",
+          "price": 0.58999997,
+          "price_end": 0.58999997,
+          "price_start": 0
+        },
+        {
+          "region": 2,
+          "region_s": "London",
+          "price_type": "Mean Price",
+          "price": 0.6101967031366294,
+          "price_end": 0.6101967031366294,
+          "price_start": 0
+        },
+        {
+          "region": 3,
+          "region_s": "South East",
+          "price_type": "Mean Price",
+          "price": 0.5996979084705152,
+          "price_end": 0.5996979084705152,
+          "price_start": 0
+        },
+        {
+          "region": 4,
+          "region_s": "South West",
+          "price_type": "Mean Price",
+          "price": 0.5611506048574992,
+          "price_end": 0.5611506048574992,
+          "price_start": 0
+        },
+        {
+          "region": 5,
+          "region_s": "East Anglia",
+          "price_type": "Mean Price",
+          "price": 0.5111281117568868,
+          "price_end": 0.5111281117568868,
+          "price_start": 0
+        },
+        {
+          "region": 6,
+          "region_s": "East Midlands",
+          "price_type": "Mean Price",
+          "price": 0.5448578066342034,
+          "price_end": 0.5448578066342034,
+          "price_start": 0
+        },
+        {
+          "region": 7,
+          "region_s": "West Midlands",
+          "price_type": "Mean Price",
+          "price": 0.5689483305472333,
+          "price_end": 0.5689483305472333,
+          "price_start": 0
+        },
+        {
+          "region": 8,
+          "region_s": "Yorkshire & Humber",
+          "price_type": "Mean Price",
+          "price": 0.5815480575480607,
+          "price_end": 0.5815480575480607,
+          "price_start": 0
+        },
+        {
+          "region": 9,
+          "region_s": "North West",
+          "price_type": "Mean Price",
+          "price": 0.5707086166705447,
+          "price_end": 0.5707086166705447,
+          "price_start": 0
+        },
+        {
+          "region": 10,
+          "region_s": "North",
+          "price_type": "Mean Price",
+          "price": 0.522189891032925,
+          "price_end": 0.522189891032925,
+          "price_start": 0
+        },
+        {
+          "region": 11,
+          "region_s": "Wales",
+          "price_type": "Mean Price",
+          "price": 0.5116902573650793,
+          "price_end": 0.5116902573650793,
+          "price_start": 0
+        },
+        {
+          "region": 12,
+          "region_s": "Scotland",
+          "price_type": "Mean Price",
+          "price": 0.526827687956923,
+          "price_end": 0.526827687956923,
+          "price_start": 0
+        },
+        {
+          "region": 13,
+          "region_s": "Northern Ireland",
+          "price_type": "Mean Price",
+          "price": 0.6150767880716724,
+          "price_end": 0.6150767880716724,
+          "price_start": 0
+        }
+      ]
+    },
+    {
+      "name": "facet_domain",
+      "values": [
+        {"region_s": "London", "count": 2},
+        {"region_s": "South East", "count": 2},
+        {"region_s": "South West", "count": 2},
+        {"region_s": "East Anglia", "count": 2},
+        {"region_s": "East Midlands", "count": 2},
+        {"region_s": "West Midlands", "count": 2},
+        {"region_s": "Yorkshire & Humber", "count": 2},
+        {"region_s": "North West", "count": 2},
+        {"region_s": "North", "count": 2},
+        {"region_s": "Wales", "count": 2},
+        {"region_s": "Scotland", "count": 2},
+        {"region_s": "Northern Ireland", "count": 2}
+      ]
+    },
+    {"name": "facet_domain_row", "values": [{"data": 0}, {"data": 1}]},
+    {
+      "name": "facet_domain_column",
+      "transform": [
+        {
+          "type": "sequence",
+          "start": 0,
+          "stop": {"signal": "min(length(data(\"facet_domain\")), 6)"}
+        }
+      ]
+    },
+    {
+      "name": "source_0_x_domain_price_type",
+      "values": [{"price_type": "Median Price"}, {"price_type": "Mean Price"}]
+    },
+    {
+      "name": "source_0_color_domain_price_type",
+      "values": [{"price_type": "Median Price"}, {"price_type": "Mean Price"}]
+    }
+  ],
+  "signals": [
+    {"name": "child_width", "value": 80},
+    {"name": "child_height", "value": 200}
+  ],
+  "marks": [
+    {
+      "type": "group",
+      "name": "row_header",
+      "from": {"data": "facet_domain_row"},
+      "encode": {"update": {"height": {"signal": "child_height"}}},
+      "axes": [
+        {
+          "scale": "y",
+          "grid": false,
+          "labelOverlap": false,
+          "orient": "left",
+          "tickCount": {"signal": "ceil(child_height/40)"},
+          "zindex": 0
+        }
+      ],
+      "role": "row-header"
+    },
+    {
+      "type": "group",
+      "name": "column_footer",
+      "from": {"data": "facet_domain_column"},
+      "encode": {"update": {"width": {"signal": "child_width"}}},
+      "axes": [
+        {
+          "scale": "x",
+          "grid": false,
+          "labelAlign": "right",
+          "labels": false,
+          "labelBaseline": "middle",
+          "labelAngle": 270,
+          "orient": "bottom",
+          "zindex": 0
+        }
+      ],
+      "role": "column-footer"
+    },
+    {
+      "type": "group",
+      "name": "cell",
+      "from": {
+        "facet": {"data": "source_0", "name": "facet", "groupby": ["region_s"]}
+      },
+      "sort": {"field": ["datum[\"region_s\"]"], "order": ["ascending"]},
+      "encode": {
+        "update": {
+          "width": {"signal": "child_width"},
+          "height": {"signal": "child_height"}
+        }
+      },
+      "marks": [
+        {
+          "type": "rect",
+          "name": "child_marks",
+          "from": {"data": "facet"},
+          "encode": {
+            "update": {
+              "width": {"signal": "max(0.25, bandwidth('x'))"},
+              "fill": {"field": "price_type", "scale": "color"},
+              "x": {"field": "price_type", "scale": "x"},
+              "y": {"field": "price_end", "scale": "y"},
+              "y2": {"field": "price_start", "scale": "y"}
+            }
+          },
+          "style": ["bar"]
+        }
+      ],
+      "axes": [
+        {
+          "scale": "y",
+          "maxExtent": 0,
+          "ticks": false,
+          "grid": true,
+          "minExtent": 0,
+          "zindex": 0,
+          "domain": false,
+          "labels": false,
+          "orient": "left",
+          "tickCount": {"signal": "ceil(child_height/40)"},
+          "gridScale": "x",
+          "aria": false
+        }
+      ],
+      "title": {
+        "text": {
+          "signal": "isValid(parent[\"region_s\"]) ? parent[\"region_s\"] : \"\"+parent[\"region_s\"]"
+        },
+        "style": "guide-label",
+        "frame": "group",
+        "offset": 10
+      },
+      "style": "cell"
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "band",
+      "domain": {
+        "data": "source_0_x_domain_price_type",
+        "field": "price_type",
+        "sort": true
+      },
+      "range": [0, {"signal": "child_width"}],
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": {"data": "source_0", "fields": ["price_start", "price_end"]},
+      "range": [{"signal": "child_height"}, 0],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {
+        "data": "source_0_color_domain_price_type",
+        "field": "price_type",
+        "sort": true
+      },
+      "range": "category"
+    }
+  ],
+  "title": {
+    "text": "Mean and median prices of Large Loaf-White-Sliced by regions",
+    "anchor": "start",
+    "subtitle": "Source: ONS data collection"
+  },
+  "background": "white",
+  "layout": {"padding": 20, "bounds": "full", "align": "all", "columns": 6},
+  "padding": 5,
+  "legends": [
+    {
+      "direction": "horizontal",
+      "orient": "bottom",
+      "title": "price_type",
+      "fill": "color",
+      "symbolType": "square"
+    }
+  ],
+  "config": {}
+}
