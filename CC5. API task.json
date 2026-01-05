@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "data": {
+    "url": "https://api.worldbank.org/v2/country/CA;FR;DE;IT;JP;GB;US/indicator/SL.UEM.TOTL.ZS?format=json&date=2015:2024&per_page=20000",
+    "format": {"property": "[1]"}
+  },
+  "width": 600,
+  "height": 350,
+  "mark": {"type": "line", "point": true},
+  "title": {
+    "text": "Unemployment rate in G7 countries",
+    "subtitle": "Source: World Bank (Indicator: SL.TLF.TOTL.IN)"
+  },
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title": "Year",
+      "axis": {"format": "%Y", "grid": false}
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Unemployment rate (%)",
+      "scale": {"zero": false}
+    },
+    "color": {"field": "country.value", "type": "nominal", "title": "Country"},
+    "tooltip": [
+      {"field": "date", "type": "temporal", "title": "Year", "format": "%Y"},
+      {"field": "country.value", "type": "nominal", "title": "Country"},
+      {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Unemployment rate",
+        "format": ","
+      }
+    ]
+  },
+  "config": {}
+}
