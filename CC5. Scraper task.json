@@ -1,0 +1,53 @@
+{
+  "data": {"name": "data-fe5e929a490953348030179e56bf167b"},
+  "mark": {"type": "bar"},
+  "encoding": {
+    "tooltip": [
+      {"field": "Host", "title": "Host", "type": "nominal"},
+      {"field": "Count", "title": "Count", "type": "quantitative"}
+    ],
+    "x": {"field": "Host", "sort": "-y", "title": "Host", "type": "nominal"},
+    "y": {
+      "axis": {"values": [1, 2, 3]},
+      "field": "Count",
+      "title": "Count",
+      "type": "quantitative"
+    }
+  },
+  "height": 330,
+  "title": {
+    "text": "Summer Olympic Host Cities and Counts",
+    "subtitle": "Source: Wikipedia"
+  },
+  "width": 600,
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
+  "datasets": {
+    "data-fe5e929a490953348030179e56bf167b": [
+      {"Host": "London", "Count": 3},
+      {"Host": "Los Angeles", "Count": 3},
+      {"Host": "Paris", "Count": 3},
+      {"Host": "Athens", "Count": 2},
+      {"Host": "Tokyo", "Count": 2},
+      {"Host": "Atlanta", "Count": 1},
+      {"Host": "Barcelona", "Count": 1},
+      {"Host": "Beijing", "Count": 1},
+      {"Host": "Antwerp", "Count": 1},
+      {"Host": "Amsterdam", "Count": 1},
+      {"Host": "Helsinki", "Count": 1},
+      {"Host": "Brisbane", "Count": 1},
+      {"Host": "Berlin", "Count": 1},
+      {"Host": "Mexico City", "Count": 1},
+      {"Host": "Montreal", "Count": 1},
+      {"Host": "Moscow", "Count": 1},
+      {"Host": "Munich", "Count": 1},
+      {"Host": "Melbourne", "Count": 1},
+      {"Host": "Rio de Janeiro", "Count": 1},
+      {"Host": "Seoul", "Count": 1},
+      {"Host": "Rome", "Count": 1},
+      {"Host": "St. Louis", "Count": 1},
+      {"Host": "Stockholm", "Count": 1},
+      {"Host": "Sydney", "Count": 1}
+    ]
+  },
+  "config": {}
+}
