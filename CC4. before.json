@@ -1,0 +1,33 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC4.%20sample%20data.csv"
+  },
+  "width": 400,
+  "height": 300,
+  "title": {
+    "text": "Total condominium sales in Greater Tokyo (seasonally adjusted)",
+    "subtitle": "(thousand units)"
+  },
+  "transform": [{"fold": ["sales_sa", "ma3"], "as": ["series", "value"]}],
+  "mark": "line",
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "axis": {"title": null, "grid": false}
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "axis": {"title": "Thousand units", "grid": false}
+    },
+    "color": {
+      "field": "series",
+      "type": "nominal",
+      "legend": null,
+      "scale": {"domain": ["sales_sa", "ma3"], "range": ["#f28e2b", "#e15759"]}
+    }
+  },
+  "config": {}
+}

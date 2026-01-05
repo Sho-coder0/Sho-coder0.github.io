@@ -1,0 +1,49 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC4.%20sample%20data.csv"
+  },
+  "width": 400,
+  "height": 300,
+  "title": {
+    "text": "Greater Tokyo condominium sales (seasonally adjusted)",
+    "subtitle": "thousand units"
+  },
+  "transform": [
+    {"fold": ["sales_sa", "ma3"], "as": ["series", "value"]},
+    {
+      "calculate": "datum.series === 'sales_sa' ? 'Seasonally adjusted figures' : '3-month moving average'",
+      "as": "label"
+    }
+  ],
+  "mark": "line",
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "axis": {"title": null, "grid": false}
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "scale": {"domain": [0, 6]},
+      "axis": {"title": "Thousand units", "grid": false}
+    },
+    "color": {
+      "field": "label",
+      "type": "nominal",
+      "legend": {"title": null, "orient": "bottom"},
+      "scale": {
+        "domain": ["Seasonally adjusted figures", "3-month moving average"],
+        "range": ["#b0b0b0", "#1f4e79"]
+      }
+    },
+    "strokeWidth": {
+      "condition": [
+        {"test": "datum.label === '3-month moving average'", "value": 3.5}
+      ],
+      "value": 1.5
+    }
+  },
+  "config": {}
+}
