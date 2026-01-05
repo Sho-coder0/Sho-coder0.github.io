@@ -55,59 +55,69 @@
         </div>
     </section>
 
-<section class="card">
-  <h2>CC5. Accessing data: Scraper and API</h2>
-  <div class="chart-frame">
-    <figure id="Location7"></figure>
-  </div>
-  <p>
-    This chart uses data retrieved from the World Bank API, which allows direct access to cross-country macroeconomic indicators.
-  </p>
-  <p>
-    The base url of the API is:
-    <br>
-      <ul><li><strong>https://api.worldbank.org/v2/</strong></li></ul>
-  </p>
-  <p>
-    The following parameters are used in the request:
-  </p>
-  <ul>
-    <li><strong>country</strong>: ISO2 country codes (CA, FR, DE, IT, JP, GB, US)</li>
-    <li><strong>indicator</strong>: Unemployment rate</li>
-    <li><strong>date</strong>: time range from 2015 to 2024</li>
-    <li><strong>format</strong>: JSON response format</li>
-    <li><strong>per_page</strong>: returns all observations in a single response</li>
-  </ul>
-  <p>
-    The final API call used in this project is:
-    <br>
-    <strong>
-      https://api.worldbank.org/v2/country/CA;FR;DE;IT;JP;GB;US/indicator/SL.TLF.TOTL.IN?date=2015:2024&format=json&per_page=20000
-    </strong>
-  </p>
-  <div class="chart-frame">
-    <figure id="Location8"></figure>
-  </div>
-  <a class="colab-link"
-     href="https://colab.research.google.com/drive/1b_TnmbxW5cKV0CHYwGsIpmA-rAGcm0TU#scrollTo=hcY9LlJh5voI"
-     target="_blank" rel="noopener">
-     Google Colab
-  </a>
-  <p>
-    A Wikipedia table of Summer Olympic host cities was scraped and cleaned into tidy format. Observations marked as “TBA” or “Cancelled” were excluded.
-  </p>
-</section>
+    <section class="card">
+            <h2>CC4. Replication. Re-create, then improve, someone else’s chart</h2>
+            <p>Switched to a contrast palette and added a legend to clearly distinguish the seasonally adjusted figures from the 3-month moving average.</p>
+        <img src="https://sho-coder0.github.io/CC4. Image.png" alt="Sample">
+        <div class="grid">
+            <figure id="Location7"></figure>
+            <figure id="Location8"></figure> 
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>CC5. Accessing data: Scraper and API</h2>
+        <div class="chart-frame">
+          <figure id="Location9"></figure>
+        </div>
+        <p>
+          This chart uses data retrieved from the World Bank API, which allows direct access to cross-country macroeconomic indicators.
+        </p>
+        <p>
+          The base url of the API is:
+          <br>
+            <ul><li><strong>https://api.worldbank.org/v2/</strong></li></ul>
+        </p>
+        <p>
+          The following parameters are used in the request:
+        </p>
+        <ul>
+          <li><strong>country</strong>: ISO2 country codes (CA, FR, DE, IT, JP, GB, US)</li>
+          <li><strong>indicator</strong>: Unemployment rate</li>
+          <li><strong>date</strong>: time range from 2015 to 2024</li>
+          <li><strong>format</strong>: JSON response format</li>
+          <li><strong>per_page</strong>: returns all observations in a single response</li>
+        </ul>
+        <p>
+          The final API call used in this project is:
+          <br>
+          <strong>
+            https://api.worldbank.org/v2/country/CA;FR;DE;IT;JP;GB;US/indicator/SL.TLF.TOTL.IN?date=2015:2024&format=json&per_page=20000
+          </strong>
+        </p>
+        <div class="chart-frame">
+          <figure id="Location10"></figure>
+        </div>
+        <a class="colab-link"
+          href="https://colab.research.google.com/drive/1b_TnmbxW5cKV0CHYwGsIpmA-rAGcm0TU#scrollTo=hcY9LlJh5voI"
+          target="_blank" rel="noopener">
+          Google Colab
+        </a>
+        <p>
+          A Wikipedia table of Summer Olympic host cities was scraped and cleaned into tidy format. Observations marked as “TBA” or “Cancelled” were excluded.
+        </p>
+    </section>
 
 
     <section class="card">
             <h2>CC6. Loops. Build a dashboard</h2>           
        <div class="gridtask">
-            <figure id="Location9"></figure>
-            <figure id="Location10"></figure>
             <figure id="Location11"></figure>
             <figure id="Location12"></figure>
             <figure id="Location13"></figure>
             <figure id="Location14"></figure>
+            <figure id="Location15"></figure>
+            <figure id="Location16"></figure>
         </div>
         <a class="colab-link"
             href="https://colab.research.google.com/drive/1sd8I2cUJZ6t1KzHIxTal5anzHdzYfY_I#scrollTo=7DRgVNQB2lMn" 
@@ -119,8 +129,8 @@
     <section class="card">
             <h2>CC7. Maps. Base maps and choropleths</h2>
         <div class="grid">
-            <figure id="Location15"></figure>
-            <figure id="Location16"></figure>
+            <figure id="Location17"></figure>
+            <figure id="Location18"></figure>
         </div>
     </section>
 
@@ -132,29 +142,30 @@
                 For the Auto CPI data, calculated the mean and median prices of 1.5-2L bottles of water from February 1994 to October 2025 and created a line chart.
             </p>
         <div class="chart-frame">
-            <figure id="Location17"></figure>
+            <figure id="Location19"></figure>
         </div>    
         <div class="chart-frame">
-            <figure id="Location18"></figure>
+            <figure id="Location20"></figure>
         </div>
     </section>
 
     <section  class="card">
             <h2>CC9. Two interactive charts</h2>
         <div class="grid">
-            <figure id="Location19"></figure>
-            <figure id="Location20"></figure>
+            <figure id="Location21"></figure>
+            <figure id="Location22"></figure>
         </div>
     </section>
 
     <section class="card">
             <h2>CC10. Advanced Analysis and Machine Learning</h2>
         <p>A hypothesis: Whether GDP growth is the key driver of improving fiscal conditions across OECD countries.</p>
-        <p>A Finding: The multilinear regression yields an R-squared of 0.423, indicating that labour growth and TFP are significant drivers.</p>        <div class="chart-frame">
-            <figure id="Location21"></figure>
+        <p>A Finding: The multilinear regression yields an R-squared of 0.423, indicating that labour growth and TFP are significant drivers.</p>
+        <div class="chart-frame">
+            <figure id="Location23"></figure>
         </div>
         <div class="chart-frame">
-            <figure id="Location22"></figure>
+            <figure id="Location24"></figure>
         </div>
          <a class="colab-link"
             href="https://colab.research.google.com/drive/17mr_PeuzsiyV0IZIFj-kFWgG6g_yhPpY" 
@@ -171,23 +182,24 @@
         let figure_4_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC2.%20Debt%20to%20GDP%20ratio.json";
         let figure_5_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC3.%20Inflation.json";
         let figure_6_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC3.%20Long-term%20interest.json";
-        let figure_7_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC5.%20API%20task.json";
-        let figure_8_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC5.%20Scraper%20task.json";
-     
-        let figure_9_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC6.%20chart_ZMB_WB-NY.GDP.MKTP.CD.json";
-        let figure_10_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC6.%20chart_ZMB_WB-SH.HIV.0014.json";
-        let figure_11_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC6.%20chart_ZMB_WB-SL.TLF.TOTL.IN.json";
-        let figure_12_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC6.%20chart_ZMB_WB-SP.DYN.LE00.IN.json";
-        let figure_13_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC6.%20chart_ZMB_WB-SP.DYN.TFRT.IN.json";
-        let figure_14_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC6.%20chart_ZMB_WB-SP.POP.TOTL.json";
-        let figure_15_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC7.%20Scotland_airports.json";
-        let figure_16_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC7.%20Wales_enterproses%20(%25).json";
-        let figure_17_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC8.%20LRDP_1.json";
-        let figure_18_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC8.%20LRDP_2.json";
-        let figure_19_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/Project_Chart3_decompositoon%20(year%20rank).json";
-        let figure_20_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/Project_Chart6_regression%20(country).json";
-        let figure_21_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/Project_Chart4_fiscal%20balance%20heatmap.json";
-        let figure_22_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC10.%20Multilinear%20regression.json"
+        let figure_7_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC4.%20Before.json";
+        let figure_8_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC4.%20After.json";
+        let figure_9_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC5.%20API%20task.json";
+        let figure_10_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC5.%20Scraper%20task.json";
+        let figure_11_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC6.%20chart_ZMB_WB-NY.GDP.MKTP.CD.json";
+        let figure_12_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC6.%20chart_ZMB_WB-SH.HIV.0014.json";
+        let figure_13_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC6.%20chart_ZMB_WB-SL.TLF.TOTL.IN.json";
+        let figure_14_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC6.%20chart_ZMB_WB-SP.DYN.LE00.IN.json";
+        let figure_15_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC6.%20chart_ZMB_WB-SP.DYN.TFRT.IN.json";
+        let figure_16_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC6.%20chart_ZMB_WB-SP.POP.TOTL.json";
+        let figure_17_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC7.%20Scotland_airports.json";
+        let figure_18_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC7.%20Wales_enterproses%20(%25).json";
+        let figure_19_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC8.%20LRDP_1.json";
+        let figure_20_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC8.%20LRDP_2.json";
+        let figure_21_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/Project_Chart3_decompositoon%20(year%20rank).json";
+        let figure_22_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/Project_Chart6_regression%20(country).json";
+        let figure_23_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/Project_Chart4_fiscal%20balance%20heatmap.json";
+        let figure_24_spec = "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC10.%20Multilinear%20regression.json"
         
        
         vegaEmbed('#Location1', figure_1_spec)
@@ -198,15 +210,17 @@
         vegaEmbed('#Location6', figure_6_spec)
         vegaEmbed('#Location7', figure_7_spec)  
         vegaEmbed('#Location8', figure_8_spec)  
-        
-        vegaEmbed('#Location15', figure_15_spec)  
-        vegaEmbed('#Location16', figure_16_spec)          
+        vegaEmbed('#Location9', figure_9_spec)  
+        vegaEmbed('#Location10', figure_10_spec)      
+
         vegaEmbed('#Location17', figure_17_spec)  
-        vegaEmbed('#Location18', figure_18_spec)
-        vegaEmbed('#Location19', figure_19_spec)    
-        vegaEmbed('#Location20', figure_20_spec)  
-        vegaEmbed('#Location21', figure_21_spec)  
+        vegaEmbed('#Location18', figure_18_spec)          
+        vegaEmbed('#Location19', figure_19_spec)  
+        vegaEmbed('#Location20', figure_20_spec)
+        vegaEmbed('#Location21', figure_21_spec)    
         vegaEmbed('#Location22', figure_22_spec)  
+        vegaEmbed('#Location23', figure_23_spec)  
+        vegaEmbed('#Location24', figure_24_spec)  
 
         let chart_files = [
             "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/CC6.%20chart_Child%20living%20with%20HIV.json",
@@ -218,12 +232,12 @@
         ];
         
         let chart_ids = [
-            "#Location9",
-            "#Location10",
             "#Location11",
             "#Location12",
-            "#Location13", 
+            "#Location13",
             "#Location14",
+            "#Location15", 
+            "#Location16",
          ]
 
         for(let i=0; i < chart_ids.length; i++) {
