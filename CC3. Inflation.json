@@ -18,6 +18,7 @@
   },
   "height": 400,
   "title": "Inflation, 2015–2024",
+  "subtitle": "Source: OECD",
   "width": 340,
   "$schema": "https://vega.github.io/schema/vega-lite/v6.20.1.json",
   "datasets": {
