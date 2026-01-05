@@ -19,7 +19,7 @@
   "height": 300,
   "width": 330,
   "title": {
-    "text": "Inflation, 2015–2024",
+    "text": "Inflation",
     "subtitle": "Source: OECD"
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
