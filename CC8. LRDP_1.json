@@ -22,14 +22,14 @@
         "type": "quantitative"
       }
     },
-    "height": 200,
-    "width": 80
   },
   "columns": 6,
   "title": {
     "text": "Mean and median prices of Large Loaf-White-Sliced by regions",
     "subtitle": "Source: ONS data collection"
   },
+  "height": 200,
+  "width": 80
   "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
   "datasets": {
     "data-595d9299fedb118dd30400aef768b37d": [
