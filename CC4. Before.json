@@ -6,7 +6,7 @@
   "width": 400,
   "height": 300,
   "title": {
-    "text": "Total condominium sales in Greater Tokyo (seasonally adjusted)",
+    "text": "Greater Tokyo condominium sales (seasonally adjusted)",
     "subtitle": "(thousand units)"
   },
   "transform": [{"fold": ["sales_sa", "ma3"], "as": ["series", "value"]}],
