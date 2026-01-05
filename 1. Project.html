@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" type="text/css" href="Design.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Project: Fiscal balances and GDP growth in OECD countries</h1>
+      <p>
+        Sho Sofue |
+        <a class="colab-link"
+            href="https://github.com/Sho-coder0/Sho-coder0.github.io"
+            target="_blank" rel="noopener">
+            GitHub
+        </a>
+        <a class="colab-link"
+            href="Portfolio tasks.html" 
+            target="_blank" rel="noopener">
+          Portfolio
+        </a>
+      </p>
+    </header>
+
+    <section class="card">
+      <h2>Aims of this project</h2>
+      <p>This project aims to explore the relationship between fiscal balances and GDP growth in OECD countries by visualising several datasets. The analysis involves several key indicators, such as GDP scales, GDP growth contributions, fiscal balances, and population outlook. Specifically, it focuses on how capital accumulation, labour input (hourly work), and multi-factor productivity (MFP) contribute to overall GDP growth in OECD countries, and how these contributions relate to public fiscal balance across different periods and countries. </p>
+      <p>These objectives are interactive and analytical by combining interactive time-series charts and cross-country rankings. As a result, the project allows users to identify structural differences in growth patterns in OECD countries over time. Furthermore, users can also gain policy indications about improving the fiscal situation in terms of economic growth.</p>
+      <p>Additionally, the linear regression supports users in examining this relationship. Through a single linear and a multilinear regression model, this project provides a quantitative complement to the visual analysis.</p>
+    </section>
+
+    <section class="card">
+      <h2>Chart 1. GDP scales in OECD countries</h2>
+      <div class="chart-frame">
+        <figure id="Location1" class="chart-frame"></figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Chart 2 & 3. GDP growth decompositions in OECD countries</h2>
+      <div class="grid">
+        <figure class="chart-narrow" id="Location2"></figure>
+        <figure id="Location3"></figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Chart 4. Fiscal balances in OECD countries</h2>
+      <div class="chart-frame">
+        <figure id="Location4" class="chart-frame"></figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Chart 5 & 6. Single linear regression between GDP growth & Fiscal Balances</h2>
+      <div class="grid">
+        <figure id="Location5"></figure>
+        <figure id="Location6"></figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Table. Multilinear regression table</h2>
+      <img src="https://sho-coder0.github.io/Project_pic_mlr.png" alt="OLS regression summary">
+    </section>
+
+    <section class="card">
+      <h2>Chart 7. Population outlook in OECD countries</h2>
+      <div class="chart-frame">
+        <figure id="Location7" class="chart-frame"></figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Data</h2>
+      <p>This project primarily utilises the OECD and World Bank data, downloaded as CSV files or through the API. Specifically, GDP levels, growth contributions, including capital, labour input and MFP, and fiscal balances were obtained from the OECD Data Explorer. Population projections were automatically obtained from the World Bank Database using its API.</p>
+      <p>These sets of data are cleaned and merged in Google Colaboratory using Python. Data cleaning was conducted using pandas, including reshaping the raw data into datasets, standardising column names, and constructing derived variables such as total GDP growth (the sum of component contributions). These processes ensure reproducibility and ease of future updates.</p>
+      <p>By contrast, I have to admit the limitation of data ranges. In this project, a worldwide-level analysis was ideal because it allowed for the secure collection of numerous samples across countries. However, since the World Bank, the most likely data provider, does not provide the capital growth rate data, capital growth had to be calculated separately. Therefore, I found that the analysis in OECD members was appropriate for this project to ensure consistency of analysis.</p>
+      <p class="data-links">
+         <a class="colab-link"
+            href="https://colab.research.google.com/drive/17mr_PeuzsiyV0IZIFj-kFWgG6g_yhPpY" 
+            target="_blank" rel="noopener">
+          Chart 2 - 6 and Table
+        </a>
+        <a class="colab-link"
+            href="https://colab.research.google.com/drive/1lFNHjBna9Rz0XHqn7sy5XOochgAGTqJB#scrollTo=r-9cCATPS3uj" 
+            target="_blank" rel="noopener">
+          Chart 7
+        </a>
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Challenges and Tools in data cleaning and analysis</h2>
+      <p>Several challenges arose during data cleaning and visualisation. First, country coverage and time ranges were inconsistent across datasets, requiring careful filtering and alignment to avoid misleading comparisons. For example, OECD data for hours worked and MFP contributions for Korea are only available from 2012 onwards. To address this, the data was grouped by country and year, and the number of available contribution components was counted. Total GDP growth was calculated only when all three components (Capital, Hours, and MFP) were present; otherwise, values were recorded as missing.</p>
+      <p>In addition, the data analysis based on a single linear regression between fiscal balances and GDP growth yielded a relatively low R-squared value of 0.32. This figure means that the model can only explain 32% of the result. Therefore, the model was extended to a multilinear regression that included capital, labour, and MFP. Consequently, the multilinear regression could improve the R-squared from 0.32 to 0.42, although other omitted variable biases, for example, the fiscal policy stance of governments and differences in tax and inflation rates across countries, should still be considered.</p>
+    </section>
+
+    <section class="card">
+      <h2>Conclusion</h2>
+      <p>In conclusion, this project revealed that GDP growth is generally associated with a positive fiscal balance, as illustrated through interactive visualisations of GDP growth decomposition and fiscal balances over time in OECD countries. The time series data and visualised charts support analysis consistency despite various GDP growth trends and fiscal situations from country to country.</p>
+      <p>The most significant finding from the regression analysis is that labour growth and MFP are the key drivers in achieving positive fiscal balances, while capital growth is not statistically significant. One possible explanation for capital growth might be that the non-explanatory variable, Year-over-Year in fiscal balances, may fail to capture the long-term impact of capital growth.</p>
+      <p>Overall, OECD countries can see the increasing population, while some countries, such as Japan, Italy, and Spain, will suffer decreasing trends. This indicates that some OECD countries will potentially improve their fiscal situation with a rising population, although only 5 countries, including Denmark, Ireland, Norway, Portugal and Sweden, showed a positive fiscal balance in 2023. Likewise, if other countries with a population decrease can enhance MFP, they could also improve their fiscal sustainability.</p>
+    </section>
+
+  </div>
+
+  <script>
+    let chart_files = [
+      "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/Project_Chart1_GDP%20scale.json",
+      "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/Project_Chart2_decomposition%20(over%20time).json",
+      "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/Project_Chart3_decompositoon%20(year%20rank).json",
+      "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/Project_Chart4_fiscal%20balance%20heatmap.json",
+      "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/Project_Chart5_regression%20(all).json",
+      "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/Project_Chart6_regression%20(country).json",
+      "https://raw.githubusercontent.com/Sho-coder0/Sho-coder0.github.io/refs/heads/main/Project_Chart7_population%20prediction.json"
+    ];
+
+    let chart_ids = [
+      "#Location1",
+      "#Location2",
+      "#Location3",
+      "#Location4",
+      "#Location5",
+      "#Location6",
+      "#Location7"
+    ];
+
+    for(let i = 0; i < chart_ids.length; i++){
+      vegaEmbed(chart_ids[i], chart_files[i]);
+    }
+    
+  </script>
+</body>
+</html>
