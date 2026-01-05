@@ -8,7 +8,7 @@
   "height": 350,
   "mark": {"type": "line", "point": true},
   "title": {
-    "text": "Unemployment rate in G7 countries",
+    "text": "API task: Unemployment rate in G7 countries",
     "subtitle": "Source: World Bank (Indicator: SL.TLF.TOTL.IN)"
   },
   "encoding": {
