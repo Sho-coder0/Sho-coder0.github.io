@@ -65,6 +65,7 @@
         <figure id="Location5"></figure>
         <figure id="Location6"></figure>
       </div>
+      <p>note: Country-level regressions show illustration only due to few observations.
     </section>
 
     <section class="card">
@@ -81,9 +82,9 @@
 
     <section class="card">
       <h2>Data</h2>
-      <p>This project primarily utilises the OECD and World Bank data, downloaded as CSV files or through the API. Specifically, GDP levels, growth contributions, including capital, labour input and MFP, and fiscal balances were obtained from the OECD Data Explorer. Population projections were automatically obtained from the World Bank Database using its API.</p>
-      <p>These sets of data are cleaned and merged in Google Colaboratory using Python. Data cleaning was conducted using pandas, including reshaping the raw data into datasets, standardising column names, and constructing derived variables such as total GDP growth (the sum of component contributions). These processes ensure reproducibility and ease of future updates.</p>
-      <p>By contrast, I have to admit the limitation of data ranges. In this project, a worldwide-level analysis was ideal because it allowed for the secure collection of numerous samples across countries. However, since the World Bank, the most likely data provider, does not provide the capital growth rate data, capital growth had to be calculated separately. Therefore, I found that the analysis in OECD members was appropriate for this project to ensure consistency of analysis.</p>
+      <p>This project primarily utilises the OECD downloaded as CSV files and World Bank data imported through the API. Specifically, GDP levels, growth contributions, including capital, labour input and MFP, and fiscal balances were obtained from the OECD Data Explorer. Population projections were automatically obtained from the World Bank Database using its API.</p>
+      <p>The data is cleaned and merged using Python, including reshaping the raw data into datasets, standardising column names, and constructing derived variables such as total GDP growth (the sum of component contributions). Generative AI was utilised to modify the coding, while the author specified analytical methods and interpreted the results. All data procedures are scripted in Python notebooks or automated through the API, ensuring reproducibility and ease of future updates.</p>
+      <p>By contrast, the limitation of data ranges has to be admitted. In this project, a worldwide-level analysis was ideal because it allowed for the secure collection of numerous samples across countries. However, since the World Bank, the most likely data provider, does not provide the capital growth rate data, capital growth had to be calculated separately. Therefore, I found that the analysis in OECD members was appropriate for this project to ensure consistency of analysis.</p>
       <p class="data-links">
          <a class="colab-link"
             href="https://colab.research.google.com/drive/17mr_PeuzsiyV0IZIFj-kFWgG6g_yhPpY" 
@@ -113,9 +114,14 @@
 
     <section class="card">
       <h2>Reference</h2>
-      <p></p>
-      <p></p>
-      <p></p>
+      <p>
+        Open AI. (2026). ChatGPT (GPT5.2) [Large language model].
+        <a href="https://chat.openai.com/chat">https://chat.openai.com/chat</a>.
+      </p>
+      <p>
+        Google. (2026). Gemini 3 [Large language model].
+        <a href="https://gemini.google.com/">https://gemini.google.com/</a>.
+      </p>
     </section>
 
   </div>
