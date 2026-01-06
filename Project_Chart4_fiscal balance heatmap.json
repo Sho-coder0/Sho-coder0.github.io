@@ -21,7 +21,7 @@
     "y": {"field": "Country", "title": null, "type": "nominal"}
   },
   "height": 330,
-  "title": {"text": "Fiscal Balance - heatmap", "subtitle": "Source: OECD"},
+  "title": {"text": "Fiscal Balance (% of GDP) - heatmap", "subtitle": "Source: OECD"},
   "width": 600,
   "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
   "datasets": {
