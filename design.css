@@ -60,13 +60,13 @@ section{
   margin-bottom: 2.6em;
 }
 
-/* Links */
 a{
   color: var(--accent);
   text-decoration: none;
   font-weight: 550;
   text-underline-offset: 3px;
 }
+
 a:hover{
   color: var(--accent-2);
   text-decoration: underline;
@@ -217,7 +217,6 @@ hr{
   .grid figure{
     width: min(470px, 100%);
   }
-
   .chart-frame figure{
     width: 100%;
   }
