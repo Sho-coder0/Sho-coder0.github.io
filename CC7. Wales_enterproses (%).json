@@ -1,6 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.2.0.json",
-  "title": "Wales enterprises (%) (2024)",
+  "title": {
+    "text": "Wales enterprises (%) (2024)",
+    "subtitle": "Choropleth map"
+    },
   "width": 330,
   "height": 300,
   "data": {
